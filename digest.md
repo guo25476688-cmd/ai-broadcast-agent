@@ -114,3 +114,66 @@ MCP/plugin 机制在 agent 工程化落地的官方基准参考。
 ---
 
 *共 12 条，覆盖 arxiv · HackerNews · GitHub Trending*
+
+
+## 2026-09-17 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent & 工程 播报
+
+*按重要性排序，去重合并同类项*
+
+---
+
+## 🔴 重点关注
+
+**1. Anthropic 官方开源 Claude 知识工作插件集**
+理解 MCP/Claude 工具生态与 context engineering 的第一手参考，官方背书，生态影响力最大。
+→ [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins)
+
+**2. Rowboat — 多 Agent 系统开源 IDE**
+专为 multi-agent 协作流程设计的开发环境，目前同类工具稀缺，直接服务 agent orchestration 工程师。
+
+**3. Statewright — 用有限状态机约束 Agent 行为**
+用可视化 FSM 解决 LLM agent 不可预测、难调试的核心痛点，可靠性工程思路值得重点参考。
+
+---
+
+## 🟠 工程实践
+
+**4. Affora — 面向 Agent 的界面设计规范**（arxiv）
+提出让 UI 对机器读者更友好的设计标准，类 MCP 的接口标准化方向，影响 agent 与外部环境交互质量。
+→ [arxiv 2609.19125](http://arxiv.org/abs/2609.19125v1)
+
+**5. TencentCloud/Octop — 自托管多用户多 Agent AI 助手**
+腾讯出品，multi-agent 架构落地案例，适合参考企业级 agent 协作设计与部署方案。
+→ [TencentCloud/Octop](https://github.com/TencentCloud/Octop)
+
+**6. Agent-Reach — Agent 零费用互联网感知工具**
+覆盖 Twitter/Reddit/YouTube/GitHub 等平台，无需 API 费用，是 agent 工具调用与 RAG 数据获取层的实用补充。
+
+---
+
+## 🟡 研究 & 记忆系统
+
+**7. Cognitive Extensions for Dual-Process Agents**（arxiv）
+为双过程 LLM agent 添加记忆与自我反思模块，解决长程状态追踪与错误恢复，与下条形成呼应。
+→ [arxiv 2609.19128](http://arxiv.org/abs/2609.19128v1)
+
+**8. oh-my-hermes — Agent 长期记忆与优化工作流插件**
+Hermes Agent 全合一插件，含持久化记忆系统，是上条研究方向的工程实现参考。
+→ [rlaope/oh-my-hermes](https://github.com/rlaope/oh-my-hermes)
+
+---
+
+## 🟢 数据 & RAG
+
+**9. ScienceIDE — 将科学代码库转化为 Agent 可学习环境**（arxiv）
+解决 agent 利用真实领域知识库的工程挑战，与 RAG/工具调用场景高度相关。
+→ [arxiv 2609.19134](http://arxiv.org/abs/2609.19134v1)
+
+**10. Onyx (YC W24) — 开源企业级 RAG 对话 UI**
+支持多数据源私有部署，内置 RAG pipeline，适合知识库问答场景快速落地。
+
+---
+
+> **今日主线**：Agent 可靠性（FSM 约束 + 双过程架构）× 工具生态标准化（MCP/Affora）× 记忆持久化，三条脉络同步推进。
