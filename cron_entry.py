@@ -1,12 +1,11 @@
-"""服务端 cron 的入口 —— slides 第 7 幕 + kp-05：MCP 没有时钟，调度来自外部。
+"""服务端 cron 的入口。
 
 手动跑一次就是『模拟 cron 叫醒它一次』：无人值守，跑完一整轮 + 推送 + 更新 digest。
 
   python cron_entry.py
 
-三层别搞混：
-  调度器（决定 WHEN：服务端 cron / 沙箱定时） → 这个脚本/agent（决定 WHAT） → MCP server（HANDS：真去碰 GitHub）
-MCP server 自己**不会**定时；它只在被调用时才动。所以闹钟必须在外面。
+调度（GitHub Actions 的 schedule，决定 WHEN）和执行（这个脚本，决定 WHAT）是分开的两层——
+agent 本身没有时钟，闹钟必须在外面（见 .github/workflows/daily.yml）。
 
 幂等（重跑安全）：cron 可能延迟/重复触发，digest 去重保证重跑一次也不会重复刷屏。
 """

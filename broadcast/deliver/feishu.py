@@ -1,13 +1,13 @@
-"""飞书自定义机器人投递 —— slides 第 7 幕的「webhook = URL 即凭据」。
+"""飞书自定义机器人投递 —— 本质是「webhook URL 即凭据」。
 
-本质就是：**一个 HTTP POST + 一段 JSON**（msg_type 选模板）。和你在 Lab-1 调工具一样朴素。
+就是一个 HTTP POST + 一段 JSON（msg_type 选模板），没有更多魔法。
 
-安全模型（kp-04 必讲）：
+安全模型：
   · webhook URL 里那段 token **本身就是凭据**——谁拿到谁能往群里发。放 .env，绝不进 git/日志/截图。
   · 限流：单机器人 100 次/分钟、5 次/秒（企业微信只有 20/分）。批量通知要自己合并。
   · 「发出去」≠「进收件箱」：这是 IM 推送（基本即达）；邮件还要过 ISP 反垃圾。
-  · 渠道选择（kp-04）：在大陆的同学用飞书最顺（app 即时收到）；在国外用 Gmail 更方便。
-    注意反向坑：从**境外**服务器/沙箱 POST 飞书 webhook 偶有连接抖动——发不出去时看返回、用 local 兜底。
+  · 渠道选择：在大陆用飞书最顺（app 即时收到）；在国外用 Gmail 更方便。
+    注意反向坑：从境外服务器/沙箱 POST 飞书 webhook 偶有连接抖动——发不出去时看返回、用 local 兜底。
 """
 import os
 import time
@@ -55,4 +55,4 @@ def push(title: str, markdown: str) -> dict:
 #   payload = {"msg_type": "interactive", "card": {"schema": "2.0",
 #       "header": {"title": {"tag": "plain_text", "content": title}},
 #       "body": {"elements": [{"tag": "markdown", "content": markdown}]}}}
-# 卡片 schema 偶有版本差异，先用 text 跑通、再升级——这本身就是一道好的 challenge。
+# 卡片 schema 偶有版本差异，建议先用 text 跑通、再升级。

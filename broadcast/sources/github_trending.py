@@ -1,15 +1,15 @@
 """GitHub Trending 源 —— 没有官方 API，只能爬 HTML。
 
-这是一个真实工程课：「没有官方 API」是常态。三种办法：
+「没有官方 API」是常态，权衡过三种办法：
   (A) 爬 github.com/trending 的 HTML（这里用的）—— 有真实的「今日新增 star」速度信号，但选择器会随改版失效；
   (B) 第三方非官方 API / RSS —— 省事但依赖别人的稳定性；
   (C) 官方 Search API 近似（created:>DATE&sort=stars）—— 稳定但只是『近似』，没有 trending 的速度算法。
-本 lab 选 (A)，因为速度信号最贴近「最近大家在追什么」。⚠️ 选择器若失效，看 challenge 里的 (C) 兜底。
+选了 (A)，因为速度信号最贴近「最近大家在追什么」。⚠️ 选择器若失效，可以退回 (C) 兜底。
 """
 import httpx
 from bs4 import BeautifulSoup
 
-_client = httpx.Client(timeout=30, headers={"User-Agent": "ParallightLab/2"}, follow_redirects=True)
+_client = httpx.Client(timeout=30, headers={"User-Agent": "ai-broadcast-agent/1.0"}, follow_redirects=True)
 
 
 def fetch(cfg):

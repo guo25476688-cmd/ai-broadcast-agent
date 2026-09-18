@@ -1,8 +1,5 @@
-"""卸载 + 压缩 —— slides 第 3 幕②①。
-
-卸载（Offload）：把『今日播报』写到上下文窗口之外的文件 digest.md；
-              明天重跑时读回来，对已经播过的条目去重。
-压缩（Compaction）：历史不全量带进上下文，只回最近一小段——避免随天数线性膨胀。
+"""卸载（Offload）：把『今日播报』写到上下文窗口之外的文件 digest.md；
+明天重跑时读回来，对已经播过的条目去重——避免同一条新闻连续几天重复播报。
 
 核心直觉：agent 的『记性』不在模型里，在你给它的这个文件里。删了它，它就失忆。
 """
@@ -42,11 +39,3 @@ def append(title: str, body: str) -> None:
     stamp = datetime.date.today().isoformat()
     with open(DIGEST_PATH, "a", encoding="utf-8") as f:
         f.write(f"\n\n## {stamp} · {title}\n\n{body}\n")
-
-
-def history_compacted(max_chars: int = 800) -> str:
-    """压缩：历史只回最近一小段（而不是全量），用于给 agent 一点『最近播过什么』的上下文。"""
-    if not os.path.exists(DIGEST_PATH):
-        return ""
-    txt = open(DIGEST_PATH, encoding="utf-8").read()
-    return txt[-max_chars:]

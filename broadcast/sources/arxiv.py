@@ -1,16 +1,16 @@
-"""arXiv 源 —— 直接复用 Lab-1 的 429 纪律。
+"""arXiv 源。
 
-Lab-1 的教训（别忘）：
+调 arXiv API 踩过的坑，写下来免得下次再踩：
   · 共享同一个 httpx.Client（别每次 new 一个，会把本地节流清零）
-  · 带自定义 User-Agent
-  · 每次请求间隔 ≥ 3 秒（arXiv 官方要求）
+  · 带自定义 User-Agent（arXiv 建议标明来源）
+  · 每次请求间隔 ≥ 3 秒（arXiv 官方限流要求）
   · 撞 429 就抛出来，别盲目重试 —— 让上层用离线兜底
 """
 import time
 import httpx
 import feedparser
 
-_UA = "ParallightLab/2 (agent course; mailto:lab@parallight.ai)"
+_UA = "ai-broadcast-agent/1.0 (+https://github.com/guo25476688-cmd/ai-broadcast-agent)"
 _client = httpx.Client(headers={"User-Agent": _UA}, timeout=30, follow_redirects=True)  # 共享一个 client（follow_redirects：自动跟 301 http→https，否则会抛错跳过）
 _last = [0.0]
 
@@ -32,7 +32,7 @@ def fetch(cfg):
     )
     _polite()
     r = _client.get(url)
-    r.raise_for_status()  # 429 直接抛（Lab-1 教训：别盲目重试）
+    r.raise_for_status()  # 429 直接抛，别盲目重试
     feed = feedparser.parse(r.text)
     items = []
     for e in feed.entries:

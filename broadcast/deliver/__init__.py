@@ -1,5 +1,5 @@
 # 投递渠道分发器。channel 来自 config.yaml：gmail | feishu | local。
-# 同一份播报，发到哪取决于『你在哪发、你在哪读』——这就是 kp-04 的部署决策。
+# 同一份播报，发到哪取决于『你在哪发、你在哪读』（见 README 的渠道选择说明）。
 from . import mailer, feishu
 
 

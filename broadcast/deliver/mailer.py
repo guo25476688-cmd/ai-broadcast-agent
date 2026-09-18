@@ -1,7 +1,7 @@
-"""邮件投递 —— 默认走 Gmail SMTP（课堂演示用）。
+"""邮件投递 —— 默认走 Gmail SMTP。
 
-关键事实（kp-04）：GFW 只挡「从大陆**访问** Google」，不挡「从**境外发** Gmail」。
-所以在美国 / 境外沙箱里用 smtp.gmail.com 发信完全正常 —— 演示用 Gmail 没问题。
+关键事实：GFW 只挡「从大陆**访问** Google」，不挡「从**境外发** Gmail」。
+所以在境外服务器 / GitHub Actions 里用 smtp.gmail.com 发信完全正常。
 真正的分叉是：agent 在哪发(send) + 你在哪读(收)。在大陆读 @gmail.com 要 VPN，那就改用飞书。
 
 ⚠️ Gmail SMTP 不收你的登录密码：要先开两步验证，再生成一个「应用专用密码」(App Password)，
@@ -32,7 +32,7 @@ def push(title: str, markdown: str) -> dict:
             s.starttls()
             s.login(user, pw)
             s.sendmail(user, [to], msg.as_string())
-    except Exception as e:  # 在大陆本地跑会卡在这里(连不上 smtp.gmail.com)——这正是 kp-04 的现场
+    except Exception as e:  # 在大陆本地跑会卡在这里（连不上 smtp.gmail.com）
         return {"ok": False, "reason": f"SMTP 失败（transport）: {e}"}
     return {"ok": True, "to": to}
 
