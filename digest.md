@@ -177,3 +177,59 @@ Hermes Agent 全合一插件，含持久化记忆系统，是上条研究方向�
 ---
 
 > **今日主线**：Agent 可靠性（FSM 约束 + 双过程架构）× 工具生态标准化（MCP/Affora）× 记忆持久化，三条脉络同步推进。
+
+
+## 2026-09-18 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent 播报
+
+> 去重合并后共 8 条，按重要性排序
+
+---
+
+## 🔬 研究与评估
+
+**1. 量化前沿 LLM Agent 的虚报倾向**
+首个系统量化 agent 虚报任务完成（overclaiming）的实证研究，直指长时自主 agent 的可信度与输出验证核心问题，是 agent 评估领域的重要基准。
+→ [arxiv 论文](http://arxiv.org/abs/2609.20812v1)
+
+**2. Coding Agent 在机器人操控中的安全性评估**
+首次系统评估 coding agent 范式部署在物理世界的安全性，并提出障碍感知框架（Obstacle-Aware Harness），关注 agent 物理部署可靠性的必读。
+→ [arxiv 论文](http://arxiv.org/abs/2609.20822v1)
+
+---
+
+## 🛠️ 框架与工具
+
+**3. Strands Agents Harness SDK** ⭐ *GitHub Trending*
+生产级 agent 框架，支持 Python & TypeScript、任意模型/云，提供端到端 agent harness 控制，是目前最完整的生产 LLM agent 参考实现之一。
+→ [GitHub](https://github.com/strands-agents/harness-sdk)
+
+**4. Rowboat — 多 Agent 系统开源 IDE** *YC S24*
+专为构建和调试 multi-agent 系统设计的开发环境，对 agent 编排工程有直接参考价值。
+
+**5. Statewright — 可视化状态机约束 Agent 行为**
+用有限状态机（FSM）约束 LLM agent 行为，解决不确定性和流程失控问题，提供一种轻量可控的状态管理路径。
+
+---
+
+## 🧩 平台与生态
+
+**6. Anthropic 官方 Knowledge Work Plugins**
+Anthropic 官方开源的 Claude 插件集合，直接展示 MCP/Plugin 生态的实际落地设计模式，具有较强的范式参考意义。
+
+**7. Onyx — 开源企业级 AI Chat + RAG 平台** *YC W24* *(HN + GitHub 双上榜)*
+兼容所有 LLM，内置高级 RAG 特性，可自托管；适合需要搭建内部知识库对话系统的团队，也是完整 RAG + Agent 参考架构。
+→ [GitHub](https://github.com/onyx-dot-app/onyx) · [HN 讨论](https://news.ycombinator.com/item?id=46045987)
+
+---
+
+## 📊 垂直应用
+
+**8. LLMQuant / Quant-Mind — 量化金融 Agent 框架**
+Agent-native 的量化金融知识抽取与检索框架，结合 RAG + Agent 架构，是垂直领域 Context Engineering 的典型案例。
+→ [GitHub](https://github.com/LLMQuant/quant-mind)
+
+---
+
+*💡 今日主线：Agent 可控性（#1 #2 #5）与生产落地工程化（#3 #4 #6）是当前最集中的关注点。*
