@@ -136,6 +136,14 @@ python -m http.server 8000 -d web     # 或者本地起个静态服务器打开
 
 GitHub Actions 每天跑完播报后会自动重新渲染并提交这个页面，所以仓库里的 `web/index.html` 始终是最新的。
 
+**在线看（不用 clone）**：仓库里配好了 `.github/workflows/pages.yml` 和 `daily.yml` 里的部署步骤，会自动把 `web/` 发布到 GitHub Pages。首次使用需要在自己仓库的 Settings → Pages → Build and deployment → Source 里选一次 **GitHub Actions**（一次性设置，仓库 owner 才能改，所以工具帮不了这一步）；开完之后地址是：
+
+```
+https://guo25476688-cmd.github.io/ai-broadcast-agent/
+```
+
+之后每次 push 到 `web/**`，或者每天的定时任务跑完，页面都会自动更新。
+
 ## 自动化部署
 
 `.github/workflows/daily.yml` 配置了每日定时任务：push 到自己的仓库、在 Settings → Secrets 配好 `LLM_API_KEY` 和投递渠道凭据，就能免费每天自动跑，本地关机也不影响。`tests.yml` 则在每次 push / PR 时跑一遍单元测试。

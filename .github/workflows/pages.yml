@@ -1,0 +1,36 @@
+# 手动 push 更新了 web/ 之后立刻重新部署 Pages，不用等第二天的定时任务。
+# daily.yml 里也有一份一样的部署步骤——那边覆盖的是「机器人每天自动提交 digest」触发不到
+# push 事件的情况（GITHUB_TOKEN 提交不会触发别的 workflow），这里覆盖的是「人自己 push」的情况。
+
+name: deploy-pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "web/**"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+      - id: deployment
+        uses: actions/deploy-pages@v4
