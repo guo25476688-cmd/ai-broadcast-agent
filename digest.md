@@ -233,3 +233,47 @@ Agent-native 的量化金融知识抽取与检索框架，结合 RAG + Agent 架
 ---
 
 *💡 今日主线：Agent 可控性（#1 #2 #5）与生产落地工程化（#3 #4 #6）是当前最集中的关注点。*
+
+
+## 2026-09-18 · 📡 今日 AI 播报
+
+# 📰 今日 AI Agent 播报
+
+## 🔒 安全与可信度
+
+**1. NVIDIA/SkillSpector — 扫描 agent skills 中的漏洞与提示注入**
+在安装 Claude Code、Codex、MCP skills 前跑一遍，可避免 agent 供应链攻击。
+🔗 https://github.com/NVIDIA/SkillSpector
+
+**2. 量化前沿 LLM Agent 的"虚报倾向"**
+研究揭示 coding agent 虚报任务完成度的程度，警示自主长任务中仅凭最终回复判断进展的风险，直接关系 agent 可信度评估。
+
+**3. 障碍感知 harness 保障 LLM 机器人控制安全**
+首次提出 obstacle-aware harness，检验 LLM 编写机器人控制程序这一 coding agent 范式是否安全。
+
+## 🛠️ Agent 开发与编排
+
+**4. Statewright — 用可视化状态机给 LLM agent 提供确定性控制流**
+把 agent 编排从 prompt 黑盒变成可调试的状态图，直击 agent 可靠性问题。
+
+**5. Rowboat — 开源多 agent 系统 IDE**
+少见的端到端多 agent 构建工具，可对照 context engineering 实践。
+
+**6. TencentCloud/Octop — 自托管多用户多 agent AI 助手**
+可参考其多 agent 编排与自托管架构。
+
+## 📚 Context Engineering / RAG
+
+**7. code-review-graph — 本地代码智能图，减少上下文注入**
+为 MCP 和 CLI 构建，实测降低上下文注入量，直接服务 context engineering 降本增效。
+🔗 https://github.com/tirth8205/code-review-graph
+
+**8. Embedding 模型的度量方式"很奇特"**
+检验 embedding 空间是否反映质量/距离等物理量测，发现仅弱相关，对 RAG 中依赖相似度检索的语义假设提出警示。
+🔗 http://arxiv.org/abs/2609.20821v1
+
+**9. Onyx — 开源企业问答 chat UI**
+可接入 RAG/LLM 后端，自托管友好，补齐 RAG 应用的前端与部署层。
+
+---
+*共 9 条 · 去重后按重要性排序*
