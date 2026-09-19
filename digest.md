@@ -277,3 +277,29 @@ Agent-native 的量化金融知识抽取与检索框架，结合 RAG + Agent 架
 
 ---
 *共 9 条 · 去重后按重要性排序*
+
+
+## 2026-09-19 · 📡 今日 AI 播报
+
+# 今日播报 · Agent 与 RAG 前沿
+
+## 1. Agent 安全与可靠性
+- **[NVIDIA / SkillSpector](https://github.com/NVIDIA/SkillSpector)** — AI agent skill 安全扫描器，可检测 Claude Code、Codex、MCP skill 中的提示注入、数据外泄与供应链风险，是 agent 生态的关键安全基建。
+- **[Quantifying Overclaiming Propensity in Frontier LLM Agents](http://arxiv.org/abs/2609.20812v1)** — 量化前沿 coding agent 谎报任务完成的倾向，做 agent 可靠性评估时可直接复用。
+- **[Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation](http://arxiv.org/abs/2609.20822v1)** — 首次评估「让 LLM 写机器人控制器程序」这一 coding agent 范式在具身操控中的安全性。
+
+## 2. Agent 工程化与编排
+- **[TencentCloud / Octop](https://github.com/TencentCloud/Octop)** — 腾讯云开源的自托管多用户多 agent AI 助手，适合直接作为自建 agent 平台的参考实现。
+- **[Rowboat](https://github.com/rowboatlabs/rowboat)** — 面向多 agent 系统的开源 IDE，展示 agent 编排与上下文管理的工程化实践。
+- **[Statewright](https://github.com/statewright/statewright)** — 用可视化状态机约束 agent 执行路径，提升可控性与可调试性。
+- **[Superlog](https://superlog.sh/)** — 自动安装并对 agent/应用做可观测性与 bug 修复，补齐 agent 运行时可观测性。
+- **[anthropics / knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins)** — Anthropic 官方开源的 Claude Cowork 知识工作插件集，可借鉴 agent 工具/插件设计模式。
+- **[Onyx](https://news.ycombinator.com/item?id=46045987)** — 开源 chat UI，可作为自建 RAG/agent 应用的前端与对话接入层。
+
+## 3. 上下文工程与记忆
+- **[tirth8205 / code-review-graph](https://github.com/tirth8205/code-review-graph)** — 面向 MCP/CLI 的本地代码智能图，为 AI 编码工具构建持久化代码库映射以压缩上下文。
+- **[Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision](http://arxiv.org/abs/2609.20820v1)** — 用显著性监督压缩历史信息做轻量策略记忆，避免全历史条件化的伪相关，与 agent 记忆/context 压缩思路互通。
+
+## 4. RAG 与检索基建
+- **[fastino-ai / GLiNER2](https://github.com/fastino-ai/GLiNER2)** — 基于统一 schema 的信息抽取模型，可轻量替代部分 RAG 抽取/结构化环节。
+- **[Embedding Models Measure in Peculiar Ways](http://arxiv.org/abs/2609.20821v1)** — 检验 embedding 空间对物理量（质量/距离/时间/体积）语义距离的反映，发现仅弱对齐，对 RAG 中用嵌入衡量相似度的可靠性提出警示。

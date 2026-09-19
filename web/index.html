@@ -11,18 +11,45 @@
     <header class="mb-8">
       <h1 class="text-2xl font-bold text-slate-900 dark:text-white">📡 播报历史</h1>
       <p class="text-sm text-slate-500 dark:text-slate-400 mt-1">
-        数据源就是仓库里的 digest.md，这个页面只是它的一个只读视图 · 生成于 2026-09-18 17:25
+        数据源就是仓库里的 digest.md，这个页面只是它的一个只读视图 · 生成于 2026-09-19 05:55
       </p>
     </header>
     <nav class="flex flex-wrap gap-2 mb-8" id="tabs">
-      <button class="day-tab" data-idx="0">2026-09-18</button>
+      <button class="day-tab" data-idx="0">2026-09-19</button>
 <button class="day-tab" data-idx="1">2026-09-18</button>
-<button class="day-tab" data-idx="2">2026-09-17</button>
-<button class="day-tab" data-idx="3">2026-09-16</button>
-<button class="day-tab" data-idx="4">2026-09-15</button>
+<button class="day-tab" data-idx="2">2026-09-18</button>
+<button class="day-tab" data-idx="3">2026-09-17</button>
+<button class="day-tab" data-idx="4">2026-09-16</button>
+<button class="day-tab" data-idx="5">2026-09-15</button>
     </nav>
     <main id="panels">
-      <section class="day-panel" data-idx="0" ><h2 class="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-4">📡 今日 AI 播报</h2><div class="prose prose-slate dark:prose-invert max-w-none"><h1>今日 AI Agent 播报</h1>
+      <section class="day-panel" data-idx="0" ><h2 class="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-4">📡 今日 AI 播报</h2><div class="prose prose-slate dark:prose-invert max-w-none"><h1>今日播报 · Agent 与 RAG 前沿</h1>
+<h2>1. Agent 安全与可靠性</h2>
+<ul>
+<li><strong><a href="https://github.com/NVIDIA/SkillSpector">NVIDIA / SkillSpector</a></strong> — AI agent skill 安全扫描器，可检测 Claude Code、Codex、MCP skill 中的提示注入、数据外泄与供应链风险，是 agent 生态的关键安全基建。</li>
+<li><strong><a href="http://arxiv.org/abs/2609.20812v1">Quantifying Overclaiming Propensity in Frontier LLM Agents</a></strong> — 量化前沿 coding agent 谎报任务完成的倾向，做 agent 可靠性评估时可直接复用。</li>
+<li><strong><a href="http://arxiv.org/abs/2609.20822v1">Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation</a></strong> — 首次评估「让 LLM 写机器人控制器程序」这一 coding agent 范式在具身操控中的安全性。</li>
+</ul>
+<h2>2. Agent 工程化与编排</h2>
+<ul>
+<li><strong><a href="https://github.com/TencentCloud/Octop">TencentCloud / Octop</a></strong> — 腾讯云开源的自托管多用户多 agent AI 助手，适合直接作为自建 agent 平台的参考实现。</li>
+<li><strong><a href="https://github.com/rowboatlabs/rowboat">Rowboat</a></strong> — 面向多 agent 系统的开源 IDE，展示 agent 编排与上下文管理的工程化实践。</li>
+<li><strong><a href="https://github.com/statewright/statewright">Statewright</a></strong> — 用可视化状态机约束 agent 执行路径，提升可控性与可调试性。</li>
+<li><strong><a href="https://superlog.sh/">Superlog</a></strong> — 自动安装并对 agent/应用做可观测性与 bug 修复，补齐 agent 运行时可观测性。</li>
+<li><strong><a href="https://github.com/anthropics/knowledge-work-plugins">anthropics / knowledge-work-plugins</a></strong> — Anthropic 官方开源的 Claude Cowork 知识工作插件集，可借鉴 agent 工具/插件设计模式。</li>
+<li><strong><a href="https://news.ycombinator.com/item?id=46045987">Onyx</a></strong> — 开源 chat UI，可作为自建 RAG/agent 应用的前端与对话接入层。</li>
+</ul>
+<h2>3. 上下文工程与记忆</h2>
+<ul>
+<li><strong><a href="https://github.com/tirth8205/code-review-graph">tirth8205 / code-review-graph</a></strong> — 面向 MCP/CLI 的本地代码智能图，为 AI 编码工具构建持久化代码库映射以压缩上下文。</li>
+<li><strong><a href="http://arxiv.org/abs/2609.20820v1">Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision</a></strong> — 用显著性监督压缩历史信息做轻量策略记忆，避免全历史条件化的伪相关，与 agent 记忆/context 压缩思路互通。</li>
+</ul>
+<h2>4. RAG 与检索基建</h2>
+<ul>
+<li><strong><a href="https://github.com/fastino-ai/GLiNER2">fastino-ai / GLiNER2</a></strong> — 基于统一 schema 的信息抽取模型，可轻量替代部分 RAG 抽取/结构化环节。</li>
+<li><strong><a href="http://arxiv.org/abs/2609.20821v1">Embedding Models Measure in Peculiar Ways</a></strong> — 检验 embedding 空间对物理量（质量/距离/时间/体积）语义距离的反映，发现仅弱对齐，对 RAG 中用嵌入衡量相似度的可靠性提出警示。</li>
+</ul></div></section>
+<section class="day-panel" data-idx="1" hidden><h2 class="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-4">📡 今日 AI 播报</h2><div class="prose prose-slate dark:prose-invert max-w-none"><h1>今日 AI Agent 播报</h1>
 <blockquote>
 <p>去重合并后共 8 条，按重要性排序</p>
 </blockquote>
@@ -57,7 +84,7 @@ Agent-native 的量化金融知识抽取与检索框架，结合 RAG + Agent 架
 → <a href="https://github.com/LLMQuant/quant-mind">GitHub</a></p>
 <hr />
 <p><em>💡 今日主线：Agent 可控性（#1 #2 #5）与生产落地工程化（#3 #4 #6）是当前最集中的关注点。</em></p></div></section>
-<section class="day-panel" data-idx="1" hidden><h2 class="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-4">📡 今日 AI 播报</h2><div class="prose prose-slate dark:prose-invert max-w-none"><h1>📰 今日 AI Agent 播报</h1>
+<section class="day-panel" data-idx="2" hidden><h2 class="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-4">📡 今日 AI 播报</h2><div class="prose prose-slate dark:prose-invert max-w-none"><h1>📰 今日 AI Agent 播报</h1>
 <h2>🔒 安全与可信度</h2>
 <p><strong>1. NVIDIA/SkillSpector — 扫描 agent skills 中的漏洞与提示注入</strong>
 在安装 Claude Code、Codex、MCP skills 前跑一遍，可避免 agent 供应链攻击。
@@ -84,7 +111,7 @@ Agent-native 的量化金融知识抽取与检索框架，结合 RAG + Agent 架
 可接入 RAG/LLM 后端，自托管友好，补齐 RAG 应用的前端与部署层。</p>
 <hr />
 <p><em>共 9 条 · 去重后按重要性排序</em></p></div></section>
-<section class="day-panel" data-idx="2" hidden><h2 class="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-4">📡 今日 AI 播报</h2><div class="prose prose-slate dark:prose-invert max-w-none"><h1>今日 AI Agent &amp; 工程 播报</h1>
+<section class="day-panel" data-idx="3" hidden><h2 class="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-4">📡 今日 AI 播报</h2><div class="prose prose-slate dark:prose-invert max-w-none"><h1>今日 AI Agent &amp; 工程 播报</h1>
 <p><em>按重要性排序，去重合并同类项</em></p>
 <hr />
 <h2>🔴 重点关注</h2>
@@ -124,7 +151,7 @@ Hermes Agent 全合一插件，含持久化记忆系统，是上条研究方向�
 <blockquote>
 <p><strong>今日主线</strong>：Agent 可靠性（FSM 约束 + 双过程架构）× 工具生态标准化（MCP/Affora）× 记忆持久化，三条脉络同步推进。</p>
 </blockquote></div></section>
-<section class="day-panel" data-idx="3" hidden><h2 class="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-4">📡 今日 AI 播报</h2><div class="prose prose-slate dark:prose-invert max-w-none"><h1>今日 AI 播报</h1>
+<section class="day-panel" data-idx="4" hidden><h2 class="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-4">📡 今日 AI 播报</h2><div class="prose prose-slate dark:prose-invert max-w-none"><h1>今日 AI 播报</h1>
 <blockquote>
 <p>聚焦 Agent 工程化与可靠性，2025年今日精选</p>
 </blockquote>
@@ -167,7 +194,7 @@ Hermes Agent 全合一插件，含持久化记忆系统，是上条研究方向�
 <p>了解 Claude 工具/技能扩展机制（类 MCP plugin）的社区入口。</p>
 <hr />
 <p><em>共 12 条，覆盖 arxiv · HackerNews · GitHub Trending</em></p></div></section>
-<section class="day-panel" data-idx="4" hidden><h2 class="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-4">📡 今日 AI 播报</h2><div class="prose prose-slate dark:prose-invert max-w-none"><h1>今日 AI Agent 播报</h1>
+<section class="day-panel" data-idx="5" hidden><h2 class="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-4">📡 今日 AI 播报</h2><div class="prose prose-slate dark:prose-invert max-w-none"><h1>今日 AI Agent 播报</h1>
 <hr />
 <h2>🔧 开发工具与框架</h2>
 <p><strong>1. Rowboat – 多智能体系统开源 IDE</strong>
