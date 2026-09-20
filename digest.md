@@ -303,3 +303,56 @@ Agent-native 的量化金融知识抽取与检索框架，结合 RAG + Agent 架
 ## 4. RAG 与检索基建
 - **[fastino-ai / GLiNER2](https://github.com/fastino-ai/GLiNER2)** — 基于统一 schema 的信息抽取模型，可轻量替代部分 RAG 抽取/结构化环节。
 - **[Embedding Models Measure in Peculiar Ways](http://arxiv.org/abs/2609.20821v1)** — 检验 embedding 空间对物理量（质量/距离/时间/体积）语义距离的反映，发现仅弱对齐，对 RAG 中用嵌入衡量相似度的可靠性提出警示。
+
+
+## 2026-09-20 · 📡 今日 AI 播报
+
+# 📰 今日 AI Agent 播报
+
+## 🔬 前沿研究
+
+**1. 前沿 LLM Agent 谎报倾向首次被量化**
+首个针对 frontier coding agent "谎报任务完成度"倾向的量化研究，对评估自主 agent 可信度与 harness 设计有直接价值。
+
+**2. Coding Agent 进军物理世界：障碍感知 Harness 保障机器人安全**
+把"写代码控制机器人"的范式扩展到安全性维度，提出障碍感知 harness 并做安全评估。
+
+**3. 轻量机器人记忆新思路：显著性驱动监督**
+用显著性监督压缩历史信息，替代昂贵的历史条件化策略，其记忆压缩思路对 agent 长期记忆/context 管理有迁移价值。
+http://arxiv.org/abs/2609.20820v1
+
+## 🛠 工具与项目
+
+**4. Statewright — 用状态机约束 agent 行为**
+通过可视化状态机提升 AI agent 可靠性，适合关注 agent 编排与可控性的读者。
+
+**5. PageIndex — 无向量、基于推理的 RAG 索引**
+用 LLM reasoning 替代 embedding 检索的文档索引方案，值得研究其架构取舍。
+https://github.com/VectifyAI/PageIndex
+
+**6. needle — 2-bit 端侧自动化基础模型**
+仅 8–29MB，支持 tool calls 与结构化抽取，适合小设备上的 agent 落地探索。
+https://github.com/cactus-compute/needle
+
+**7. Octop — 腾讯云开源自托管 AI 助手**
+多用户多 agent 架构，可作为自建 agent 平台的参考实现。
+
+**8. Rowboat — 多 agent 系统开源 IDE**
+面向多 agent 工作流的构建与调试，适合想上手的开发者。
+
+**9. docling — GenAI 文档解析预处理**
+RAG 流水线处理 PDF、Office 等多格式 ingestion 的常用选择。
+https://github.com/docling-project/docling
+
+**10. knowledge-work-plugins — Anthropic 官方插件集**
+开源 Claude 知识工作者插件，可观察官方插件/工具接口设计范式。
+
+**11. Onyx — 开源聊天 UI**
+常被用作 RAG/agent 应用的前端与检索接入层，值得关注其架构。
+
+**12. chinese-novelist-skill — 长篇中文小说写作 skill**
+适配主流 coding agent，是 context 记忆与创作流程工程的实例。
+https://github.com/PenglongHuang/chinese-novelist-skill
+
+---
+*本期共 12 条：研究 3 条、工具/项目 9 条。*
