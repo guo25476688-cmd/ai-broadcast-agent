@@ -356,3 +356,65 @@ https://github.com/PenglongHuang/chinese-novelist-skill
 
 ---
 *本期共 12 条：研究 3 条、工具/项目 9 条。*
+
+
+## 2026-09-21 · 📡 今日 AI 播报
+
+# 📰 今日播报
+
+## 🔬 研究前沿
+
+**1. 多跳 RAG 失败可预测，并提出置信度打分与弃答机制**
+证明多跳检索的失败在结构上可预测，给出 score-distributional 置信度评分与 abstention 方案，直接提升 RAG 可靠性。
+http://arxiv.org/abs/2609.22056v1
+
+**2. Designer-RSI：面向长时程设计任务的 Agent 持续适配**
+从用户流量中演化程序性记忆（procedural memory），让 agent 在长时程设计任务中持续适配——对 agent memory / long-horizon agent 方向有直接参考价值。
+http://arxiv.org/abs/2609.22086v1
+
+**3. CodeMidas：从代码本体扩展 Agentic Coding 的 RL 环境**
+绕过对 issue/commit 的依赖，直接从代码本身扩展 RL 训练环境，适合构建 agent 训练环境与 verifier 的团队参考。
+http://arxiv.org/abs/2609.22068v1
+
+**4. 用户如何委托 AI Agent？基于 73,093 条 Reddit 帖的实证研究**
+分析用户委托 AI agent 时优先考虑的价值（不止于任务完成度），适合 agent 评估与对齐相关工作引用。
+http://arxiv.org/abs/2609.22067v1
+
+## 🛠️ 工具与项目
+
+**5. Statewright：用可视化状态机约束 AI Agent 行为**
+将 agent 行为纳入可视化状态机，提升可预测性与可控性——关注 agent 控制流工程的人值得一看。
+
+**6. browser-harness：自愈式浏览器 Harness**
+让 LLM 完成任意网页任务，直接对应 agent 的浏览器执行与工具调用层。
+https://github.com/browser-use/browser-harness
+
+**7. Rowboat：面向多 Agent 系统的开源 IDE**
+想搭 / 调 multi-agent 工作流的可直接参考。
+
+**8. needle：2-bit、8–29MB 的端侧自动化基础模型**
+支持 tool calls 与结构化抽取，是边缘设备上跑 agent 工具调用的轻量方案。
+
+**9. Onyx：开源 Chat UI（RAG 场景常用）**
+对接企业知识库 / RAG 的低成本前端起点。
+
+**10. AIConsole：可自定义 Agent 工作流的开源桌面 AI 编辑器**
+关注本地化、可定制 agent 工具链者可看。
+https://aiconsole.ai
+
+## 📚 学习与参考
+
+**11. 哈佛 ML Systems 教材（含 Agentic AI 与 Scaling 卷）**
+系统化理解 agent 与 LLM 系统工程的参考读物。
+https://github.com/harvard-edge/cs249r_book
+
+**12. train-llm-from-scratch：从数据到生成的全流程 LLM 训练教程**
+想补 LLM 底层或自建模型时的高信噪比教程。
+https://github.com/FareedKhan-dev/train-llm-from-scratch
+
+**13. Anthropic 官方金融服务业仓库**
+可能是 MCP / agent 在企业垂直场景的落地示范，值得关注其架构。
+https://github.com/anthropics/financial-services
+
+---
+*本期共 13 条，按「研究 → 工具 → 学习」排列，同主题已合并。*
