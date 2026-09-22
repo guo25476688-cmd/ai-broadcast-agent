@@ -418,3 +418,52 @@ https://github.com/anthropics/financial-services
 
 ---
 *本期共 13 条，按「研究 → 工具 → 学习」排列，同主题已合并。*
+
+
+## 2026-09-22 · 📡 今日 AI 播报
+
+# 今日播报 · Agent 专题
+
+**1. Harness-Zero：把 agent harness 能力蒸馏进模型本身**
+摆脱部署时对特定 harness 的依赖，关注 agent 架构与模型能力解耦的必看。
+http://arxiv.org/abs/2609.24974v1
+
+**2. RRSI：让 agent harness 自动递归自我改进**
+自动迭代 prompts、控制流、工具、记忆与 context 管理，直接对应 context engineering 的自动化方向。
+http://arxiv.org/abs/2609.24972v1
+
+**3. Critical-State RL：诊断多轮工具调用中真正值得训练的状态**
+用 critical-state 分析定位关键调用，解决 reward 波动无法反映单步优劣的问题。
+http://arxiv.org/abs/2609.24985v1
+
+**4. Statewright：用可视化状态机让 AI agent 更可靠**
+以状态机约束 agent 行为，便于调试与可靠性保证，agent 开发者可直接借鉴。
+
+**5. Rowboat：多 agent 系统的开源 IDE**
+提供编排与上下文管理界面，适合作为 agent 工作流的参考实现。
+
+**6. docling：文档解析与结构化工具**
+把 PDF/Office 转成适配 RAG 与 GenAI 的格式，RAG 数据管线中最常用的开源组件之一。
+
+**7. onPanda：面向 LLM 与 Agent 的 token 级对齐数据标注工具**
+以 token 级纠错为核心，支撑 agent 数据闭环与训练数据生产。
+http://arxiv.org/abs/2609.24983v1
+
+**8. PanWatch：集成 TradingAgents 的自托管盯盘助手**
+多 Agent 协作落地到真实投资决策场景的完整示例。
+https://github.com/TNT-Likely/PanWatch
+
+**9. daily_stock_analysis：LLM 驱动的多市场股票分析系统**
+含决策看板与自动推送，LLM agent 在金融分析中的端到端工程实践。
+https://github.com/ZhuLinsen/daily_stock_analysis
+
+**10. book-to-skill：把技术书 PDF 转成 Claude Code skill**
+context engineering 与 agent 知识注入的轻量思路。
+https://github.com/virgiliojr94/book-to-skill
+
+**11. Superlog (YC P26)：自动接入、自动修 bug 的可观测性工具**
+与 agent 的日志/trace 监控思路相关。
+https://superlog.sh/
+
+**12. Onyx：开源企业级 chat UI**
+内置 RAG 与连接器接入企业数据源，适合快速搭建带知识库的 LLM 前端。
