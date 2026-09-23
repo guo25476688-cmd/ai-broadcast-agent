@@ -467,3 +467,33 @@ https://superlog.sh/
 
 **12. Onyx：开源企业级 chat UI**
 内置 RAG 与连接器接入企业数据源，适合快速搭建带知识库的 LLM 前端。
+
+
+## 2026-09-23 · 📡 今日 AI 播报
+
+# 📰 今日 AI Agent 播报
+
+## 🔬 前沿研究
+
+1. **CliffCompaction：长时程 Coding Agent 的低成本上下文压缩** — 在有限窗口内降本最高 50% 且不损性能，直击 context engineering 核心痛点。[链接](http://arxiv.org/abs/2609.26779v1)
+
+2. **Grow the Harness, Not the Context** — 提出把重复的控制决策固化为可复用代码、而非反复塞进上下文，为 agent harness 与上下文工程提供新范式。[链接](http://arxiv.org/abs/2609.26760v1)
+
+3. **A2M：MCP 生态中的 Agent 劫持攻击** — 揭示 MCP 工具语义匹配带来的供应链攻击面，提出两阶段黑盒劫持框架，**做 MCP agent 必读的安全警示**。[链接](http://arxiv.org/abs/2609.26761v1)
+
+4. **Agensh：多 Agent 扩展至 1,024 个** — 突破中心化编排器瓶颈，是 agent 规模化编排的关键进展。[链接](http://arxiv.org/abs/2609.26781v1)
+
+## 🛠️ 工具与开源
+
+5. **treg — Agent Tools 的"OpenRouter"** — 统一接入/路由各类 agent 工具，是 MCP 生态之外值得对比的工具聚合层思路。[链接](https://github.com/superdesigndev/treg)
+
+
+
+8. **claude-code-templates — Claude Code 配置与监控 CLI** — 模板化 prompt/context 配置，可直接借鉴其 context engineering 组织方式。[链接](https://github.com/davila7/claude-code-templates)
+
+
+
+
+---
+
+**今日主线**：context engineering（压缩 / harness 化）与 MCP 安全成为研究热点，而工程侧则集中在多 agent 编排工具与工具聚合层——从"如何省上下文"到"如何管住 agent"，两端同时升温。
