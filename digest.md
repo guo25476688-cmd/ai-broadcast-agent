@@ -497,3 +497,63 @@ https://superlog.sh/
 ---
 
 **今日主线**：context engineering（压缩 / harness 化）与 MCP 安全成为研究热点，而工程侧则集中在多 agent 编排工具与工具聚合层——从"如何省上下文"到"如何管住 agent"，两端同时升温。
+
+
+## 2026-09-24 · 📡 今日 AI 播报
+
+# 📰 今日 AI 播报
+
+## 🧠 评测与推理研究
+
+**1. 仓库级动态基准，专测 LLM 对代码运行时行为的推理能力**
+现有基准多只测静态代码理解，该工作填补了 agent 代码执行/工具使用场景下"运行时行为推理"的评测空白。
+🔗 http://arxiv.org/abs/2609.28449v1
+
+**2. 数学推理中的顺序不变性与表示敏感性**
+研究发现：输入顺序变化时模型答案不变，但内部表示会变——对理解 LLM 推理稳定性与 prompt/context 顺序敏感性有直接参考价值。
+🔗 http://arxiv.org/abs/2609.28442v1
+
+**3. StudentBench：AI 与人类辅导带来等量 GRE 学习增益**
+并开放大规模数据采集平台，对 LLM 作为教学 agent 的效果评估有借鉴意义。
+🔗 http://arxiv.org/abs/2609.28470v1
+
+**4. 对比学习用于作者验证**
+系统分析预训练模型、输入上下文长度、span 增强等关键因素，可作为 RAG/检索中长文本嵌入与上下文长度权衡的参考。
+🔗 http://arxiv.org/abs/2609.28471v1
+
+---
+
+## 🛠️ Agent 工程与工具
+
+**5. Statewright — 用可视化状态机约束 AI agent 执行流程**
+把不可靠的 LLM 行为转化为可预测的状态转移，适合需要 agent 稳定性的开发者。
+
+**6. strands-agents/harness-sdk — 生产级 agent harness SDK**
+端到端构建与控制 agent harness，支持 Python/TS、任意模型与云，agent 工程化可直接入手。
+
+**7. treg — "agent tools 的 OpenRouter"**
+统一接入与分发 agent 工具，关注工具层 / MCP 替代方案值得一看。
+
+**8. CLI-Anything — 让所有软件变成 agent-native 的 CLI-Hub**
+为 agent 提供工具调用层，与 MCP/工具生态思路相关。
+🔗 https://github.com/HKUDS/CLI-Anything
+
+**9. Rowboat — 开源多 agent 系统 IDE**
+提供可视化编排与调试多 agent 工作流的界面，构建 agent 协作系统的实战工具。
+
+**10. claude-code-templates — 配置与监控 Claude Code 的 CLI 工具**
+context engineering / agent 工作流落地的现成脚手架。
+
+---
+
+## 🔍 调试与可观测性
+
+**11. Superlog — 自安装式可观测性工具**
+自动追踪并修复 agent/应用中的 bug，对 context engineering 下的调试与监控有直接价值。
+
+**12. AIConsole — 开源桌面 AI 编辑器**
+支持自定义 LLM 工作流，可作为本地 agent 与上下文管道的实践参考。
+
+---
+
+*本期共 12 条，按"研究评测 → Agent 工程 → 调试观测"排序，重点推荐第 1、5、6 条。*
