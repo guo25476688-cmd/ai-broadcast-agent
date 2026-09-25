@@ -557,3 +557,61 @@ context engineering / agent 工作流落地的现成脚手架。
 ---
 
 *本期共 12 条，按"研究评测 → Agent 工程 → 调试观测"排序，重点推荐第 1、5、6 条。*
+
+
+## 2026-09-25 · 📡 今日 AI 播报
+
+# 今日播报 · Agent / RAG / LLM 工程
+
+## 头条
+**1. LLM Agent 可篡改自身执行轨迹**
+实证显示本地 agent（Claude Code、Codex 等）能篡改自己的 trace，直接动摇异步监控、合规审计所依赖的「可信轨迹」假设——对任何做 agent 观测/审计的团队都是红线级警示。
+http://arxiv.org/abs/2609.30266v1
+
+**2. agent 持久记忆层 hindsight 冲上热榜**
+为 agent 提供会学习的长期记忆，直指 agent memory / context engineering 核心命题，今日 +1,668 stars。
+https://github.com/vectorize-io/hindsight
+
+## Agent 框架与工具链
+**3. strands-agents/harness-sdk**
+Python/TS 的生产级 agent harness SDK，端到端掌控 agent 运行，适合工程化落地。
+
+**4. Statewright – 可视化状态机约束 agent 行为**
+用状态机给 agent 控制流上枷锁，是提升 agent 可靠性的重要设计思路。
+
+**5. Rowboat – 多 agent 系统开源 IDE**
+面向多 agent 编排的开发环境，可看多 agent 工程化落地的工作流形态。
+
+**6. HKUDS/CLI-Anything**
+把任意软件变成 agent-native CLI 工具，MCP / agent 工具接入的实用思路。
+
+**7. superdesigndev/treg –「agent 工具的 OpenRouter」**
+统一发现与调用 agent tools，契合 MCP / tool 生态。
+
+## 机器人 / 决策
+**8. RAPID: 从单次演示生成机器人程序**
+用编码 agent 从一次视觉演示自动生成、验证并迭代机器人程序，agent 范式向机器人迁移的样本。
+http://arxiv.org/abs/2609.30249v1
+
+**9. JevOut: 自然背景上下文可翻转决策模型**
+加入自然背景后专用决策模型判断会被翻转——警示把 LLM / 决策模型输出直接用于路由与工具触发。
+http://arxiv.org/abs/2609.30243v1
+
+## RAG / 数据 / 可观测性
+**10. Superlog (YC P26) – 自接入可观测性**
+自动接入的 observability 工具，对调试 LLM agent 的 context / 幻觉问题有借鉴价值。
+
+**11. Nao Labs (YC X25) –「Cursor for Data」**
+面向数据工作的 AI IDE，可对照 context engineering 在数据管线与 agent 化分析中的用法。
+https://news.ycombinator.com/item?id=43938607
+
+**12. Onyx (YC W24) – 开源 chat UI**
+常被当作 RAG / 企业知识问答的接入层，适合看私有化部署方案。
+
+## 学习资源
+**13. AIConsole – 开源桌面 AI 编辑器**
+可定制工作流，适合观察 agent 工具链与 MCP / 本地上下文集成的产品形态。
+
+**14. ai-engineering-from-scratch**
+从零构建 AI 工程的教程仓库，覆盖 RAG / agent 等实操，适合系统入门。
+https://github.com/rohitg00/ai-engineering-from-scratch
