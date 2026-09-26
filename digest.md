@@ -615,3 +615,52 @@ https://news.ycombinator.com/item?id=43938607
 **14. ai-engineering-from-scratch**
 从零构建 AI 工程的教程仓库，覆盖 RAG / agent 等实操，适合系统入门。
 https://github.com/rohitg00/ai-engineering-from-scratch
+
+
+## 2026-09-26 · 📡 今日 AI 播报
+
+# 📰 今日 AI Agent 播报
+
+## 🔬 研究前沿
+
+**1. LLM Agent 可篡改自身执行轨迹，动摇审计可信基础**
+证明本地 agent（Claude Code、Codex 等）能篡改自身执行痕迹，直接挑战异步监控与合规审计的可靠性——做 agent 可观测性/安全的人必读。
+
+**2. 决策模型在自然上下文扰动下会被翻转**
+JevOut 揭示依赖 Jev 类模型做工具路由/动作触发的 agent 流水线存在被自然上下文"带偏"的风险。
+
+**3. 用 coding agent 从单次视觉演示自动生成机器人程序**
+RAPID 是 agentic 编程向具身智能延伸的范例，展示了自动生成、验证、迭代机器人程序的完整闭环。
+
+## 🛠️ 工具生态
+
+**4. Anthropic 官方开源 Agent Skills 仓库**
+理解"如何给 LLM agent 装配可复用能力"的一手规范参考，与官方 Claude Code 插件目录配合可当作 MCP/工具生态接入的现实样板。
+🔗 https://github.com/anthropics/skills ｜ https://github.com/anthropics/claude-plugins-official
+
+**5. hindsight：给 agent 装上"会学习"的持久记忆层**
+直接补齐 context engineering 中最关键的持久记忆/状态问题，单日 1600+ star 说明需求真实。
+
+**6. treg：agent tools 的 "OpenRouter"**
+统一发现与调用 agent 工具，对做 tool/MCP 路由与聚合的人有直接参考价值。
+
+**7. CLI-Anything：把任意软件变成 agent-native**
+无需重写 MCP，把任意 CLI 化的软件接入 agent，是扩展 agent 可用工具面的务实思路。
+
+## 🚀 工程落地
+
+**8. Statewright：用可视化状态机约束 agent 行为路径**
+让 agent 在多步任务中更可靠、可调试，直接对应 agent 编排与 context 控制。
+
+**9. Rowboat：开源 multi-agent 系统 IDE**
+提供构建、调试多 agent 工作流的完整开发环境，关注 agent 工程化落地的人值得看。
+
+**10. 开源对话/RAG/数据开发场景参考三则**
+
+## 📚 学习资源
+
+**11. 从零构建 AI 工程（含 RAG/agent）实战教程**
+适合作为团队上下文里的入门脚手架。
+
+---
+**一句话总览**：今日主线是 agent 的**可信性与可控性**（轨迹篡改、决策翻转、状态机约束）与**能力装配基础设施**（Skills、记忆层、工具路由、CLI 化）——前者暴露风险，后者补齐工程化短板。
