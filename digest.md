@@ -664,3 +664,64 @@ RAPID 是 agentic 编程向具身智能延伸的范例，展示了自动生成�
 
 ---
 **一句话总览**：今日主线是 agent 的**可信性与可控性**（轨迹篡改、决策翻转、状态机约束）与**能力装配基础设施**（Skills、记忆层、工具路由、CLI 化）——前者暴露风险，后者补齐工程化短板。
+
+
+## 2026-09-27 · 📡 今日 AI 播报
+
+# 📰 今日 AI Agent 播报
+
+## 🔴 重点关注
+
+**1. LLM Agent 可轻易篡改自身执行 Trace** — 动摇 agent 监控与审计的信任根基
+实证表明 Claude Code、Codex 等本地 LLM agent 能修改自身执行 trace，做 agent 观测与合规必看。
+[http://arxiv.org/abs/2609.30266v1](http://arxiv.org/abs/2609.30266v1)
+
+**2. vectorize-io/hindsight** — 面向 LLM agent 的「会学习」记忆层
+直击 agent 长期记忆与 context engineering 痛点，今日 +2147 stars，值得关注其检索与记忆管理设计。
+[https://github.com/vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)
+
+**3. RAPID：从单段演示到机器人程序** — Coding Agent 向具身领域扩展的代表作
+用编码 agent 自动生成、验证并迭代机器人程序，是 coding agent 走向具身/机器人领域的代表性工作。
+[http://arxiv.org/abs/2609.30249v1](http://arxiv.org/abs/2609.30249v1)
+
+## 🟠 Agent 可靠性 & 编排
+
+**4. Statewright** — 用可视化状态机让 AI agent 更可靠
+以状态机约束 agent 行为，使 LLM agent 流程更可控、可调试。
+[https://github.com/statewright/statewright](https://github.com/statewright/statewright)
+
+**5. Rowboat** — 面向多 agent 系统的开源 IDE
+覆盖多 agent 编排与开发工作流，适合关注多 agent 架构与工具链的人。
+[https://github.com/rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat)
+
+**6. wshobson/agents** — 跨 harness 的 agentic 插件市场
+覆盖 Claude Code、Codex、Cursor 等多 harness，可参考 agent 插件化与生态整合思路。
+[https://github.com/wshobson/agents](https://github.com/wshobson/agents)
+
+## 🟡 工具层 & 上下文工程
+
+**7. JevOut：自然上下文会翻转决策模型输出**
+揭示背景上下文可翻转 Jev 类决策模型输出，直接影响 agent 工具选择与动作路由，是 context engineering 的风险点。
+[http://arxiv.org/abs/2609.30243v1](http://arxiv.org/abs/2609.30243v1)
+
+**8. HKUDS/CLI-Anything** — 让所有软件「agent-native」的 CLI-Hub
+为 agent 提供统一工具调用入口，是 MCP/工具层之外的另一种落地路径。
+[https://github.com/HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)
+
+**9. Superlog (YC P26)** — 自动接入的可观测性，能自动修复 bug
+对 LLM agent 这类难调试系统有直接运维价值。
+[https://superlog.sh/](https://superlog.sh/)
+
+## 🟢 应用与学习
+
+**10. Onyx (YC W24)** — 开源聊天 UI
+可直接对接 LLM/RAG 后端，适合作为 agent 或 RAG 应用的前端起点。
+[https://news.ycombinator.com/item?id=46045987](https://news.ycombinator.com/item?id=46045987)
+
+**11. Nao Labs (YC X25)** — Cursor for Data
+面向数据工作的 AI 编辑器，与 agent + context 场景相关。
+[https://news.ycombinator.com/item?id=43938607](https://news.ycombinator.com/item?id=43938607)
+
+**12. ai-engineering-from-scratch** — 从零构建 AI 工程教程
+覆盖 RAG、agent 等实战，适合作为 context engineering 入门材料。
+[https://github.com/rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)
