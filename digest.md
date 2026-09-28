@@ -725,3 +725,54 @@ RAPID 是 agentic 编程向具身智能延伸的范例，展示了自动生成�
 **12. ai-engineering-from-scratch** — 从零构建 AI 工程教程
 覆盖 RAG、agent 等实战，适合作为 context engineering 入门材料。
 [https://github.com/rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)
+
+
+## 2026-09-28 · 📡 今日 AI 播报
+
+# 📰 今日 AI / Agent 播报
+
+### 🔥 重点推荐
+
+今日 GitHub 爆涨 4.5k stars。直接对标 context engineering / agent memory 核心痛点，做 RAG 与 agent 的同学强烈建议一看。
+
+把 agent 可靠性从「靠 prompt」转向「靠结构」，让多步执行更可预测。是 agent 工程范式的一个值得关注的信号。
+
+**3. [Learning to Stop without Learning to Stop](http://arxiv.org/abs/2609.31619v1)**
+用自监督置信度让推理模型学会提前停止，降低长推理链的推理开销——直接关系到 reasoning agent 的推理效率与成本控制。
+
+---
+
+### 🧠 Agent 工程与实践
+
+提供搭建与调试 agent 协作的开发环境，可作为 context / agent 编排的工程化参考。
+
+**5. [Compact Documentation for Coding Agents](http://arxiv.org/abs/2609.31587v1)**
+构建基准与优化器评估自然语言文档对 coding agent 修 bug 的帮助，发现收益难以迁移——为 agent context engineering 提供实证依据。
+
+**6. [New LoRA Skills Should Read but Never Write](http://arxiv.org/abs/2609.31600v1)**
+让新增 LoRA 只「读」不「写」以减少多 adapter 合并时的权重干扰，对 agent 多技能组合与参数隔离有参考价值。
+
+**7. [User Model Extraction via Belief Self-Distillation](http://arxiv.org/abs/2609.31603v1)**
+提出 BSD 读写框架，可提取并因果操纵 LLM 对用户属性的隐式信念——对 agent 用户建模与个性化行为审计有直接价值。
+
+---
+
+### 🛠 工具 & 基础设施
+
+**8. [NVIDIA/Model-Optimizer](https://github.com/NVIDIA/Model-Optimizer)**
+统一量化/蒸馏/剪枝/投机解码等推理优化库，可导出到 TensorRT-LLM、vLLM——LLM 部署降本增效实用工具。
+
+自称可自安装并自动修 bug 的可观测性工具，面向 LLM/agent 应用的运行监控——agent 出错排查是当前痛点。
+
+开源 chat UI，常用于给 LLM 应用/RAG 接一个现成前端，省去自建对话界面与接入层。
+
+---
+
+### 📚 学习素材
+
+**11. [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)**
+从零构建 AI 工程的动手教程合集，覆盖 agent、RAG 等实战主题，适合作为 context engineering 学习素材。
+
+---
+
+**今日主线：** agent 记忆层（hindsight）+ agent 结构约束（Statewright）是社区热度最高方向；arxiv 侧则集中解决 reasoning 成本、context 有效性与多 adapter 干扰等工程实效问题。
