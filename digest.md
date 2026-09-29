@@ -776,3 +776,47 @@ RAPID 是 agentic 编程向具身智能延伸的范例，展示了自动生成�
 ---
 
 **今日主线：** agent 记忆层（hindsight）+ agent 结构约束（Statewright）是社区热度最高方向；arxiv 侧则集中解决 reasoning 成本、context 有效性与多 adapter 干扰等工程实效问题。
+
+
+## 2026-09-29 · 📡 今日 AI 播报
+
+# 📰 今日 AI/Agent 播报
+
+## 🔥 重点推荐
+
+**1. SkillOpt — 不微调也能让 agent 变强**
+[microsoft/SkillOpt](https://github.com/microsoft/SkillOpt)：文本空间优化器，通过轨迹驱动编辑为冻结 LLM agent 训练可复用的自然语言技能，产出 best_skill.md。给出无需微调模型即可提升 agent 能力的可部署方案。
+
+**2. hindsight — 会学习的 agent 记忆**
+[vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)：直接对应 context engineering 中 agent 长期记忆这一核心难题，值得关注。
+
+**3. hexstrike-ai — MCP 接入真实工具链的实战样板**
+[0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)：MCP server，让 Claude/GPT 等 agent 自主调用 150+ 安全工具完成渗透与漏洞发现。
+
+## 🤖 研究前沿（arXiv）
+
+**4. TokenCast — 预测 agent token 消耗**
+[TokenCast: Forecasting Token Consumption During LLM Agent Execution](http://arxiv.org/abs/2609.35760v1)：预测 LLM agent 执行同一任务时的 token 消耗，直击 agent context 膨胀导致的成本不可控问题。
+
+**5. 叙事状态跟踪 — 长文一致性思路**
+[Scaling Long-Form Story Generation via Narrative State Tracking](http://arxiv.org/abs/2609.35759v1)：用叙事状态跟踪维持长文一致性，思路可迁移到 agent 长程记忆/状态管理。
+
+**6. Telescopic Language Models — 单模型嵌套容量**
+[Telescopic Language Models](http://arxiv.org/abs/2609.35769v1)：单模型嵌套容量以适配多算力预算，与 agent 按需调度不同规模 LLM 的路由策略相关。
+
+## 🛠️ 工具与工程
+
+**7. Statewright — 用状态机约束 agent**
+[Statewright](https://github.com/statewright/statewright)：可视化状态机约束 AI agent 行为以提升可靠性，把「agent 何时该做什么」显式化，是 agent 编排/可靠性工程中少见的可视方案。
+
+**8. Rowboat — 多 agent 开发 IDE**
+[Rowboat](https://github.com/rowboatlabs/rowboat)：面向多 agent 系统的开源 IDE，可观察、调试多个 agent 协作，适合作为 multi-agent 开发与调试的参考实现。
+
+**9. Onyx — 自托管 RAG/chat 前端**
+[Onyx](https://news.ycombinator.com/item?id=46045987)：开源聊天 UI，可接自有 LLM 与知识库，适合作为 context/RAG 应用的人机交互层。
+
+**10. AIConsole — 本地 AI 工作流编辑器**
+[AIConsole](https://aiconsole.ai)：开源桌面 AI 编辑器，可自定义工作流，把 LLM 工作流嵌进本地操作环境，适合当作 agent 工具化的轻量样板。
+
+---
+*共 10 条 · 按重要性排序 · 已去重*
