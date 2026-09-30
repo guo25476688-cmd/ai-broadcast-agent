@@ -820,3 +820,56 @@ RAPID 是 agentic 编程向具身智能延伸的范例，展示了自动生成�
 
 ---
 *共 10 条 · 按重要性排序 · 已去重*
+
+
+## 2026-09-30 · 📡 今日 AI 播报
+
+# 📰 今日 AI 播报
+
+## 🔥 焦点
+
+**1. Statewright — 用可视化状态机让 AI Agent 更可靠**
+通过可视化状态机约束 LLM agent 的执行流程，直击 agent 不可控这一核心痛点。
+
+**2. vectorize-io/hindsight — 会学习的 Agent 记忆层**
+面向 LLM agent 的可学习记忆层，补齐长期上下文/记忆短板，GitHub 涨星 2.5k。
+
+**3. bytedance/deer-flow — 开源长时程 SuperAgent harness**
+内置 sandbox、memory、tools、subagents、message gateway，是 context engineering 与多 agent 编排的实战范本。
+🔗 https://github.com/bytedance/deer-flow
+
+## 🧠 研究前沿
+
+**4. LeapQuant — 线性注意力的精确循环状态量化**
+面向 GDN/KDA 等混合线性注意力，降低长上下文处理的显存占用，是 context engineering 中压缩 KV/状态的实用方向。
+🔗 http://arxiv.org/abs/2609.38166v1
+
+**5. STEPQuant — 循环状态量化中误差何时何地真正有害**
+分析线性注意力量化误差的影响条件，为长上下文 LLM 推理提供针对性量化策略。
+🔗 http://arxiv.org/abs/2609.38169v1
+
+**6. Skill-Space Shooting — 自主机器人策略改进**
+不依赖逐次人工纠错示范即可跨任务规模化利用经验，对 agentic 系统的自我改进回路有参考价值。
+🔗 http://arxiv.org/abs/2609.38178v1
+
+## 🛠 工具与工程
+
+**7. Rowboat — 面向多 Agent 系统的开源 IDE**
+把 agent 编排纳入工程化开发环境，贴近 context engineering 实践。
+
+**8. VectifyAI/PageIndex — 无向量、基于推理的文档索引**
+RAG 之外的新范式，适合评估替代 chunk+embedding 方案。
+
+**9. TencentCloud/Octop — 自托管多用户多 Agent AI 助手**
+agent 平台、工具接入与上下文管理的落地样例。
+
+**10. Onyx — 开源聊天 UI**
+通常内置 RAG 与 MCP 接入，可作为 LLM agent/RAG 应用的自托管底座。
+
+## 📚 学习资源
+
+**11. Harvard CS249r《ML Systems》教材**
+含 Agentic AI 章节，适合系统化补 agent/LLM 系统工程背景。
+
+---
+*共 11 条 · 按重要性排序 · 去重合并自 arxiv / Hacker News / GitHub Trending*
