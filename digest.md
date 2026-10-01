@@ -873,3 +873,31 @@ agent 平台、工具接入与上下文管理的落地样例。
 
 ---
 *共 11 条 · 按重要性排序 · 去重合并自 arxiv / Hacker News / GitHub Trending*
+
+
+## 2026-10-01 · 📡 今日 AI 播报
+
+# 📰 今日 AI 播报
+
+## 🔬 精选研究（arxiv）
+
+1. **EvoDuet：检索与求解的双层协同进化** — 针对 LLM 进化搜索中外部知识检索与任务求解不同步的问题，提出双层协同进化框架，让搜索与解题互相适应，直接对应 RAG + agent 的可检索增强搜索范式。[论文](http://arxiv.org/abs/2609.40340v1)
+
+2. **Turbo Harness：实例自适应 Harness 优化** — 指出现有全局统一 harness 在单实例上并非最优，提出按任务实例自适应优化 agent harness，对 agent 框架与上下文工程的可复用设计有直接参考价值。[论文](http://arxiv.org/abs/2609.40330v1)
+
+3. **半事实信用增强策略优化** — 通过半事实提示干预研究 LLM 对任务无关提示特征的敏感性，并改进信用分配，关乎 prompt/context 鲁棒性与 RLVR 训练，属于上下文工程与 agent 可靠性范畴。[论文](http://arxiv.org/abs/2609.40360v1)
+
+## 🛠 开源项目
+
+### Agent 编排与框架
+- **[AIConsole](https://aiconsole.ai)** — 开源桌面 AI 编辑器，可自定义 agent 工作流，本地定制案例。
+
+### RAG 与知识库
+- **[PageIndex](https://github.com/VectifyAI/PageIndex)** — 面向 RAG 的无向量、基于推理的文档索引方案，偏离主流向量检索路线，值得关注 RAG 架构演进。
+- **[OpenKB](https://github.com/VectifyAI/OpenKB)** — 开源 LLM 知识库，与 PageIndex 同源，可直接参考如何为 agent 搭建知识底座。
+
+### Agent 可靠性与可观测性
+- **[iFixAi](https://github.com/ifixai-ai/iFixAi)** — 对 AI agent 进行独立审计，回答"agent 是否在做该做的事"，切中 agent 可靠性痛点。
+
+### 学习资源
+- **[awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)** — Claude Skills 资源合集，自定义 Claude 工作流时可直接取用。
