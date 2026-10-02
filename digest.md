@@ -901,3 +901,54 @@ agent 平台、工具接入与上下文管理的落地样例。
 
 ### 学习资源
 - **[awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)** — Claude Skills 资源合集，自定义 Claude 工作流时可直接取用。
+
+
+## 2026-10-02 · 📡 今日 AI 播报
+
+# 今日播报 · Agent / RAG / 工具生态精选
+
+**1. [Statewright](https://github.com/statewright/statewright)**（HN）
+用可视化状态机编排 AI agent，把行为约束成可验证的状态转移——让 agent 从 demo 走向可靠的实用方案。
+
+**2. [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex)**（GitHub）
+无向量、基于推理的 RAG 文档索引，代表检索范式新方向，可作为向量检索的替代或补充。
+
+**3. [Rowboat](https://github.com/rowboatlabs/rowboat)**（HN）
+开源多 agent 系统 IDE，提供构建、调试多 agent workflow 的可视化环境，是 agent 编排的实操参考。
+
+**4. [ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research](http://arxiv.org/abs/2610.02202v1)**（arXiv）
+评测「哪篇论文能启发新研究」的检索基准，直击 RAG/检索中高价值信息选择难题。
+
+**5. [KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards](http://arxiv.org/abs/2610.02206v1)**（arXiv）
+细粒度评测 LLM 在 Kali Linux 上生成可执行安全命令的能力，用免运行时可验证奖励衡量 agent 工具调用。
+
+**6. [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)**（GitHub）
+380+ Claude Code / agent skills 与插件，跨多编码 agent，可直接用于 agent 能力扩展与 context 工程。
+
+**7. [Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents](http://arxiv.org/abs/2610.02204v1)**（arXiv）
+RPG 框架让具身智能体无需大量人工即可自主改进技能与感知-控制整合。
+
+**8. [VISTA: A Visual Harness for Reasoning in an Interactive World](http://arxiv.org/abs/2610.02200v1)**（arXiv）
+用视觉 harness 为通用多模态模型提供长程视觉能力，解锁交互环境中的推理表现。
+
+**9. [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)**（GitHub）
+Claude Skills 与工作流定制精选资源合集，适合为 agent 配置技能与工具链。
+
+**10. [TencentCloud/Octop](https://github.com/TencentCloud/Octop)**（GitHub）
+自托管、多用户多 agent 的 AI 助手，多 agent 编排与部署的实用参考。
+
+**11. [Nao Labs](https://news.ycombinator.com/item?id=43938607)**（HN）
+面向数据的「Cursor」，用 AI agent 辅助数据开发流程，agent 在垂直工作流落地的样本。
+
+**12. [Onyx](https://news.ycombinator.com/item?id=46045987)**（HN）
+开源 chat UI，可接各类 LLM 与 RAG 后端，快速搭建带检索的对话前端。
+
+**13. [hashgraph-online/awesome-codex-plugins](https://github.com/hashgraph-online/awesome-codex-plugins)**（GitHub）
+OpenAI Codex/ChatGPT 插件与 skills 精选列表，方便为 agent 生态选型插件。
+
+**14. [Superlog](https://superlog.sh/)**（HN）
+自安装式可观测性工具，自动埋点并辅助定位/修复 bug，为 agent 与 LLM 应用的运行时可观测性提供思路。
+
+---
+
+**一句话看点**：编排层（Statewright、Rowboat）与能力扩展层（Claude Skills、Codex 插件）同时放量，RAG 侧出现无向量新范式，评测侧则向「可启发性」「可验证工具调用」这类高价值场景收敛。
