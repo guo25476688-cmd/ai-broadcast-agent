@@ -952,3 +952,69 @@ OpenAI Codex/ChatGPT 插件与 skills 精选列表，方便为 agent 生态选�
 ---
 
 **一句话看点**：编排层（Statewright、Rowboat）与能力扩展层（Claude Skills、Codex 插件）同时放量，RAG 侧出现无向量新范式，评测侧则向「可启发性」「可验证工具调用」这类高价值场景收敛。
+
+
+## 2026-10-03 · 📡 今日 AI 播报
+
+# 📰 今日 Agent / LLM 播报
+
+## 🔥 头条
+
+**1. NVIDIA SkillSpector — Agent 供应链安全闸门**
+扫描 Claude Code、Codex、MCP skills 中的漏洞、提示注入与数据外泄风险，是安装 skill 前的安全检查工具，直击当前 agent skill 生态最迫切的信任问题。
+
+**2. Statewright — 用可视化状态机让 Agent 可靠**
+把不可靠的 LLM agent 逻辑转化为可检查、可调试的状态转移，是 agent 编排与可靠性方向的重要工程思路。
+
+**3. Onyx (YC W24) — 开源 Chat UI + RAG**
+可接入知识库与 LLM 的开源聊天界面，适合快速搭建 agent/RAG 前端。
+
+## 🧪 研究前沿（arXiv）
+
+**4. VISTA — 通用多模态模型的长程视觉外挂**
+为多模态模型提供长视野视觉推理的“视觉 harness”，对 agent 感知-决策链路设计有直接参考。
+🔗 http://arxiv.org/abs/2610.02200v1
+
+**5. ScholarCatalyst — 从“相关检索”到“灵感检索”**
+面向“哪些已有工作能启发新研究”的检索基准，冲击 RAG 评测空白。
+🔗 http://arxiv.org/abs/2610.02202v1
+
+**6. Reconstruct, Practice, Go Real — 具身 Agent 自主自改进**
+无需大量人工奖励与技能设计的 self-improvement 闭环，落地于真实机器人任务。
+🔗 http://arxiv.org/abs/2610.02204v1
+
+**7. KaliBench — 网络安全工具调用细粒度基准**
+评测 LLM 在 Kali Linux 上生成可执行命令的能力，用免运行时可验证奖励，对 agent 工具调用生态有实证价值。
+🔗 http://arxiv.org/abs/2610.02206v1
+
+**8. TACO — 三值+列稀疏优化器压缩**
+显著降低 LLM 全参微调显存开销，对 GPU 有限的 agent 微调工程场景实用。
+🔗 http://arxiv.org/abs/2610.02199v1
+
+## 🛠 工具 & 生态
+
+**9. Agent-Reach — 让 Agent 免费读取社媒**
+统一 CLI 读取/搜索 Twitter、Reddit、YouTube、Bilibili 等平台，零 API 费用扩展 agent 外部感知。
+
+**10. Rowboat — 多 Agent 系统开源 IDE**
+覆盖 agent 开发、调试与协作，context engineering 与多 agent 编排的实用工具。
+
+**11. google/skills — 官方 Agent Skills 合集**
+可直接接入 agent 调用 Google 服务的标准化能力，值得关注的官方玩家入场信号。
+🔗 https://github.com/google/skills
+
+**12. ComposioHQ/awesome-claude-skills — Claude Skills 精选集**
+快速了解 agent 技能生态与可复用工作流的入口。
+
+**13. i-have-adhd — 约束 Agent 输出风格的 Skill**
+逼 coding agent 先给答案而非绕圈，对优化 agent 输出上下文质量有参考价值。
+🔗 https://github.com/ayghri/i-have-adhd
+
+**14. Nao Labs (YC X25) — "Cursor for Data"**
+把 Cursor 式 AI agent 体验带入数据工作流，展示 agent 在数据分析场景的落地方式。
+
+**15. Superlog (YC P26) — 自安装式可观测性**
+面向 LLM/agent 应用的自动接入监控与排障工具。
+
+---
+*本期共 15 条，按“安全/可靠性 → 研究前沿 → 工具生态”排序。*
