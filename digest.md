@@ -1018,3 +1018,55 @@ OpenAI Codex/ChatGPT 插件与 skills 精选列表，方便为 agent 生态选�
 
 ---
 *本期共 15 条，按“安全/可靠性 → 研究前沿 → 工具生态”排序。*
+
+
+## 2026-10-04 · 📡 今日 AI 播报
+
+# 今日播报 · Agent 与工具生态
+
+**1. Agent-Reach：一条 CLI 打通多站点信息感知**
+让 AI agent 读取并搜索 Twitter/Reddit/YouTube/GitHub/Bilibili/小红书等站点，零 API 费用，低成本补齐外部信息感知能力，今日 +1,696 stars。
+
+**2. Statewright：用可视化状态机让 AI agent 更可靠**
+以状态机编排 LLM agent 流程，比自由 prompt 更可控，直击 agent 可靠性与流程/context 工程。
+
+**3. KaliBench：细粒度测评 LLM 生成可执行命令的能力**
+面向 Kali Linux 网络安全工具调用，采用免运行时、可验证奖励，为 agent 工具使用评测提供新基准。
+
+**4. Rowboat：面向多 agent 系统的开源 IDE**
+可直观搭建与调试 agent 协作，是多 agent 工程实践的现成脚手架。
+
+**5. RPG：具身 agent 自主改进机器人执行系统**
+无需人工干预即可自主迭代，对 agent 自举/自改进方向有参考价值。
+
+**6. user-scanner：内建 MCP 的 OSINT 工具**
+覆盖 2700+ 扫描向量的邮箱/用户名 OSINT 工具，是 MCP 落地与 agent 工具化的现成参考实现。
+https://github.com/kaifcodec/user-scanner
+
+**7. iFixAi：120 秒独立审计 AI agent**
+快速判断 agent 是否按预期行事，聚焦 agent 可靠性与可观测性。
+https://github.com/ifixai-ai/iFixAi
+
+**8. production-agentic-rag-course：生产级 agentic RAG 实战课**
+可作为 context engineering 与检索增强搭建的学习路径。
+https://github.com/jamwithai/production-agentic-rag-course
+
+**9. VISTA：为通用多模态模型提供长时程视觉**
+用 visual harness 支撑跨交互环境的推理，与 agent harness / context engineering 思路相通。
+
+**10. agno：构建、运行、管理 agent 平台的框架**
+适合评估 agent 编排与运行时选型。
+https://github.com/agno-agi/agno
+
+**11. ScholarCatalyst：评测 RAG 发现「能激发新研究」的论文**
+填补 RAG 在科研灵感发现场景的评测空白。
+
+**12. Onyx：开源聊天 UI，快速落地对话产品**
+可接自家 LLM/RAG 后端，省去从零做 RAG 前端的成本。
+
+**13. AIConsole：开源桌面 AI 编辑器**
+可定制工作流、内置 agent 式自动化，适合本地 agent 工作流试验。
+
+---
+
+*说明：已按重要性排序，优先突出可直接落地的工具/框架与高关注度项目；同类「agent 可靠性/评测」条目合并呈现，重复主题（agent 编排、RAG 落地）按差异化侧重保留。*
