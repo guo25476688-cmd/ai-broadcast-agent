@@ -1070,3 +1070,26 @@ https://github.com/agno-agi/agno
 ---
 
 *说明：已按重要性排序，优先突出可直接落地的工具/框架与高关注度项目；同类「agent 可靠性/评测」条目合并呈现，重复主题（agent 编排、RAG 落地）按差异化侧重保留。*
+
+
+## 2026-10-05 · 📡 今日 AI 播报
+
+# 📰 今日播报
+
+**1. Agent 可靠性工具集中涌现**
+> 三者从「约束—验证—修复」构成了 agent 可靠性的完整链路，是当下 agent 落地的核心瓶颈。
+
+**2. Agent 工具与外挂生态扩展**
+- **[Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)** — 给 agent 提供统一 CLI 接口读搜 Twitter/Reddit/YouTube/GitHub 实时数据，零 API 费用，即用型上下文外挂。
+> 从数据接入、编排到前端外壳，agent 周边工程栈正在快速补齐。
+
+**3. 大型 Agent 技能组织的现成样本**
+- **[calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)** — 开源 agentic 视频生产系统，含 12 条流水线、100+ 工具、700+ agent skill 与知识文件，是研究大型 agent 技能/上下文组织方式的稀缺样本。
+
+**4. 基准与研究进展（arXiv）**
+- **[4DCodeBench](http://arxiv.org/abs/2610.03715v1)** — 用代码生成任务评测 agent 从视频重建动态场景（4D 逆图形）的能力，考验视觉观测到结构化程序表示的转换，是 agent + 多模态推理的实用基准。
+- **[LESSER](http://arxiv.org/abs/2610.03702v1)** — 用输出层梯度替代全参数梯度做 LLM 后训练数据选择，降低计算成本，对 post-training 数据质量优化与 RAG/训练数据筛选有直接参考价值。
+- **[Queen / Language Models that Play Chess and Explain Their Moves](http://arxiv.org/abs/2610.03695v1)** — 让语言模型既下棋又能解释走法，探索精确推理任务上「能力 + 可解释性」的结合。
+
+---
+**一句话总结**：今日主线是 **agent 可靠性工程化**（约束/审计/修复工具三连发），辅以 agent 工具外挂生态的扩张，以及大型 agent 技能组织和多模态/后训练研究的稳步推进。
