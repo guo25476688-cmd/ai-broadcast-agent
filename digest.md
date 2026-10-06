@@ -1093,3 +1093,47 @@ https://github.com/agno-agi/agno
 
 ---
 **一句话总结**：今日主线是 **agent 可靠性工程化**（约束/审计/修复工具三连发），辅以 agent 工具外挂生态的扩张，以及大型 agent 技能组织和多模态/后训练研究的稳步推进。
+
+
+## 2026-10-06 · 📡 今日 AI 播报
+
+# 📰 今日播报
+
+## 🤖 Agent 工程化
+
+**1. Statewright —— 用可视化状态机让 AI Agent 更可靠**
+用可视化状态机约束 agent 行为，直击 agent 可靠性与可控性痛点，适合做 agent 编排/可靠性工程的人。
+
+**2. Rowboat —— 面向多 Agent 系统的开源 IDE**
+多 agent 系统的开源开发与调试脚手架，关注多 agent 工作流值得一看。
+
+**3. Agent-Reach —— 让 Agent 零成本触达全网信息**
+一个 CLI 让 agent 读取/搜索 Twitter、Reddit、YouTube 等全网信息，零 API 费用，为 agent 补上实时互联网感知能力。
+
+**4. OptMem —— 426 token 的 Agent 永久记忆方案**
+极简提示词 + 脚本即插即用，为 AI agent 提供长期记忆。
+🔗 https://github.com/VictorTaelin/OptMem
+
+**5. Superlog —— 自安装的可观测性 + 自动修 bug**
+自安装的可观测性工具并尝试自动修 bug，与 LLM agent 运维/自动修复方向相关。
+
+## 📚 RAG 与数据
+
+**6. production-agentic-rag-course —— 生产级 Agentic RAG 实战课程**
+覆盖 RAG 与 agent 结合的系统设计，学 RAG/agent 工程化的现成路径。
+
+**7. Onyx (YC W24) —— 开源聊天 UI**
+常作为 RAG/知识库前端落地壳，搭建企业级 RAG 应用时可参考。
+
+**8. Nao Labs —— “数据领域的 Cursor”**
+LLM 辅助数据开发，与 agent 化数据分析场景相关。
+
+## 🛠 垂直领域落地
+
+**9. text-to-cad —— 给 Agent 加上 CAD 超能力**
+用自然语言生成 CAD 模型，是 agent 工具调用在垂直领域落地的示例。
+🔗 https://github.com/earthtojake/text-to-cad
+
+---
+
+*共 9 条 · 按主题与重要性排序*
