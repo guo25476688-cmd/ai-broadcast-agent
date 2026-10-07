@@ -1137,3 +1137,29 @@ LLM 辅助数据开发，与 agent 化数据分析场景相关。
 ---
 
 *共 9 条 · 按主题与重要性排序*
+
+
+## 2026-10-07 · 📡 今日 AI 播报
+
+# 📰 今日 AI Agent 播报
+
+## 🔐 安全与可靠性
+- **[AdvSim2Real](http://arxiv.org/abs/2610.08773v1)** — 用 web world model 训练能抵御**自适应 prompt injection** 的 web agent，agent 安全方向的直接价值最高。
+
+## 🧠 Agent 能力与方法
+- **[IdeaAnchor](http://arxiv.org/abs/2610.08781v1)** — 训练 LLM 从文献中归纳研究缺口并生成新想法，agent 驱动科研/ideation 场景。
+- **[Agent in a Bottle](http://arxiv.org/abs/2610.08775v1)** — 让 agent 把通用能力自主"打包"成廉价可复用产物，直击规模化成本问题。
+- **[Sherpa](http://arxiv.org/abs/2610.08778v1)** — 让 LLM 学会自适应教学而非只解题，可迁移到 agent 指令生成与交互策略。
+- **[DepthWorld](http://arxiv.org/abs/2610.08780v1)** — 3D 世界模型替代纯 RGB 视频预测，服务机器人策略评估与规划。
+
+## 🛠️ 工具与工程
+- **[hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)** — 进阶 MCP server，让 agent 自主调用 150+ 安全工具，MCP 接进真实工具链的实战范例。
+- **[cognee](https://github.com/topoteretes/cognee)** — 开源 agent 记忆平台，小模型提供持久长期记忆。
+- **[Rapid-MLX](https://github.com/raullenchai/Rapid-MLX)** — Apple Silicon 本地推理服务，OpenAI/Anthropic 兼容，比 mlx-lm 快至 4×。
+- **[Nao Labs](https://news.ycombinator.com/item?id=43938607)** — "Cursor for Data"，面向数据工作流的 AI 编辑器。
+
+## ✍️ Context Engineering
+- **[i-have-adhd](https://github.com/ayghri/i-have-adhd)** — 一个 skill，强制 coding agent 直给结论、别把答案埋在长输出里，控制输出信噪比。
+
+---
+**一句话总结**：今日焦点集中在 **agent 安全（prompt injection 防御）** 与 **agent 可靠性控制（状态机、记忆层、输出信噪比）**，工程化与安全并进。
