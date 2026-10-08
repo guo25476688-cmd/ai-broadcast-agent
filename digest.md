@@ -1163,3 +1163,51 @@ LLM 辅助数据开发，与 agent 化数据分析场景相关。
 
 ---
 **一句话总结**：今日焦点集中在 **agent 安全（prompt injection 防御）** 与 **agent 可靠性控制（状态机、记忆层、输出信噪比）**，工程化与安全并进。
+
+
+## 2026-10-08 · 📡 今日 AI 播报
+
+# 今日 AI Agent 播报
+
+## 🔬 研究前沿
+
+**1. VLA 模型对指令措辞极度敏感，一词之差影响巨大**
+《Rephrase Before You Act》揭示 Vision-Language-Action 模型对指令措辞的敏感性并提出缓解方法，对 agent 指令解析鲁棒性设计有直接启发。
+http://arxiv.org/abs/2610.10526v1
+
+**2. RLVR 中解耦探索与优化，让模型发现新推理策略**
+《Decoupling Exploration from Optimization in RLVR》使模型能采样训练数据外的新推理策略，关系到 LLM agent 的自我改进与策略/工具发现能力。
+http://arxiv.org/abs/2610.10536v1
+
+**3. 具身助手的长程 3D 物体记忆建模**
+《Never Look Back》研究从第一人称视频构建持久 3D 物体记忆，在“当时不知有用、事后才需回忆”的场景下召回物体。
+http://arxiv.org/abs/2610.10538v1
+
+**4. 用条件记忆实现 LLM 免重训知识更新**
+《EngramEdit》通过 DeepSeek Engram 式条件记忆把事实知识与参数解耦，为 RAG 之外的“记忆侧”知识注入提供新路线。
+http://arxiv.org/abs/2610.10533v1
+
+**5. 机器人 world-action 模型的上下文扩展**
+《Long-WAM》面向实时机器人控制，解决视觉历史变长与动作延迟矛盾，是 agent 动作决策中 context engineering 的典型案例。
+http://arxiv.org/abs/2610.10528v1
+
+## 🛠 开源工具 & 工程实践
+
+**6. Rowboat：开源多 agent 系统 IDE**
+直接面向 agent 开发与上下文编排，多 agent 工程实践可直接借鉴。
+
+**7. Statewright：用可视化状态机约束 agent 行为**
+提升 agent 执行可靠性，适合做 agent 编排与可靠性控制的参考。
+
+**8. Anthropics 官方知识工作插件集**
+面向知识工作者的开源插件集，为 Claude Cowork 构建 agent 能力提供官方参考。
+
+**9. treg：agent 工具的 OpenRouter**
+统一接入与路由工具调用，值得关注 MCP/工具生态整合。
+
+**10. markitdown / olmocr：RAG 数据前处理利器**
+微软 markitdown 把文件与 Office 文档转 Markdown；allenai olmocr 将 PDF 线性化为 LLM 训练语料——都是喂给 LLM/RAG 前的高频实用工具。
+https://github.com/microsoft/markitdown
+https://github.com/allenai/olmocr
+
+## 💡 其他值得关注
