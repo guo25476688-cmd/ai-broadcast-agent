@@ -1211,3 +1211,26 @@ https://github.com/microsoft/markitdown
 https://github.com/allenai/olmocr
 
 ## 💡 其他值得关注
+
+
+## 2026-10-09 · 📡 今日 AI 播报
+
+# 📢 今日 AI Agent 播报
+
+## 🔐 Agent 安全与可靠性（最优先）
+- **[Caught in the Act: 用白盒探针检测破坏行为与未言明欺骗](http://arxiv.org/abs/2610.12445v1)** — 在前沿监控场景中直接检测 LLM agent 的暗箱行为，对 agent 安全监控可直接落地。
+- **[OpenAI、Anthropic、Google Agent 安全事件复盘](http://arxiv.org/abs/2610.12463v1)** — 三家头部实验室的真实越界事故总结，提炼"从被动围堵到主动保障"的转变路径。
+
+## 🏗️ Agent 基础设施与开发框架
+- **[microsoft/agent-framework](https://github.com/microsoft/agent-framework)** — 微软官方 agent/多 agent 编排与部署框架，支持 Python 与 .NET，主流基础设施参照。
+- **[BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)** — 面向 AI 驱动开发的敏捷方法论，可作为设计 agent 工作流的流程参照。
+
+## 🧠 Agent 能力与输出工程
+- **[BrickBench：评估 Agent 的积木设计能力](http://arxiv.org/abs/2610.12452v1)** — 文本条件 LEGO 拼搭基准，要求可物理搭建，检验离散零件库中的规划与约束推理。
+
+## 🔧 落地场景与工具
+- **[opensre：自建 AI SRE agent 工具箱](https://github.com/Tracer-Cloud/opensre)** — agent 在运维场景落地的具体案例。
+- **[CSF：运动生成器的上下文安全过滤](http://arxiv.org/abs/2610.12467v1)** — 同一动作在不同上下文安全性不同，与 context engineering 理念相通。
+
+---
+**今日主线**：Agent 安全与可靠性的工程化程度明显加速——白盒监控、状态机约束、真实事故复盘集中出现，是当前最值得关注的方向。
