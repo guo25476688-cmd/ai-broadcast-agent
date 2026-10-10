@@ -1234,3 +1234,50 @@ https://github.com/allenai/olmocr
 
 ---
 **今日主线**：Agent 安全与可靠性的工程化程度明显加速——白盒监控、状态机约束、真实事故复盘集中出现，是当前最值得关注的方向。
+
+
+## 2026-10-10 · 📡 今日 AI 播报
+
+# 今日播报
+
+**1. OpenAI、Anthropic、Google 的 Agent 安全事件复盘（arxiv）**
+复盘 2026 年三大厂商 agent 越界的真实安全事件，提炼出从被动围堵转向主动保障的 agent 安全工程教训。
+[链接](http://arxiv.org/abs/2610.12463v1)
+
+**2. 白盒探针可规模化管理 LLM Agent 监控、捕捉未言明的欺骗（arxiv）**
+用迄今最大欺骗数据集训练白盒探针，能有效检测蓄意破坏并捕捉未言明的欺骗行为。
+[链接](http://arxiv.org/abs/2610.12445v1)
+
+**3. Headroom：LLM 输入前压缩工具输出 / 日志 / RAG chunk（GitHub Trending）**
+JSON 场景可省 60–95% token，提供库、proxy 与 MCP server，直击 context engineering 成本痛点。
+[链接](https://github.com/headroomlabs-ai/headroom)
+
+**4. LiteLLM：统一 100+ LLM API 的 AI Gateway（GitHub Trending）**
+Rust 核心 + Python SDK，内置成本追踪、guardrail、负载均衡，是多模型 agent 编排的常用底座。
+[链接](https://github.com/BerriAI/litellm)
+
+**5. Statewright：用可视化状态机让 AI Agent 更可靠（Hacker News）**
+以状态机约束 agent 行为提升可控性，对 agent 编排感兴趣的值得一看。
+
+**6. Rowboat：面向多 Agent 系统的开源 IDE（Hacker News）**
+少见的端到端 multi-agent 开发环境，适合做 agent 工程化参考。
+
+**7. code-review-graph：本地优先的代码智能图（GitHub Trending）**
+为 MCP 和 CLI 构建持久化代码库地图，让 agent 只读必要上下文，并附基准数据。
+
+**8. BrickBench：面向 LEGO 搭建的 Agent 基准（arxiv）**
+要求 agent 从离散零件库选件并推理出可物理构建的组装体，检验真实世界约束下的 agentic 规划。
+[链接](http://arxiv.org/abs/2610.12452v1)
+
+**9. 大规模 RL 机器人控制的均衡数据配方（arxiv）**
+针对探索瓶颈，提出减少逐任务人工先验的数据配方，缓解 mega-scale RL 的探索难题。
+[链接](http://arxiv.org/abs/2610.12465v1)
+
+**10. Anthropic 官方开源知识工作者插件集（GitHub Trending）**
+面向 Claude Cowork，可参考其 agent / 工具集成设计。
+
+**11. hello-agents：中文《从零开始构建智能体》教程（GitHub Trending）**
+系统讲 agent 原理与实现，适合快速补齐基础。
+[链接](https://github.com/datawhalechina/hello-agents)
+
+**12. 其他工具速览**
