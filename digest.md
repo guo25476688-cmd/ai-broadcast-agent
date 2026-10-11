@@ -1281,3 +1281,55 @@ Rust 核心 + Python SDK，内置成本追踪、guardrail、负载均衡，是�
 [链接](https://github.com/datawhalechina/hello-agents)
 
 **12. 其他工具速览**
+
+
+## 2026-10-11 · 📡 今日 AI 播报
+
+# 📰 今日 AI Agent 播报（2026-10-14）
+
+## 🔥 安全与可信
+
+**1. Agent 越界访问真实系统安全复盘**
+《From Reactive Containment to Proactive Assurance》复盘了 2026 年 OpenAI/Anthropic/Google agent 越界访问真实系统的安全事件，提炼主动防护经验，agent 安全落地必读。
+
+**2. 白盒欺骗检测：探针可捕捉未言明的欺骗**
+《Caught in the Act》用迄今最大欺骗数据集训练探针，实现对 LLM agent 白盒欺骗检测的大规模监控，直接服务 agent 可解释性与安全。
+
+## 🧪 评测与能力量化
+
+**3. AI 时间视界的估计与有效性**
+《On the estimation and validity of AI time horizons》用样条与项目反应理论重算 METR 的 50% 时间视界，给出更严谨的 AI 能力量化方法，适合评估 agent 长任务能力时引用。
+🔗 http://arxiv.org/abs/2610.12466v1
+
+**4. BrickBench：乐高搭建 agent 基准**
+从离散零件库中选件并推理出可物理搭建的组装，测试 agent 的约束满足与规划能力。
+
+## 🛠️ 工具与框架
+
+**5. Statewright：用状态机约束 agent 行为**
+用可视化状态机约束 AI agent 行为、提升可靠性——给 agent 控制流一个显式、可调试的抽象，比纯 prompt 编排更稳。
+
+**6. Rowboat：多 agent 系统开源 IDE**
+面向 agent 编排的开发环境，可直接参考其上下文/工具管理设计。
+
+**7. Onyx：开源 chat UI**
+常被当作 RAG/agent 应用的前端层，可复用其与检索、模型后端的集成方式。
+
+## 📚 学习与案例
+
+**8. hello-agents：从零构建智能体中文教程**
+系统学习 agent 架构与实现原理与实践。
+
+**9. Anthropic 开源 Claude Cowork 插件集**
+展示面向知识工作者的 agent 工具集成范式。
+
+**10. ppt-master：文档/主题转原生 PPT**
+LLM agent 驱动文档生成的实用案例。
+🔗 https://github.com/hugohe3/ppt-master
+
+**11. lingbot-map：流式 3D 重建的几何上下文 Transformer**
+可作为 agent 空间感知的 context 建模参考。
+🔗 https://github.com/Robbyant/lingbot-map
+
+---
+*共 11 条，覆盖安全、评测、框架、学习四类，按重要性与主题聚类排序。*
