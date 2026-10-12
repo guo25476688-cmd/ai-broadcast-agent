@@ -1333,3 +1333,55 @@ LLM agent 驱动文档生成的实用案例。
 
 ---
 *共 11 条，覆盖安全、评测、框架、学习四类，按重要性与主题聚类排序。*
+
+
+## 2026-10-12 · 📡 今日 AI 播报
+
+# 今日播报
+
+## 研究前沿
+
+**1. AI 模型可证明地隐藏任意能力**（安全警示）
+构造加密后门证明模型可隐藏能力，对 LLM agent 的安全评估与红队测试有直接警示意义。
+http://arxiv.org/abs/2610.13928v1
+
+**2. 语言模型能玩维基百科游戏吗？**（检索能力评测）
+用维基百科游戏测试 LLM 在超大规模文档集合上的信息检索能力，与 RAG/agent 检索场景直接相关。
+http://arxiv.org/abs/2610.13948v1
+
+**3. 从自然语言设计蛋白质结构**
+Prompteina 是全原子蛋白质设计模型，用自然语言提示作为统一输入表示，是 LLM 驱动科学设计的代表案例。
+http://arxiv.org/abs/2610.13917v1
+
+## 工具与项目
+
+**4. Rowboat – 多 agent 系统的开源 IDE**
+把 agent 编排、调试做成可视开发环境，是将 agent 工程化的完整参考。
+
+**5. Statewright – 让 AI agent 可靠的可视化状态机**
+用可视化状态机约束 LLM agent 执行流，提供超越 prompt 编排的 agent 可靠性工程思路。
+
+**6. Onyx – 开源企业级 RAG 聊天 UI**
+开源聊天 UI + RAG/连接器，是自托管企业级 RAG chat 的现成起点。
+
+**7. repowise – 面向 AI 和人类的代码库智能工具**
+通过 MCP 暴露代码健康、自动文档、死代码检测等能力，是 MCP + context engineering 的落地参考。
+https://github.com/repowise-dev/repowise
+
+**8. awesome-claude-skills – Claude Skills 资源精选**
+扩展 LLM agent 能力（工具/工作流定制）的实用索引，适合找可复用的 agent 技能模式。
+
+**9. free-claude-code – 低成本调用多种 agent harness**
+让 Claude Code、Codex 等多种 agent harness 免费调用海量 token，支持多 harness/多模型与浏览器会话，可用于低成本搭建和测试 agent 上下文流程。
+https://github.com/Alishahryar1/free-claude-code
+
+**10. ai-job-search – 基于 Claude Code 的求职自动化框架**
+涵盖岗位评估、CV 定制、cover letter 与面试准备，是 agent 在垂直任务中做 context engineering 的完整示例。
+https://github.com/MadsLorentzen/ai-job-search
+
+**11. ppt-master – 文档/主题一键转原生 PowerPoint**
+支持图表、动画、音频解说，适合作为 agent 产出结构化交付物的参考实现。
+
+---
+
+**今日主线**：agent 能力扩展（Skills、harness）与可靠性工程（状态机、MCP）工具密集涌现；研究侧则聚焦于能力隐藏带来的安全风险与超大规模检索评测。
