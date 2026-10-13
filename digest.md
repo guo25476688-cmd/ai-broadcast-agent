@@ -1385,3 +1385,27 @@ https://github.com/MadsLorentzen/ai-job-search
 ---
 
 **今日主线**：agent 能力扩展（Skills、harness）与可靠性工程（状态机、MCP）工具密集涌现；研究侧则聚焦于能力隐藏带来的安全风险与超大规模检索评测。
+
+
+## 2026-10-13 · 📡 今日 AI 播报
+
+# 📰 今日播报
+
+## 🧠 LLM Agent 能力评估与安全（arxiv）
+
+1. **[AI Models Can Provably Hide Arbitrary Capabilities](http://arxiv.org/abs/2610.13928v1)** — 通过加密后门证明模型可隐藏任意能力且无法被评测引出，对 agent 能力评估与安全可靠性构成根本性挑战。
+2. **[Can Language Models Play the Wikipedia Game?](http://arxiv.org/abs/2610.13948v1)** — 用 Wikipedia Game 评测 LLM 在超大无索引文档集合上的信息检索与导航能力，直接对标 LLM agent 与 RAG 场景。
+
+## 🛠️ Agent 工具、编排与前端生态（hackernews / github_trending）
+
+3. **[google/skills](https://github.com/google/skills)** — Google 官方发布的 Agent Skills 集合，为 LLM agent 提供接入 Google 产品与技术的标准化技能，是研究 agent 工具生态的重要参考。
+7. **[open-webui/open-webui](https://github.com/open-webui/open-webui)** — 支持 Ollama/OpenAI API 的本地 AI 界面，是 RAG 与多模型 agent 应用常用的前端集成与调试入口。
+
+## 🔬 Agent 范式向科学/多模态延伸（arxiv / github_trending）
+
+9. **[Designing Protein Structures from Natural Language](http://arxiv.org/abs/2610.13917v1)** — Prompteina 首个全原子模型，用自然语言直接设计蛋白质结构，展示 LLM 式条件生成向科学 agent 任务的迁移。
+10. **[multimodal-art-projection/YuE](https://github.com/multimodal-art-projection/YuE)** — 前沿音乐生成模型，融合符号规划与 agentic 音乐编辑，展示 agent 范式向多模态生成任务的外延。
+
+---
+
+**一句话总结**：今日主线是 **agent 可靠性评估（隐藏能力 / 检索导航）** 与 **agent 工程化基础设施（技能库、状态机、多 agent IDE、前端基座）**，并向科学设计与音乐生成等专业领域外延。
