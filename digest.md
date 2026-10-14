@@ -1409,3 +1409,54 @@ https://github.com/MadsLorentzen/ai-job-search
 ---
 
 **一句话总结**：今日主线是 **agent 可靠性评估（隐藏能力 / 检索导航）** 与 **agent 工程化基础设施（技能库、状态机、多 agent IDE、前端基座）**，并向科学设计与音乐生成等专业领域外延。
+
+
+## 2026-10-14 · 📡 今日 AI 播报
+
+# 今日 AI Agent 播报
+
+**1. Tev：用稠密进度奖励扩展长时程 Agent 训练环境**
+针对长时程 agent 训练中奖励信号稀疏这一核心瓶颈，用稠密进度奖励来扩展训练环境，对做 agent RL 与环境构建有直接参考价值。
+→ http://arxiv.org/abs/2610.18868v1
+
+**2. Hybrid Reasoning Agents：latent reasoning + 原生工具调用**
+用 latent reasoning 补充文本推理，同时保留原生工具调用能力，直击 LLM agent 在「效率 vs 可调用工具/可解释性」之间的权衡，做 agent 架构的值得一看。
+→ http://arxiv.org/abs/2610.18861v1
+
+**3. open-webui：自托管 AI 界面**
+支持 Ollama 与 OpenAI API 的自托管界面，是 RAG、多模型接入与 context 管理落地最常见的开源基座之一。
+→ https://github.com/open-webui/open-webui
+
+**4. browser-use/video-use：用 coding agent 编辑视频**
+把 coding agent 从浏览器自动化延伸到视频编辑等非代码工具链，展示了 agent 能力边界的一次具体扩张。
+→ https://github.com/browser-use/video-use
+
+**5. Rowboat：开源多 Agent 系统 IDE**
+直接面向 agent 开发工作流，适合需要搭建 multi-agent 管线的团队。
+
+**6. mvanhorn/last30days-skill：多源 grounding 的 agent skill 样本**
+跨 Reddit/X/YouTube/HN/Polymarket 检索任意主题并合成有据可依的摘要，是观察 agent skill 封装与多源 grounding 的现成范例。
+→ https://github.com/mvanhorn/last30days-skill
+
+**7. Statewright：用可视化状态机让 Agent 行为可控**
+面向 agent 编排与可靠性，适合关注可控 agent 行为的工程实践。
+
+**8. Alishahryar1/free-claude-code：多 harness 免费调用 Claude Code**
+在终端/IDE/浏览器多种 harness 中免费调用 Claude Code 等 agent，反映多 harness + 多模型统一调度这一 agent 基础设施热点。
+
+**9. ChunkAct：Agentic Robotics 中的动作分块**
+把 LLM agent 放进机器人控制环，通过动作分块降低调用开销，展示 agent 在具身场景中 context/效率工程的具体做法。
+→ http://arxiv.org/abs/2610.18874v1
+
+**10. Superlog：自动定位并修复 bug 的可观测性工具**
+自安装、主打自动 bug 定位与修复，与 agent/LLM 应用的生产监控相关。
+
+**11. Onyx：开源聊天 UI**
+常被用作 RAG/LLM 应用的前端与对话层，适合自建 chatbot 场景。
+
+**12. AIConsole：开源桌面 AI 编辑器**
+支持自定义工作流，可作为 agent 化个人效率工具的参考实现。
+
+---
+
+*说明：今日源头未见重大模型发布或行业事件，以上按「训练/架构方法 > 基础设施基座 > 工具与应用」重要性排序；同质化较高的 HN 工具类已合并精简。*
