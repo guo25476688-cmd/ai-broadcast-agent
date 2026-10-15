@@ -1460,3 +1460,45 @@ https://github.com/MadsLorentzen/ai-job-search
 ---
 
 *说明：今日源头未见重大模型发布或行业事件，以上按「训练/架构方法 > 基础设施基座 > 工具与应用」重要性排序；同质化较高的 HN 工具类已合并精简。*
+
+
+## 2026-10-15 · 📡 今日 AI 播报
+
+# 📰 今日 AI 播报
+
+**1. Transformer 可弹性伸缩**（arxiv）
+揭示 Transformer 能弹性伸缩到多种尺寸，对按硬件/延迟约束部署、动态 context 预算分配有直接启发。
+http://arxiv.org/abs/2610.20588v1
+
+**2. Continuum Attention**（arxiv）
+用对连续分段线性记忆曲线的积分替代离散 key/value 检索，属注意力机制层面的新思路，可能影响长上下文处理。
+http://arxiv.org/abs/2610.20586v1
+
+**3. Co-Evolving Acting and Forecasting for Language Agents**（arxiv）
+用中间步预测信号替代纯终端奖励训练 LLM agent，缓解长程 rollout 成本高的问题，对做 agentic RL 的人直接相关。
+http://arxiv.org/abs/2610.20597v1
+
+**4. AWS 官方 Agent Toolkit**（github trending）
+AWS 维护的 MCP servers、skills 与 plugins，让 agent 直接操作 AWS 资源；MCP 生态的标准参考实现。
+https://github.com/aws/agent-toolkit-for-aws
+
+**5. Statewright**（hackernews）
+用可视化状态机约束 LLM agent 执行路径，让行为可预测、可调试，适合做 agent 可靠性/编排的工程参考。
+
+**6. Rowboat**（hackernews）
+面向多 agent 系统的开源 IDE，可直观看到 agent 定义、工具调用与协作流程，是 context engineering 的实操样本。
+
+**7. Player-1: Learning to Play from Synthetic Experience**（arxiv）
+用合成经验训练 computer-use agent 玩视觉复杂游戏，是从屏幕操作走向通用数字控制的可参考范式。
+http://arxiv.org/abs/2610.20584v1
+
+**8. wshobson/agents**（github trending）
+覆盖 Claude Code、Codex、Cursor 等 7 种 harness 的 agentic 插件市场，适合观察多宿主 agent 插件的分发形态。
+https://github.com/wshobson/agents
+
+**9. K-Dense-AI/scientific-agent-skills**（github trending）
+177 个验证过的 agent skills + 100+ 科研数据库，兼容 Cursor/Claude Code/Codex，是「可复用技能库」的规模化样本。
+https://github.com/K-Dense-AI/scientific-agent-skills
+
+**10. Onyx**（hackernews）
+开源聊天 UI，自带 RAG/连接器与 agent 接入能力，适合作为企业知识库问答与 agent 前端的起点。
