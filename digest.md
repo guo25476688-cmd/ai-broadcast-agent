@@ -1502,3 +1502,61 @@ https://github.com/K-Dense-AI/scientific-agent-skills
 
 **10. Onyx**（hackernews）
 开源聊天 UI，自带 RAG/连接器与 agent 接入能力，适合作为企业知识库问答与 agent 前端的起点。
+
+
+## 2026-10-16 · 📡 今日 AI 播报
+
+# 今日播报 · Agent 与 LLM 工程
+
+## 研究前沿
+
+**1. FDE-Gym：贴近真实交付的 Agent 基准**
+面向 forward-deployed engineer 场景，评估 agent 在模糊需求、真实系统和隐性约束下完成任务的能力，比传统 well-specified 基准更贴近真实交付。
+http://arxiv.org/abs/2610.22350v1
+
+**2. OmniVerifier-C1：分解式分级视觉 Verifier**
+将二值视觉验证器升级为分解式分级 verifier，提升复杂多模态组合场景下的验证鲁棒性，为 agent 提供更细粒度反馈信号。
+http://arxiv.org/abs/2610.22355v1
+
+**3. 用 LLM 搜索 SOTA 量子电路**
+展示 LLM 在科学发现与算法设计上的 agent 式应用潜力，拓展其在非文本领域的落地边界。
+http://arxiv.org/abs/2610.22367v1
+
+## 工具与项目
+
+**4. OpenViking：Agent 自演化上下文数据库**
+统一 Agent Memory、Knowledge RAG 与 Skills，是 context engineering 的落地基础设施。（火山引擎）
+https://github.com/volcengine/OpenViking
+
+**5. Statewright：用可视状态机约束 Agent**
+以状态机让 LLM agent 流程可控可调试，直接对应 agent 可靠性议题。
+
+**6. scientific-agent-skills：规模化 Agent Skills 库**
+177 个即用技能 + 100 多个科研数据库，展示 agent skills 的规模化组织方式。
+
+**7. Rowboat：多 Agent 系统开源 IDE**
+便于编排与调试 agent 协作，多 agent 工程化的现成参考。
+
+**8. iFixAi：Agent 独立审计工具**
+120 秒内判断 agent 是否按预期行事，切中可靠性与可观测性痛点。
+
+**9. CLI-Anything：把软件改造为 agent-native CLI**
+为 agent 提供统一工具调用入口，与 MCP/工具生态强相关。（HKUDS）
+
+**10. mcp-for-blender：MCP 驱动 Blender 3D**
+通过 MCP 让任意 LLM 控制 Blender，是 MCP 连接外部软件的实用范例。
+https://github.com/ahujasid/mcp-for-blender
+
+**11. claude-plugins-official：Anthropic 官方插件目录**
+了解官方 agent 扩展生态的权威入口。
+
+## 产品与观察
+
+**12. Onyx：可自托管开源聊天 UI**
+常被用作 RAG/agent 应用的前端层，适合快速搭建 LLM 应用交互入口。（YC W24）
+
+**13. Nao Labs：数据版 Cursor**
+面向数据工作的 AI 编辑器，观察 LLM agent 落地数据场景的样本。
+
+---
+**今日主线**：Agent 可靠性（验证器、状态机、审计）与 context/工具基础设施（上下文数据库、Skills 库、MCP、CLI 化）正在同步成熟。
