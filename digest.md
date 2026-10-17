@@ -1560,3 +1560,32 @@ https://github.com/ahujasid/mcp-for-blender
 
 ---
 **今日主线**：Agent 可靠性（验证器、状态机、审计）与 context/工具基础设施（上下文数据库、Skills 库、MCP、CLI 化）正在同步成熟。
+
+
+## 2026-10-17 · 📡 今日 AI 播报
+
+# 今日 AI/Agent 生态播报
+
+**1. Anthropic 官方 Claude Code 插件目录上线**
+Anthropic 官方维护的高质量插件目录，是挑选 agent 扩展插件的高信噪比入口。
+
+**2. iFixAi：给 AI agent 做独立行为审计**
+120 秒内判断 agent 是否按预期执行，直击 agent 可靠性与评测这一薄弱环节。
+
+**3. Statewright：用可视化状态机约束 AI agent**
+把不可靠的自主决策转成可审计的显式流程，在 context/state 管理上给出了工程化的落地结构。
+
+**4. CLI-Anything：让所有软件「agent-native」**
+与 MCP/agent 工具接入思路直接相关的 CLI 方案，接口设计值得关注。
+
+**5. Rowboat：开源多 agent 系统 IDE**
+面向 agent 编排与调试，提供了 agent 组合与上下文流转的抽象。
+
+**6. scientific-agent-skills：177 个现成 Agent Skills**
+覆盖 100+ 科学数据库，是给 LLM agent 注入领域能力的可复用技能库参考。
+
+**7. Onyx：开源 Chat UI**
+常被用作 RAG/agent 应用的前端与检索入口，可参考其接 LLM 与知识库的方式。
+
+---
+排序说明：按「官方权威性／可靠性补短板／底层方法论」优先，工具类与 UI 类靠后。
