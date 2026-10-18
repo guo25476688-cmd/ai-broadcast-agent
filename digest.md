@@ -1589,3 +1589,47 @@ Anthropic 官方维护的高质量插件目录，是挑选 agent 扩展插件的
 
 ---
 排序说明：按「官方权威性／可靠性补短板／底层方法论」优先，工具类与 UI 类靠后。
+
+
+## 2026-10-18 · 📡 今日 AI 播报
+
+# 📰 今日 Agent 播报
+
+**1. FDE-Gym：agent 评测走向"真实交付"**
+面向真实客户交付场景的 agent 基准，考察澄清模糊需求、在真实系统作业、挖掘隐含约束——标志 agent 评测从"良定义任务"迈向开放交付。
+
+**2. CLI-Anything：把软件改造为 agent 原生接口**
+HKUDS 的 CLI-Hub，将各类软件转为 agent 可调用的命令行接口，直接服务于工具调用与上下文接入。
+
+**3. anthropics/claude-plugins-official：官方插件目录**
+Anthropic 官方维护的 Claude Code 高质量插件目录，是了解官方认可 agent 扩展实践的权威参考。
+
+**4. CoDA：数据引擎与策略协同进化**
+让数据引擎与策略共同进化，定向生成能暴露策略失败的环境与监督信号，对 agent 训练数据的自动构造与失败驱动迭代有直接价值。
+→ [arxiv.org/abs/2610.22362](http://arxiv.org/abs/2610.22362v1)
+
+**5. OmniVerifier-C1：分解式分级验证器**
+将二值视觉验证器升级为分解式分级验证，可作为 agent/RAG 流水线中的细粒度结果校验与反馈信号来源。
+
+**6. Statewright：用状态机约束 agent 行为**
+通过可视化状态机让 agent 逻辑显式化、可调试，是提升可靠性的实用思路。
+
+**7. Rowboat：开源多 agent IDE**
+在同一工作台内编排、调试多 agent 协作流程，值得一看其协作机制设计。
+
+**8. google/artemis：自然语言驱动的 Android 自动化**
+将自然语言转为可靠 Android 自动化的 agent 系统，AndroidWorld 成功率 99%+，可参考其端到端工作流设计。
+→ [github.com/google/artemis](https://github.com/google/artemis)
+
+**9. scientific-agent-skills：177 个校验过的 agent skills**
+兼容 Cursor/Claude Code/Codex，是研究 agent 技能封装与复用的现成样本。
+
+**10. Onyx：开源 chat UI 壳层**
+低成本接入自有 RAG/agent 后端的前端方案。
+
+**11. BMAD-METHOD：AI 驱动敏捷开发方法论**
+可供 agent 协作开发流程与上下文组织参考。
+→ [github.com/bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)
+
+---
+*今日主线：agent 从"能力演示"转向"真实交付与可靠性工程"——评测（FDE-Gym）、验证（OmniVerifier）、约束（Statewright）、接口（CLI-Anything）四端同时发力。*
