@@ -1633,3 +1633,44 @@ Anthropic 官方维护的 Claude Code 高质量插件目录，是了解官方认
 
 ---
 *今日主线：agent 从"能力演示"转向"真实交付与可靠性工程"——评测（FDE-Gym）、验证（OmniVerifier）、约束（Statewright）、接口（CLI-Anything）四端同时发力。*
+
+
+## 2026-10-19 · 📡 今日 AI 播报
+
+# 📰 今日 AI Agent 播报
+
+**1. Anthropic 官方发布 Claude Code 插件目录**
+`anthropics/claude-plugins-official` 汇集官方认可的高质量插件，是了解 agent 扩展与上下文注入权威实践的最直接入口。
+
+**2. 177 个可复用 agent 技能 + 100+ 科学数据库**
+`K-Dense-AI/scientific-agent-skills` 兼容 Claude Code / Cursor / Codex，是少见的"agent 技能库"范例，展示如何把领域能力封装为可组合技能。
+
+**3. 用状态机约束 agent 行为：Statewright**
+通过可视化状态机提升 agent 可靠性与可控性，对 agent 编排与状态管理有直接参考价值。
+
+**4. LLM agent 自动化科研复现与鲁棒性分析（论文）**
+探讨用 LLM agent 自动化"复现 + 鲁棒性分析"，是 agent 落地科研工作流的具体案例，重点看其任务拆解与评估方式。
+🔗 http://arxiv.org/abs/2610.23845v1
+
+**5. 微调引发的非目标行为耦合与安全评估（论文）**
+研究微调带来的行为外溢与错位，对 agent 行为可控性与安全评估有直接参考价值。
+🔗 http://arxiv.org/abs/2610.23847v1
+
+**6. 代码/文档/PDF 转可查询知识图谱：graphify**
+`Graphify-Labs/graphify` 采用本地确定性 AST 解析、每条边可解释、不用向量库，是 RAG 之外"结构化上下文"路线的实用对照。
+🔗 https://github.com/Graphify-Labs/graphify
+
+**7. 让所有软件 agent-native：CLI-Anything**
+`HKUDS/CLI-Anything` 提供 CLI-Hub 让 agent 通过命令行操作现有软件，是 MCP 之外扩展 agent 工具面的轻量思路。
+
+**8. 用 Claude Code 编排真实求职工作流**
+`MadsLorentzen/ai-job-search` 覆盖评估岗位、改 CV、写 cover letter、备面试，可 fork 自持，是"多步真实工作流 + 本地可复现"的完整案例。
+
+**9. 多 agent 系统 IDE：Rowboat**
+开源多 agent 协作开发环境，适合关注 agent 工程化与上下文编排。
+
+**10. 开源 RAG 对话前端：Onyx**
+前身 Danswer，常与 RAG/私有知识库问答结合，适合做检索对话落地的前端。
+
+---
+*其余两条（DiscoveryRSI 假设生成论文、ai-job-search 之外的细分项）与上述主题重叠度较高，已并入相关条目。*
