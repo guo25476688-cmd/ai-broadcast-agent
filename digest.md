@@ -1674,3 +1674,28 @@ Anthropic 官方维护的 Claude Code 高质量插件目录，是了解官方认
 
 ---
 *其余两条（DiscoveryRSI 假设生成论文、ai-job-search 之外的细分项）与上述主题重叠度较高，已并入相关条目。*
+
+
+## 2026-10-20 · 📡 今日 AI 播报
+
+# 📡 今日 Agent 播报
+
+**1. [WeAct：把动态权重切换当作 Agent 动作](http://arxiv.org/abs/2610.26847v1)** — 用动态权重切换缓解长程任务中的灾难性遗忘，回答"agent 如何学习异质能力"这一核心问题。
+
+**2. [Train An Imaginative Agent](http://arxiv.org/abs/2610.26845v1)** — 提出 Agentic Imagination，让 agent 执行前预演动作后果，直接对应稀疏反馈/不可逆场景下的规划能力。
+
+**3. [headroom](https://github.com/headroomlabs-ai/headroom)** — 在内容进入 LLM 前压缩工具输出、日志与 RAG 分块，JSON 场景省 60-95% token 且答案不变，附库/代理/MCP server，是 context engineering 的直接落地工具。
+
+**4. [OpenVLHarness](http://arxiv.org/abs/2610.26860v1)** — 面向真实世界的多模态 agent 工具使用与多模态记忆，涉及工具调用与上下文记忆设计。
+
+
+**6. [Graphify](https://github.com/Graphify-Labs/graphify)** — 将代码库/文档/SQL schema/PDF 解析为可查询知识图谱，本地确定性 AST 解析、不依赖向量库，作为 Claude Code/Cursor 的 skill 提供结构化检索。
+
+**7. [CLI-Anything](https://github.com/HKUDS/CLI-Anything)** — 主张"让所有软件 agent-native"，把 CLI 能力接入 LLM agent 生态，扩展 agent 可操作的工具边界。
+
+
+**9. [claude-plugins-official](https://github.com/anthropics/claude-plugins-official)** — Anthropic 官方 Claude Code 插件目录，了解官方认可 agent 扩展/context 工具形态的一手信源。
+
+
+---
+*已按重要性排序，覆盖 arXiv 论文 ×3、GitHub 工具 ×5、HN 项目 ×2。*
