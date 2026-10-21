@@ -1699,3 +1699,54 @@ Anthropic 官方维护的 Claude Code 高质量插件目录，是了解官方认
 
 ---
 *已按重要性排序，覆盖 arXiv 论文 ×3、GitHub 工具 ×5、HN 项目 ×2。*
+
+
+## 2026-10-21 · 📡 今日 AI 播报
+
+# 今日播报 · Agent 与上下文工程精选
+
+**1. headroom：进入 LLM 前先压缩工具输出与 RAG 分块，直接命中 context engineering 痛点**
+在工具输出、日志和 RAG 分块进入 LLM 前先压缩，编程 agent 省 20% token、JSON 省 60–95% 且答案不变；提供库、代理和 MCP server 三种接入方式。
+
+**2. Graphify：把代码库/文档/SQL/PDF 变成可查询知识图谱，RAG 之外的结构化检索路线**
+本地确定性 AST 解析、每条边可解释、不用向量库，供 Claude Code、Cursor、Codex 等使用。
+
+**3. Rowboat：面向多 agent 系统的开源 IDE**
+一站式构建与调试 agent 工作流，是 agent 工程化的直接参考。
+
+**4. Statewright：用可视化状态机约束 AI agent 行为**
+开源工具，提升 agent 编排的可控性与可靠性。
+
+**5. anthropics/knowledge-work-plugins：Anthropic 官方 Claude Cowork 插件仓库**
+观察官方如何设计 agent 插件与工作流的一手材料。
+
+**6. agentic-awesome-skills：面向 agent 的本地控制平面，覆盖 2600+ 技能**
+支持目录发现、技能选择、栈校验和规划，含 CLI、本地 MCP 和插件，适合构建 agent 技能与 MCP 生态。
+https://github.com/sickn33/agentic-awesome-skills
+
+**7. wshobson/agents：跨多 harness 的 agentic 插件市场**
+覆盖 Claude Code、Codex、Cursor、Copilot 等平台，可参考多平台 agent 插件的组织与分发方式。
+
+**8. arXiv · UniWALM：统一世界—动作—语言模型用于具身机器人控制**
+将视频、动作与语言放入统一共享表示，学习信号同时作为条件与监督，适合参考 embodied agent 的多模态上下文融合设计。
+http://arxiv.org/abs/2610.28626v1
+
+**9. arXiv · Industrial ReMEmbR：把机器人集群的时空观测组织为可复用语义记忆**
+面向具身 agent 的记忆工程，值得看其如何压缩、检索与复用长时序观测。
+http://arxiv.org/abs/2610.28624v1
+
+**10. arXiv · GBClaw：面向晶界研究的 agentic AI 框架**
+展示 LLM agent 在领域密集型科研工作流中的落地方式，值得关注垂直科学场景的 agent 架构设计。
+http://arxiv.org/abs/2610.28629v1
+
+**11. Nao Labs：“数据领域的 Cursor”**
+展示 LLM agent 在数据分析/BI 工作流中的落地形态。
+
+**12. Onyx：可对接自有 LLM/RAG 后端的开源聊天 UI**
+适合需要自托管对话界面的场景。
+
+**13. AIConsole：开源桌面 AI 编辑器，支持自定义工作流**
+可借鉴其 agent/工具集成的产品化思路。
+
+---
+*共 13 条，按“上下文工程与检索 → agent 编排与工程化 → 插件/技能生态 → 具身与科学 agent → 应用与界面”排序。*
