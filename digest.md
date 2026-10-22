@@ -1750,3 +1750,46 @@ http://arxiv.org/abs/2610.28629v1
 
 ---
 *共 13 条，按“上下文工程与检索 → agent 编排与工程化 → 插件/技能生态 → 具身与科学 agent → 应用与界面”排序。*
+
+
+## 2026-10-22 · 📡 今日 AI 播报
+
+# 📰 今日 AI 播报
+
+**1. GitHub 官方发布 spec-kit，推动 agent 开发规范化**
+GitHub 推出 SDD（规格驱动开发）工具包，帮助规范 agent 开发流程，对 agent 工程化具有直接参考价值。
+🔗 https://github.com/github/spec-kit
+
+**2. LongZero：零数据强化 LLM 长上下文推理**
+用合成数据驱动的 RL 提升长上下文推理能力，直击 RAG/agent 场景下长上下文训练数据稀缺的核心瓶颈。
+🔗 http://arxiv.org/abs/2610.30132v1
+
+**3. headroom：LLM 输入压缩工具，显著省 token**
+在工具输出、日志、文件、RAG 块进入 LLM 前进行压缩，号称 coding agent 省 20% token、JSON 省 60–95%，是 context engineering 的实用利器。
+
+**4. Graphify：用知识图谱替代向量库为 agent 供上下文**
+将代码库、文档、SQL schema、PDF 转为可查询知识图谱，走 AST 解析路线，支持 Claude Code/Cursor/Codex，为 RAG 之外提供新思路。
+
+**5. Environment Duels：LLM 共演化对抗框架**
+让 LLM 互为创造者与求解者，评估模型在自我演化生态中的真实能力，与 agent 自博弈/共演化方向高度契合。
+🔗 http://arxiv.org/abs/2610.30116v1
+
+**6. Statewright：用状态机约束 AI agent 行为**
+可视化状态机让 agent 更可靠、可调试，适合关注 agent 工程化的开发者。
+
+**7. Rowboat：开源多 agent 系统 IDE**
+可直接搭建和编排 agent 工作流，是 agent 开发的实用工具。
+
+**8. claude-howto：Claude Code 实战指南**
+从基础到高级 agent 的可视化教程，含可复制模板，适合快速上手构建 LLM agent。
+🔗 https://github.com/luongnv89/claude-howto
+
+**9. Onyx：开源聊天 UI，快速搭建 LLM 应用前端**
+可接入自有模型或 RAG 后端，适合快速搭建应用界面。
+
+**10. Item-Level 自适应递归：按需分配算力**
+按条目贡献动态分配计算预算，其"按需分配算力"思路可迁移到 agent 上下文与检索结果的差异化处理。
+🔗 http://arxiv.org/abs/2610.30128v1
+
+---
+*排序逻辑：官方/工程落地价值优先，其次为方法创新，最后为工具与教程类。*
