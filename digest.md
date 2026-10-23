@@ -1793,3 +1793,38 @@ GitHub 推出 SDD（规格驱动开发）工具包，帮助规范 agent 开发�
 
 ---
 *排序逻辑：官方/工程落地价值优先，其次为方法创新，最后为工具与教程类。*
+
+
+## 2026-10-23 · 📡 今日 AI 播报
+
+# 📰 今日 AI Agent 播报
+
+### 🔥 高优先级
+
+**1. Anthropic 官方开源知识工作者插件集** — Claude Cowork 官方插件/能力扩展设计样本，了解 agent 插件生态的直接参考。
+
+**2. Headroom：LLM 上下文压缩层** — 在内容进入 LLM 前压缩工具输出、日志与 RAG 分块，编码 agent 省 ~20%、JSON 省 60–95% token；提供库 / proxy / MCP server，直击 context engineering。
+
+**3. EpiSEM-Bench：证据缺失下的 Agent 安全基准** — 测试工具调用型 agent 在安全相关事实缺失时是否误执行被禁动作，关乎 agent 安全与上下文证据完整性。
+🔗 http://arxiv.org/abs/2610.31650v1
+
+### ⚡ 中优先级
+
+**4. Graphify：代码库转可查询知识图谱** — 本地确定性 AST 解析（无向量库），将代码、文档、SQL schema、PDF 转为知识图谱，作为 Claude Code / Cursor 的 skill，是 RAG 之外的检索式上下文方案。
+
+**5. Statewright：用状态机约束 Agent 行为** — 可视化状态机让 agent 行为可控可预测，看其如何把状态机与 LLM 编排结合。
+
+**6. METTA：元强化学习的测试时记忆增强** — 面向元 RL agent 的测试时记忆增强与检索式适应，关联长程经验表示与 context 组织。
+🔗 http://arxiv.org/abs/2610.31656v1
+
+### 📌 值得关注
+
+**7. Rowboat：开源 Multi-Agent IDE** — agent 编排与调试一体化工作台，观察 agent 工程化工具链形态。
+
+**8. 成本感知弃权用于 IT 工单分类** — 引入成本感知弃权策略，提供"何时交人工/工具"的可靠性判定思路，可复用为 agent 决策边界设计参考。
+🔗 http://arxiv.org/abs/2610.31657v1
+
+**9. Onyx：开源 Chat UI** — 常作 RAG/LLM 后端的前端层，可看其检索与上下文注入的集成方式。
+
+---
+*今日主线：context engineering（压缩/知识图谱/记忆）与 agent 可控性（状态机/安全基准/弃权策略）两条脉络并行。*
