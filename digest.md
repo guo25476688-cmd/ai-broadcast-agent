@@ -1828,3 +1828,55 @@ GitHub 推出 SDD（规格驱动开发）工具包，帮助规范 agent 开发�
 
 ---
 *今日主线：context engineering（压缩/知识图谱/记忆）与 agent 可控性（状态机/安全基准/弃权策略）两条脉络并行。*
+
+
+## 2026-10-24 · 📡 今日 AI 播报
+
+# 📰 今日 AI/Agent 播报
+
+## 🔥 重点关注
+
+**1. EpiSEM-Bench：证据缺失下 LLM Agent 的安全性评测基准**
+提出评测工具型 agent 在证据缺失场景下安全性与证据恢复能力的基准，直击 agent 可靠性与安全评估的核心问题。
+
+**2. Graphify：代码库转可查询知识图谱的 Agent Skill**
+将任意代码库（含文档、SQL schema、配置、PDF）转为知识图谱，采用确定性 AST 解析、每条边可解释、不依赖向量库——是 RAG 之外更可控的 agent 知识供给方案。
+
+**3. Statewright：用可视状态机约束 Agent 行为路径**
+直接回应 agent 可靠性痛点，可作为 agent 编排设计的参考。
+
+**4. Direct Pass@k 优化用于思维剪枝**
+针对推理模型测试时扩展的候选剪枝，直接优化 Pass@k 平衡质量与多样性，关注 LLM 推理阶段的效率优化。
+http://arxiv.org/abs/2610.31667v1
+
+## 🛠 工具与框架
+
+**5. Rowboat：开源多 Agent 系统 IDE**
+提供构建/调试多 agent 工作流的开发环境。
+
+**6. Onyx：开源 Chat UI**
+可作 RAG/agent 应用的前端与对话层基座。
+
+**7. Anthropic 官方知识工作插件库**
+Claude Cowork 插件库，可参考 agent 工具/插件化设计与上下文组织。
+
+## 🔬 研究进展
+
+**8. METTA：元强化学习的记忆增强测试时适应**
+涉及 agent 用长期交互历史表征任务，值得关注 agent 记忆与适应机制。
+
+**9. Cost-Aware Abstention：LLM 工单分类的成本感知弃权**
+在显式成本下选择何时交人工处理，对 LLM 落地的风险与成本权衡有参考价值。
+
+**10. TradingAgents：多 Agent LLM 金融交易框架**
+研究多 agent 协作、分工与决策编排的实战范例。
+https://github.com/TauricResearch/TradingAgents
+
+## 💡 实践案例
+
+**11. Claude-Red：结构化 SKILL.md 安全技能库**
+展示用 SKILL.md 做领域专家上下文注入的典型模式。
+https://github.com/SnailSploit/Claude-Red
+
+**12. book-to-skill：技术书 PDF 转 Claude Code skill**
+「文档→可复用 agent 上下文」的轻量实践。
