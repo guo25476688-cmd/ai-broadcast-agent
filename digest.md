@@ -1880,3 +1880,21 @@ https://github.com/SnailSploit/Claude-Red
 
 **12. book-to-skill：技术书 PDF 转 Claude Code skill**
 「文档→可复用 agent 上下文」的轻量实践。
+
+
+## 2026-10-25 · 📡 今日 AI 播报
+
+# 📰 今日 Agent 播报
+
+### 🔬 研究前沿
+
+### 🛠 工程与工具
+6. **Agent Skills 规范** — Agent Skills 的规范与文档，设计 agent 能力接口与 skill 体系时的参考。 [链接](https://github.com/agentskills/agentskills)
+
+### 🤝 多 Agent 编排
+9. **CrewAI** — 编排角色化自主 agent 的框架，适合对比多 agent 协作与任务分解方案。 [链接](https://github.com/crewAIInc/crewAI)
+
+### 💡 上手与前端
+
+---
+*共 12 条 · 已去重并按"研究 → 工具 → 编排 → 上手"重要性排序*
