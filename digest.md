@@ -1898,3 +1898,56 @@ https://github.com/SnailSploit/Claude-Red
 
 ---
 *共 12 条 · 已去重并按"研究 → 工具 → 编排 → 上手"重要性排序*
+
+
+## 2026-10-26 · 📡 今日 AI 播报
+
+# 📰 今日 Agent 播报
+
+## 🔬 研究前沿
+
+**1. 训练前先评测：个人多语言收件箱路由的决策模型对比**
+用真实个人邮件 agent（Foyer）对比 typed decision model、经典基线与生成式 LLM 的路由效果，是 agent 落地评测思路的直接参考。
+🔗 http://arxiv.org/abs/2610.32955v1
+
+**2. SceneBloom：面向具身学习的 agentic 室内场景生成**
+语言引导规划 + 空间 grounding 的室内场景生成，适合关注 agent 与仿真环境结合的读者。
+🔗 http://arxiv.org/abs/2610.32978v1
+
+**3. 把 instruction-tuned LM 理解为一种"教学对话体裁"**
+从文体学视角理解指令微调模型的结构性偏差，有助于设计 agent 指令层与 prompt 上下文。
+🔗 http://arxiv.org/abs/2610.32982v1
+
+## 🛠️ 工具与项目
+
+**4. Statewright：用可视化状态机约束 agent 行为**
+把 agent 编排从黑盒 prompt 变成可检视的状态图，提升可靠性与可调试性。
+
+**5. Rowboat：开源多 agent 系统 IDE**
+可视化搭建、调试多 agent 工作流，直接对应 agent 开发场景。
+
+**6. awesome-llm-apps：100+ Agent/Skills/RAG 应用合集**
+agent 与 RAG 选型、参考实现的高密度入口。
+🔗 https://github.com/Shubhamsaboo/awesome-llm-apps
+
+**7. claude-seo：Claude Code 的 SEO skill 体系**
+26 个子技能 + 19 个子 agent，覆盖 WebMCP、llms.txt、agent readiness，是 context/skill 工程与 MCP 生态的实操样例。
+🔗 https://github.com/AgriciDaniel/claude-seo
+
+## 💡 值得一看
+
+**8. TradingAgents：多智能体金融交易框架**
+多 agent 协作与决策编排的真实工程范式。
+
+**9. video-use：用编码 agent 编辑视频**
+展示 agent 驱动工具链落地的新方向。
+
+**10. DeepTutor：终身个性化辅导 agent**
+可参考其长期上下文与个性化记忆设计。
+🔗 https://github.com/HKUDS/DeepTutor
+
+**11. Onyx：开源 chat UI**
+常被用作 RAG/agent 应用的前端与检索接入层，便于快速搭建 LLM 应用界面。
+
+---
+*共 11 条 · 按主题重要性排序，同类项目已合并说明*
