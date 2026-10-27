@@ -1951,3 +1951,36 @@ agent 与 RAG 选型、参考实现的高密度入口。
 
 ---
 *共 11 条 · 按主题重要性排序，同类项目已合并说明*
+
+
+## 2026-10-27 · 📡 今日 AI 播报
+
+# 📰 今日 Agent 领域播报
+
+## 🔬 前沿研究
+
+1. **Retriever-Free Retrieval：用决策模型替代嵌入检索** — 让 LLM 以决策模型直接在文档中导航，绕开固定嵌入检索的瓶颈，直击"检索器找不到的生成器也救不回"的 RAG 核心问题。 [arxiv](http://arxiv.org/abs/2610.35868v1)
+
+2. **Work Agents 综述：系统梳理可执行数字工作的 agent 体系** — 覆盖跨工具、跨应用的 agent 能力与优化路径，是 agent 领域少见的统一视角综述。 [arxiv](http://arxiv.org/abs/2610.35845v1)
+
+3. **Auto-Research Arena：自主研究系统基准** — 面向语言建模的自动研究多目标基准，可用于评估与推进自动研究型 agent。 [arxiv](http://arxiv.org/abs/2610.35866v1)
+
+## 🛡️ Agent 可控性与安全
+
+
+
+## 🛠️ 工具与落地
+
+
+
+
+9. **obsidian-second-brain** — 把 Agent 持久记忆以纯 markdown 存进 Obsidian，含语义搜索与多 Agent 共享日志，是 context engineering 与长期记忆的轻量方案。 [GitHub](https://github.com/eugeniughelbur/obsidian-second-brain)
+
+## 📦 技能与编排样本
+
+
+## 🔧 配套生态（简讯）
+
+
+---
+*共 13 条，按"研究前沿 → 安全可控 → 落地工具 → 技能样本 → 配套生态"重要性排序。*
