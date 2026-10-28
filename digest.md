@@ -1984,3 +1984,47 @@ agent 与 RAG 选型、参考实现的高密度入口。
 
 ---
 *共 13 条，按"研究前沿 → 安全可控 → 落地工具 → 技能样本 → 配套生态"重要性排序。*
+
+
+## 2026-10-28 · 📡 今日 AI 播报
+
+# 📰 今日 AI Agent 播报
+
+**1. GEPA-Curator：从失败轨迹中学习自改进提示优化器**
+针对多轮 agentic 工作负载，能区分「提示缺陷 / harness 限制 / 偶然错误」，是 agent 上下文与提示工程方法论的前沿工作。
+🔗 http://arxiv.org/abs/2610.37651v1
+
+**2. Heads of Security：学习式注意力门控抵御提示注入**
+用少量 per-head attention 门控实现指令与数据分离，显著提升 prompt injection 鲁棒性——agent 安全上下文隔离的直接可借鉴方案。
+🔗 http://arxiv.org/abs/2610.37657v1
+
+**3. NVIDIA SkillSpector：Agent skill / MCP 安全扫描器**
+安装前即可检出提示注入、数据外泄与供应链风险，构建 agent 生态的工具链安全必查项。
+
+**4. Agent-Reach：零 API 费用给 Agent 补外部上下文**
+一个 CLI 让 agent 直读 Twitter、Reddit、YouTube 等平台内容，是 context engineering 的实用数据入口。
+
+**5. Statewright：用可视化状态机约束 Agent 行为**
+以状态机做 agent 流程控制与可靠性提升，context 与流程工程的可视化范式。
+
+**6. treg：Agent 工具的「OpenRouter」**
+为工具调用提供统一接入层，与 MCP / 工具注册方向直接相关。
+
+**7. TradingAgents：多 Agent 协作架构的完整参考实现**
+多 agent LLM 金融交易框架，观察角色编排与协作架构的现成范本。
+
+**8. Rowboat：多 Agent 系统开源 IDE**
+多 agent 编排与开发范式的落地形态，值得关注。
+
+**9. claude-seo：Skill / 子 Agent 组织方式样例**
+26 个子技能 + 19 个子 agent 打包成 Claude Code 技能库，含 WebMCP、llms.txt 等 agent readiness 内容。
+
+**10. When Should We Intervene at Test Time?**
+揭示平均准确率掩盖的批次级失败模式，对部署环境下的动态上下文决策有参考价值。
+🔗 http://arxiv.org/abs/2610.37658v1
+
+**11. Onyx：开源 Chat UI**
+LLM agent / RAG 应用的前端入口落地形态。
+
+---
+*去重说明：原「GEPA-Curator / Heads of Security / When Should We Intervene」按方法论重要性前置；GitHub 与 HN 条目按「安全 > 上下文供给 > 编排范式 > 前端形态」重排。*
