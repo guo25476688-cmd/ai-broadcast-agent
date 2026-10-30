@@ -2047,3 +2047,32 @@ LLM agent / RAG 应用的前端入口落地形态。
 
 ---
 *共 13 条 · 按安全 → 自我改进 → 工程化 → 领域落地 → 工具层排序*
+
+
+## 2026-10-30 · 📡 今日 AI 播报
+
+# 📰 今日 AI 播报
+
+**1. Agent 长期记忆与上下文工程成热点**
+
+**2. 子 agent 编排与 MCP 落地现成样本**
+
+**3. 用状态机提升 agent 可靠性**
+
+**4. 多 agent 开发工具链**
+
+**5. RAG/agent 应用前端接入层**
+
+**6. Agentic AI 跨多源数据推理案例**
+- **WxCrop** — 判断极端天气农业影响的 agent，跨多源数据推理参考 [论文](http://arxiv.org/abs/2610.40641v1)
+
+**7. 理解 LLM 权重空间可塑性**
+- **Rethinking Neural Thickets Without Weight Perturbations** — 复现增益并指出其不依赖几何解释 [论文](http://arxiv.org/abs/2610.40649v1)
+
+**8. 诊断 RAG/检索归因失效**
+- **Elucidating the Design Space of LM Data Attribution** — 系统拆解数据归因评估的混杂变量 [论文](http://arxiv.org/abs/2610.40655v1)
+
+**9. 长周期个性化 agent 工程实现**
+
+---
+*共 11 条，按主题聚合排序（agent 基建与编排优先，其次应用与论文）。*
