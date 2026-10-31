@@ -2076,3 +2076,39 @@ LLM agent / RAG 应用的前端入口落地形态。
 
 ---
 *共 11 条，按主题聚合排序（agent 基建与编排优先，其次应用与论文）。*
+
+
+## 2026-10-31 · 📡 今日 AI 播报
+
+# 今日 AI 播报
+
+**1. Anthropic 官方开源 Agent Skills 仓库**
+官方 Agent Skills 公共仓库上线，是理解 Anthropic agent 能力扩展方式的一手参考。
+
+**2. LangChain 推出开箱即用 Agent Harness「deepagents」**
+适合快速搭建和对比 agent 编排方案，值得与现有框架横向评估。
+https://github.com/langchain-ai/deepagents
+
+**3. WxCrop：首个判断极端天气对农作物影响的 Agent**
+跨多源记录做农业风险评估，是 agentic AI 在真实高价值场景的端到端落地案例。
+
+**4. 可视化状态机约束 Agent 行为：Statewright**
+用状态机让 agent 执行更可靠可预测，值得关注 agent 可靠性设计思路。
+
+**5. Rowboat：开源多 Agent 系统 IDE**
+面向多 agent 编排的构建与调试工具链，适合做 agent 开发基础设施参考。
+
+**6. Agent 长期记忆方案两则：hindsight 与 mempalace**
+hindsight 主打可持续学习的 agent memory；mempalace 号称基准测试表现最好的开源 AI 记忆系统，二者均可作为 agent 记忆层候选方案评估。
+
+**7. LM 数据归因设计空间拆解**
+定位数据归因算法失败的真正原因（混杂的数据集属性），对 RAG 语料溯源与知识归因有直接参考价值。
+
+**8. 复现并质疑 Neural Thickets 的几何解释**
+指出收益不依赖权重扰动，为理解预训练 LM 的任务专家邻域提供更简解释。
+
+**9. DeepTutor：终身个性化辅导 Agent**
+展示 LLM agent 在教育场景的端到端落地。
+
+**10. Onyx：开源自托管聊天 UI**
+可作为接入 LLM agent/RAG 的前端交互层方案。
