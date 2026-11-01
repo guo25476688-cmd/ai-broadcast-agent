@@ -2112,3 +2112,40 @@ hindsight 主打可持续学习的 agent memory；mempalace 号称基准测试�
 
 **10. Onyx：开源自托管聊天 UI**
 可作为接入 LLM agent/RAG 的前端交互层方案。
+
+
+## 2026-11-01 · 📡 今日 AI 播报
+
+# 📰 今日 AI 播报
+
+## 🔥 重点关注
+
+**1. Anthropic 官方开源 Agent Skills 仓库** — 理解 agent 技能组织与上下文工程实践的一手资料，对 agent 落地最具直接参考价值。
+
+**2. WxCrop：用 Agentic AI 贯通极端天气与农业影响** — 跨多源记录推理的 agent 应用，是 agent 落地场景中最直接的一篇。
+
+**3. Statewright：用可视化状态机约束 Agent 行为** — 让 agent 更可靠、更可调试，适合关注 agent 编排与可靠性的人。
+
+## 🛠 工具与项目
+
+**4. Graphify：代码/文档/SQL/PDF 转知识图谱的 Agent Skill** — 确定性 AST 解析、不依赖向量库，是 RAG 之外的图谱检索路线。
+
+**5. Rowboat：面向多 Agent 系统的开源 IDE** — 可观察其如何把多 agent 开发/调试流程产品化。
+
+**6. agentic-awesome-skills：2800+ 可复用 Agent Skills 索引** — 支持 CLI、MCP 与插件，适合作为技能选型参考。
+
+**7. OpenMontage：开源 Agentic 视频制作系统** — 含 700+ 生产知识与技能文件，是复杂多管线 agent 编排的落地样例。
+https://github.com/calesthio/OpenMontage
+
+**8. Onyx：开源 Chat UI（YC W24）** — 可作为 RAG/agent 应用的前端交互层参考。
+
+## 📚 研究与参考
+
+**9. LM 数据归因设计空间拆解** — 系统隔离数据集属性对评测的干扰，对 RAG 溯源与上下文可信度有方法学价值。
+
+**10. 重新审视 Neural Thickets（无需权重扰动）** — 复现增益并指出其不依赖几何解释，对理解 LLM 微调与权重空间行为有参考意义。
+
+**11. DeepTutor：终身个性化辅导 Agent** — 可作为个性化 agent / context 建模的应用参考。
+
+---
+*今日主线：Agent Skills 生态持续扩张（官方 + 社区 + 图谱/视频等垂直技能），agent 可靠性与编排工具（状态机、多 agent IDE）同步跟进。*
