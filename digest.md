@@ -2149,3 +2149,54 @@ https://github.com/calesthio/OpenMontage
 
 ---
 *今日主线：Agent Skills 生态持续扩张（官方 + 社区 + 图谱/视频等垂直技能），agent 可靠性与编排工具（状态机、多 agent IDE）同步跟进。*
+
+
+## 2026-11-02 · 📡 今日 AI 播报
+
+# 今日 Agent 与 LLM 系统播报
+
+**1. Latent Sparse Attention：面向超长上下文的亚二次注意力**（arXiv）
+针对 agentic 长程任务、超 1M token 上下文的稀疏注意力方案，直接关系 context engineering 的成本瓶颈。
+http://arxiv.org/abs/2610.42147v1
+
+**2. Flide：用精确状态分叉加速决策推理**（arXiv）
+针对 LLM agent 系统中“决策模型”的推理引擎，解决生成式引擎跑不动这类负载的问题，做 agent 决策推理的可关注。
+http://arxiv.org/abs/2610.42148v1
+
+**3. RoboArchitect：自动设计带持久记忆的机器人 agent**（arXiv）
+把机器人 agent 的 harness（控制代码、何时调策略/工具）从手工搭建改为自动生成，并带持久记忆，对 agent 架构设计有参考价值。
+http://arxiv.org/abs/2610.42141v1
+
+**4. Hierarchical World Models with Implicit Dynamics**（arXiv）
+用分层世界模型给具身 agent 做长程规划，缓解累积误差与搜索复杂度，和 agent 规划相关。
+http://arxiv.org/abs/2610.42146v1
+
+**5. Statewright：用可视化状态机约束 agent 行为路径**（GitHub）
+通过状态机提升 agent 可靠性，关注 agent 编排/可靠性的人值得看。
+
+**6. Rowboat：开源多 agent 系统 IDE**（GitHub）
+面向 multi-agent 开发与调试，与 LLM agent / agent 工程直接相关。
+
+**7. AiSOC：开源 AI 安全运营中心**（GitHub）
+内置 LLM-agent 分诊、可回放决策账本，并自带面向 Claude/Cursor/Continue 的 MCP server，适合参考 agent 编排与 MCP 集成。
+https://github.com/beenuar/AiSOC
+
+**8. iFixAi：对 AI Agent 做独立审计**（GitHub）
+回答“agent 是否在做该做的事”，120 秒内出结果，值得关注 agent 可靠性与评测方向。
+
+**9. harvey：基于 Claude Code/Codex 的自主销售 agent**（GitHub）
+端到端完成找客户、写邮件、跟进与约会议，是 agent 落地真实业务流程的完整样例。
+https://github.com/ethanplusai/harvey
+
+**10. OpenMontage：开源 agentic 视频生产系统**（GitHub）
+含 700+ agent skill 与生产知识文件，可看作大规模 agent 上下文/技能工程的实际案例。
+
+**11. Onyx：开源 chat UI**（Hacker News）
+常被用作 RAG/agent 应用的前端与接入层，做 LLM 应用界面与上下文接入可参考。
+
+**12. Kronos：面向金融市场“语言”的基础模型**（GitHub）
+适合作为金融时序/文本建模的基座参考。
+https://github.com/shiyu-coder/Kronos
+
+---
+*共 12 条，按重要性排序：agent 核心能力（长上下文、决策推理、架构自动化、规划）优先，其次为工程工具与落地样例，最后为领域基座模型。*
