@@ -2200,3 +2200,49 @@ https://github.com/shiyu-coder/Kronos
 
 ---
 *共 12 条，按重要性排序：agent 核心能力（长上下文、决策推理、架构自动化、规划）优先，其次为工程工具与落地样例，最后为领域基座模型。*
+
+
+## 2026-11-03 · 📡 今日 AI 播报
+
+# 今日播报 · Agent / LLM 前沿速览
+
+**1. WebHarbor：为 GUI Agent 提供真实网站"停靠"环境**
+针对 GUI web agent 评测与训练中内容漂移、合成环境覆盖不足的问题，提供稳定可交互的真实网站环境，直接关系 agent 环境构建。
+http://arxiv.org/abs/2611.03634v1
+
+**2. Statewright：用可视化状态机让 Agent 更可靠**
+把 agent 行为约束为可验证的状态转移，正面回应 agent 可靠性这一核心痛点。
+
+**3. AiSOC：开源 AI 安全运营中心（Agent + MCP 集成样例）**
+内置 LLM agent 三元分诊、可回放决策账本，并自带 MCP server，是 agent 与 MCP 集成的直接参考。
+
+**4. OpenMontage：首个开源 Agentic 视频制作系统**
+含 700+ agent skill 与生产知识文件，可观察大规模 agent 技能与上下文的组织方式。
+
+**5. Rowboat：面向多 Agent 系统的开源 IDE**
+聚焦 multi-agent 编排的开发体验，属于 agent 工程化工具链。
+
+**6. spec-kit：GitHub 官方规范驱动开发（SDD）工具包**
+可用于给 agent 定义结构化任务规格与工作流。
+
+**7. FADE：面向在线 RLVR 的自适应调度**
+针对全对/全错样本浪费预算的问题做因子化能力–难度过滤，属 LLM 强化学习训练效率的实用改进。
+http://arxiv.org/abs/2611.03625v1
+
+**8. 推理并非都能泛化：RLVR 中可泛化推理策略的案例研究**
+用可控方程求解框架研究 RLVR 能否让 LLM 习得可迁移的推理策略，对理解 agent 推理能力迁移有参考价值。
+http://arxiv.org/abs/2611.03627v1
+
+**9. nanochat：Karpathy 的百美元级 ChatGPT 复刻**
+端到端最小 LLM 训练与推理栈，适合补齐 LLM 底层直觉。
+https://github.com/karpathy/nanochat
+
+**10. heretic：免训练修改语言模型行为**
+无需训练即可调整模型行为（去审查、减谄媚等），关注其模型行为后处理思路。
+https://github.com/p-e-w/heretic
+
+**11. Onyx：开源 Chat UI**
+常被用作 RAG/agent 应用的前端壳，便于快速搭建检索问答界面。
+
+---
+*共 11 条，按"agent 环境/可靠性 → 工程工具链 → 训练与推理研究 → 底层与模型行为"的重要性排序。*
