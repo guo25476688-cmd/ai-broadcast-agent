@@ -2246,3 +2246,36 @@ https://github.com/p-e-w/heretic
 
 ---
 *共 11 条，按"agent 环境/可靠性 → 工程工具链 → 训练与推理研究 → 底层与模型行为"的重要性排序。*
+
+
+## 2026-11-04 · 📡 今日 AI 播报
+
+# 今日 AI 播报
+
+开源工具，把 agent 流程从自由文本规划变成可审计的可视化状态机，是 context engineering 中“给 agent 划边界”的典型实践。
+
+理解 LLM 训练/推理全链路的高信噪比最小实现样本。
+
+含 12 条生产管线、100+ 工具、700+ agent skill，是把 AI coding assistant 扩展为多技能 agent 工作流的直接参考。
+
+将多 agent 编排与调试做成可视化开发环境，可直接对比自身架构设计。
+
+**5. 语言模型错齐行为的抑制与复发** [🔗](http://arxiv.org/abs/2611.05358v1)
+构造两个故意错齐的模型生物，研究训练各阶段错误行为的抑制与复发，直接关联 LLM 对齐与 agent 安全。
+
+**6. Direct Nash Optimization 实证研究** [🔗](http://arxiv.org/abs/2611.05373v1)
+涉及 on-policy 采样与 LLM 评分，适合关注 agent 偏好对齐与训练回路者。
+
+轻量后处理手法，可去审查、抑制 slop、降低谄媚。
+
+**8. 从自主 agent 到「认知共生体」** [🔗](http://arxiv.org/abs/2611.05376v1)
+探讨 agent 定位转向与 human-AI 协作范式。
+
+**9. Scrapling：可扩展 Web Scraping 框架** [🔗](https://github.com/D4Vinci/Scrapling)
+从单请求到大规模爬取，可作 RAG/agent 数据采集层候选。
+
+**10. 模仿学习的不可知学习理论** [🔗](http://arxiv.org/abs/2611.05346v1)
+比较判别式训练与生成式模仿学习的计算难度，为理解 imitation 本质提供框架。
+
+---
+*另：Onyx（开源 chat UI，常作 RAG/agent 前端壳层）[🔗](https://news.ycombinator.com/item?id=46045987)；FreeToken（桌面本地大模型 serving）[🔗](https://github.com/FlashML-org/FreeToken) 亦值得关注。*
