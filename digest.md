@@ -2279,3 +2279,50 @@ https://github.com/p-e-w/heretic
 
 ---
 *另：Onyx（开源 chat UI，常作 RAG/agent 前端壳层）[🔗](https://news.ycombinator.com/item?id=46045987)；FreeToken（桌面本地大模型 serving）[🔗](https://github.com/FlashML-org/FreeToken) 亦值得关注。*
+
+
+## 2026-11-05 · 📡 今日 AI 播报
+
+# 📰 今日 Agent / LLM 工程播报
+
+**1. GitHub 官方发布 spec-kit：规格驱动开发（SDD）工具包**
+GitHub 官方的 SDD 起步工具包，为 agent 驱动开发提供规格化流程支持，是从"prompt 驱动"走向"规格驱动"的重要信号。
+
+**2. NVIDIA auto-ontology：面向 agent 工作流的语义图推理层**
+在数据上构建语义图推理层的 Python 框架，提供确定性查询生成与更优上下文检索，直接服务 LLM/agent 的 context engineering。
+🔗 https://github.com/NVIDIA/auto-ontology
+
+**3. Statewright：用可视化状态机约束 AI agent 行为**
+把 agent 可靠性问题转化为可调试的状态图，而非黑盒 prompt——agent 工程从"调 prompt"转向"控状态"的实用范式。
+
+**4. 新论文：LLM 社交 agent 的上下文增强与选择性鲁棒性框架**
+针对保义 prompt 扰动下 agent 行为漂移问题提出解决方案，直接对应 context engineering 与 agent 稳定性两大痛点。
+🔗 http://arxiv.org/abs/2611.06914v1
+
+**5. FrontierPhysics：端到端物理科研 agent 基准**
+同时评估正确性与研究质量，补上现有基准只看固定问答/子任务的空白，是评测 LLM agent 长程科研能力的重要参考。
+🔗 http://arxiv.org/abs/2611.06910v1
+
+**6. BEAKER：自驱动化学实验室的具身多模态 agent 基准**
+专家标注，覆盖感知—推理—受约束行动全链路，是具身 agent 在真实实验场景落地的评测样本。
+🔗 http://arxiv.org/abs/2611.06911v1
+
+**7. Rowboat：多 agent 系统的开源 IDE**
+多 agent 编排是当前 agent 工程的核心痛点，该项目提供可视化开发体验，值得关注。
+
+**8. OpenMontage：开源 agentic 视频生产系统（700+ agent skill）**
+含 700+ agent skill 与生产知识文件，是借鉴大规模 agent 技能组织方式的实用样本。
+
+**9. pr-agent：开源 PR 审查 agent**
+观察真实 agent 工具设计与落地模式的实用样本。
+🔗 https://github.com/The-PR-Agent/pr-agent
+
+**10. scenario-labs/skills：通过 MCP 为 agent 提供多媒体生产能力**
+为任意 AI agent 提供图像/视频/音频/3D 生成能力，是 MCP 工具化与成本控制的现成参考。
+🔗 https://github.com/scenario-labs/skills
+
+**11. Onyx：开源 RAG / agent 聊天 UI**
+可作为自建 agent 应用的对话界面起点，是接入 RAG / LLM agent 的前端层。
+
+---
+*排序逻辑：官方背书 / 基础设施 > 核心方法论 > 评测基准 > 落地工具。共 11 条，已去重合并。*
