@@ -2326,3 +2326,32 @@ GitHub 官方的 SDD 起步工具包，为 agent 驱动开发提供规格化流�
 
 ---
 *排序逻辑：官方背书 / 基础设施 > 核心方法论 > 评测基准 > 落地工具。共 11 条，已去重合并。*
+
+
+## 2026-11-06 · 📡 今日 AI 播报
+
+# 今日播报
+
+**1. [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology)** — 在数据之上构建语义图推理层的 Python 框架，为 LLM/agent 提供确定性查询生成与更可解释的上下文检索，直击 RAG 与 context engineering 的检索质量问题。
+
+**2. [aws/agent-toolkit-for-aws](https://github.com/aws/agent-toolkit-for-aws)** — AWS 官方支持的 MCP servers、skills 与插件，展示云厂商如何为 agent 提供标准化工具接入层。
+
+
+**4. [SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization](http://arxiv.org/abs/2611.08483v1)** — 用 LLM agent 群体做进化式程序搜索，并针对每轮长链推理的开销做优化，直接关系到 agent 编排与推理成本控制。
+
+
+**6. [Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO](http://arxiv.org/abs/2611.08453v1)** — 系统对比 on-policy distillation 与 GRPO 达到目标精度所需的训练 FLOPs，对 agent 训练中的算力预算与后训练路线选择有直接参考价值。
+
+
+**8. [scenario-labs/skills](https://github.com/scenario-labs/skills)** — 通过 Scenario MCP 让任意 AI agent 调用图像/视频/音频/3D 生成能力，并含成本预估与品牌一致性控制，是 MCP + agent 工具编排的实用范例。
+
+**9. [Scientist World: Grow a Research World for AI-Scientists](http://arxiv.org/abs/2611.08478v1)** — 为 AI-Scientist 构建可运行的研究环境（文献不再是只读），是 agent 在开放问题空间中长期运作的环境设计参考。
+
+**10. [Towards interpreting any residual stream direction by scaling activation inversion](http://arxiv.org/abs/2611.08465v1)** — MAEM 用语言模型把 residual stream 方向映射回文本，突破语料库限制，适合做 LLM 内部表征与可解释性分析。
+
+**11. [github/spec-kit](https://github.com/github/spec-kit)** — 辅助上手 SDD（规范驱动开发）等流程的工具包，与 agent 协作下的开发流程工程化相关。
+
+**12. [Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information](http://arxiv.org/abs/2611.08469v1)** — 讨论有限、含噪干预下能对机制级量做出何种认证，对 LLM 可解释性与 AI 审计的方法论边界有警示意义。
+
+
+> 排序思路：agent 工具接入层与官方 skill 生态（NVIDIA/AWS/Google）居前，其次是影响 agent 编排成本与可控性的关键技术（SwarmEvolve、Statewright、OPD vs GRPO），再往下是多 agent 工作流工具、MCP 工具编排范例与学术环境/可解释性研究，最后是通用可复用组件。RAG 检索与上下文工程仍是今日主线，云端与官方 skill 标准化趋势明显。
