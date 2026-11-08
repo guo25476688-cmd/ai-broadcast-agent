@@ -2355,3 +2355,32 @@ GitHub 官方的 SDD 起步工具包，为 agent 驱动开发提供规格化流�
 
 
 > 排序思路：agent 工具接入层与官方 skill 生态（NVIDIA/AWS/Google）居前，其次是影响 agent 编排成本与可控性的关键技术（SwarmEvolve、Statewright、OPD vs GRPO），再往下是多 agent 工作流工具、MCP 工具编排范例与学术环境/可解释性研究，最后是通用可复用组件。RAG 检索与上下文工程仍是今日主线，云端与官方 skill 标准化趋势明显。
+
+
+## 2026-11-08 · 📡 今日 AI 播报
+
+# 今日播报
+
+**1. Google 与 Anthropic 同日公开 Agent Skills 仓库，值得对照研究**
+Google 官方发布 Agent Skills 集合，定义其产品与技术栈上的 agent 技能规范；Anthropic 同步公开自家 Skills 仓库，是理解"技能"这一 agent 能力封装范式的一手材料。两者对照可看清主流厂商对 agent 工具集成的不同设计取向。
+
+**2. SwarmEvolve：用潜空间 agent swarms 做进化式程序搜索**
+针对长链式思考每轮推理慢的问题，提出 LLM 引导的潜空间 agent swarms 来改进程序，面向 LLM agent 驱动的搜索与优化方向。
+- http://arxiv.org/abs/2611.08483v1
+
+**3. Scientist World：为 AI-Scientists 构建可运行的研究世界**
+把文献与问题可执行化，直接对应 agent 环境与上下文工程，适合做科研 agent 平台的人参考。
+- http://arxiv.org/abs/2611.08478v1
+
+**4. Statewright：用可视化状态机约束 AI agent 行为**
+把不确定的 agent 流程转成可验证的状态转移，直接对应 agent 可靠性与上下文控制问题。
+
+**5. Rowboat：开源多 agent 系统 IDE**
+适合观察 agent 编排、工具调用与开发工作流的工程化落地。
+
+**6. MAEMs：从残差流方向反推最大化激活文本**
+突破语料限制，对 LLM 可解释性与激活/上下文探针相关工作有参考价值。
+- http://arxiv.org/abs/2611.08465v1
+
+**7. 其余值得扫一眼**
+- microsoft/VibeVoice：微软开源语音 AI，可作 agent 语音输入/输出候选组件 https://github.com/microsoft/VibeVoice
