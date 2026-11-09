@@ -2384,3 +2384,36 @@ Google 官方发布 Agent Skills 集合，定义其产品与技术栈上的 agen
 
 **7. 其余值得扫一眼**
 - microsoft/VibeVoice：微软开源语音 AI，可作 agent 语音输入/输出候选组件 https://github.com/microsoft/VibeVoice
+
+
+## 2026-11-09 · 📡 今日 AI 播报
+
+# 📰 今日播报
+
+**1. CPU-ARC：让 Agent 复用已完成的推理过程**
+提出对 LLM agent 已完成推理做缓存复用，避免每个新问题从零推理，直击 agent 计算/上下文复用痛点。
+http://arxiv.org/abs/2611.09891v1
+
+**2. Statewright：用可视化状态机让 AI Agent 更可靠**
+把"不可靠的 agent"工程化为可控流程，用状态机约束行为，值得关注其可控性设计思路。
+
+**3. Rowboat：面向多 Agent 系统的开源 IDE**
+多 agent 编排与上下文/工具管理的产品化形态，看 agent 工程如何落地成工具。
+
+**4. On Agentic Manipulation Policies：Agent 化机械臂控制的可靠性对照**
+系统分析通用 AI 模型作 agent 控制机械臂时相对 VLA/WAM 专家的可靠性，是"agent 化控制策略"的重要对照研究。
+http://arxiv.org/abs/2611.09892v1
+
+**5. TTRL 中多数投票伪标签的可靠性分析**
+拆解多数投票伪标签的可靠性并做 DPO 分解，涉及 LLM 测试时自监督的监督信号质量问题。
+http://arxiv.org/abs/2611.09872v1
+
+**6. GRAC：图检索增强的手术场景描述生成**
+用图结构检索增强做专业领域描述生成，是 RAG 检索结构与生成结合的落地案例。
+http://arxiv.org/abs/2611.09866v1
+
+**7. Onyx：开源聊天 UI**
+常作 RAG/agent 应用的 UI 层与自托管入口，适合作为上下文工程的交互壳。
+
+---
+*排序依据：agent 推理复用与可控性（1–3）为主线，控制策略与监督信号（4–5）次之，垂直领域 RAG 与 UI 层（6–7）收尾。*
