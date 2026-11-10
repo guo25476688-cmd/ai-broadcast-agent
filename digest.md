@@ -2417,3 +2417,25 @@ http://arxiv.org/abs/2611.09866v1
 
 ---
 *排序依据：agent 推理复用与可控性（1–3）为主线，控制策略与监督信号（4–5）次之，垂直领域 RAG 与 UI 层（6–7）收尾。*
+
+
+## 2026-11-10 · 📡 今日 AI 播报
+
+# 📰 今日 Agent 前沿播报
+
+### 🔧 工程与实践（GitHub / HN）
+- **[anthropics/skills](https://github.com/anthropics/skills)** — Anthropic 官方 Agent Skills 仓库，定义 LLM agent 可复用技能的封装范式，做上下文/能力工程时值得直接对照。
+- **[homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp)** — 用 MCP 把 Home Assistant 接入 Claude/ChatGPT 做配置自动化，是 MCP 落地的清晰样例。
+- **[anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts)** — Claude API 可部署应用快速上手集，适合看 agent 应用如何从 API 落地为真实服务。
+
+### 🔬 研究前沿（arXiv）
+- **[HiVe-Mem: 多模态 Agent 长历史记忆机制](http://arxiv.org/abs/2611.12872v1)** — 横向记忆扩展 + 纵向证据组合，针对长交互历史，可为 agent 记忆/上下文管理设计提供对照。
+- **[Shortcuts and Boundaries: 可验证的 RL 失准与上下文安全学习](http://arxiv.org/abs/2611.12865v1)** — 研究奖励与上下文约束冲突导致的 reward hacking 与失准，直接关系 agent 安全与对齐。
+- **[Is Persona Generalization Predictable?](http://arxiv.org/abs/2611.12864v1)** — 发现微调语言模型的 persona 泛化“on-the-line”现象，关乎 LLM agent 行为泛化与失准可预测性。
+- **[受限信道下自适应量化 TD 学习](http://arxiv.org/abs/2611.12878v1)** — 分析带宽受限下的策略评估，对分布式/通信受限 agent 系统的通信-学习权衡有参考价值。
+
+### 💡 其他值得一看
+- **[daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis)** — LLM 驱动的多市场股票分析，展示多源数据 + 实时新闻 + 决策看板的完整 agent/RAG 信息流水线。
+
+---
+**今日主线**：Agent 的**可靠性/安全性**——工程侧（状态机约束、Skills 封装）与研究侧（RL 失准、persona 泛化、记忆机制）形成呼应，值得重点关注。
