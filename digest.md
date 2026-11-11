@@ -2439,3 +2439,49 @@ http://arxiv.org/abs/2611.09866v1
 
 ---
 **今日主线**：Agent 的**可靠性/安全性**——工程侧（状态机约束、Skills 封装）与研究侧（RL 失准、persona 泛化、记忆机制）形成呼应，值得重点关注。
+
+
+## 2026-11-11 · 📡 今日 AI 播报
+
+# 📰 今日 Agent 播报
+
+**1. Anthropic 官方发布 Agent Skills 仓库，示范可复用技能/提示资产组织**  
+做 context engineering 时最该先读的参考，直接示范如何为 LLM agent 组织可复用技能。  
+
+**2. arxiv·Contrastive Discovery：让 agent 在竞争解释间对比评估，而非单点验证假设**  
+直接关系 agent 推理与科学发现流程设计的新范式。  
+🔗 http://arxiv.org/abs/2611.14514v1
+
+**3. Statewright：用可视化状态机约束 AI agent 行为、提升可靠性**  
+agent 编排"可控性"问题的直接解法，值得与 LangGraph 等方案对比。  
+
+**4. arxiv·AutoScaffold：用训练期 scaffold 弥补 RLVR 单一标量奖励的信息损失**  
+对 LLM agent 训练与上下文提示工程均有参考价值。  
+🔗 http://arxiv.org/abs/2611.14515v1
+
+**5. Rowboat：开源多 agent 系统 IDE，把编排与调试做成可视化开发环境**  
+构建 agent 工作流时值得参考的工具形态。  
+
+**6. arxiv·Continual-ARC：面向"工作生命周期"的技能获取持续学习评测**  
+针对现有 benchmark 只覆盖单域/单实例/单学习器家族的缺陷，适合关注 agent 长期学习评估者。  
+🔗 http://arxiv.org/abs/2611.14505v1
+
+**7. OpenSandbox：面向 AI agent 的安全沙箱运行时**  
+agent 执行代码/工具时的隔离与扩展性是关键工程问题，值得评估。  
+🔗 https://github.com/opensandbox-group/OpenSandbox
+
+**8. ha-mcp：用 MCP 把 Home Assistant 接入 Claude/ChatGPT 等助手**  
+MCP 协议落地的真实场景案例，可参考工具暴露与授权设计。  
+🔗 https://github.com/homeassistant-ai/ha-mcp
+
+**9. arxiv·Pyrite：蛋白质-配体 pose 排序 agent 的构建与 benchmark**  
+1500 对 pairwise 排序 benchmark，是 agent 在科学任务中落地评测的实例。  
+🔗 http://arxiv.org/abs/2611.14511v1
+
+**10. claude-quickstarts：Claude API 可部署应用起步模板集（含 agent 示例）**  
+适合快速摸清 agent 应用骨架与上下文组织方式。  
+🔗 https://github.com/anthropics/claude-quickstarts
+
+---
+
+*其余条目（Onyx 聊天 UI、500-AI-Agents-Projects 案例索引）为辅助性资源，重要性略低，可按需查阅。*
