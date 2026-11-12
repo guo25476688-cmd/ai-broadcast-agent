@@ -2485,3 +2485,45 @@ MCP 协议落地的真实场景案例，可参考工具暴露与授权设计。
 ---
 
 *其余条目（Onyx 聊天 UI、500-AI-Agents-Projects 案例索引）为辅助性资源，重要性略低，可按需查阅。*
+
+
+## 2026-11-12 · 📡 今日 AI 播报
+
+# 📰 今日 Agent 播报（2026-xx-xx）
+
+**1. Anthropic 官方开源 Agent Skills 仓库**（GitHub +1032⭐）
+一手了解 agent 技能封装与复用的参考实现，今日热度最高的 agent 生态项目。
+
+**2. browser-use：AI agent 操控浏览器主流方案**
+开源 Python 库 + 托管 agent API，构建 browser agent 的事实标准。
+🔗 https://github.com/browser-use/browser-use
+
+**3. AutoScaffold：用训练期 scaffold 改进 LLM 的 RLVR 学习**
+把单标量奖励扩展为更丰富的训练信号，直接提升 agent 学习效率与信息利用率。
+
+**4. Continual-ARC：跨"工作寿命"的技能获取 benchmark**
+针对 agent harness 的持续学习评测，弥补现有 benchmark 单域、单次、单学习器族的局限。
+
+**5. Pyrite：蛋白-配体构象排序 agent 与 benchmark**
+1,500 对 pose 的 pairwise 排序任务，提供科学发现类 agent 的可复现评测范式。
+
+**6. Contrastive Discovery：让 agent 在竞争假设间对比评估**
+改进 agent 的假设选择机制，避免只否定单一解释的推理盲点。
+
+**7. ha-mcp：MCP 落地智能家居的实用范例**（GitHub +645⭐）
+用 Claude / ChatGPT 等 AI 助手配置与自动化 Home Assistant 的 MCP 服务。
+
+**8. Statewright：用可视化状态机约束 agent 行为**
+把 agent 控制流显式化，是 agent 编排 / 上下文工程的实用范式。
+
+**9. Rowboat：多 agent 系统开源 IDE**
+可直观观察多 agent 协作与编排，适合做 agent 架构参考。
+
+---
+**简讯**
+- **SimpleEnglish**：让 LLM 按 ASD-STE100 规范写技术文档的轻量 agent skill → https://github.com/AminBlg/SimpleEnglish
+
+---
+**一句话总结**：今日重心在 **agent 技能/工具生态（skills、browser-use、MCP）** 与 **RL/持续学习的训练侧改进（AutoScaffold、Continual-ARC）** 两条主线。
+
+> 注：日期占位请按实际发布时填入；arxiv 编号（2611.*）保留原文。
