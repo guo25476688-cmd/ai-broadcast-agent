@@ -2527,3 +2527,57 @@ MCP 协议落地的真实场景案例，可参考工具暴露与授权设计。
 **一句话总结**：今日重心在 **agent 技能/工具生态（skills、browser-use、MCP）** 与 **RL/持续学习的训练侧改进（AutoScaffold、Continual-ARC）** 两条主线。
 
 > 注：日期占位请按实际发布时填入；arxiv 编号（2611.*）保留原文。
+
+
+## 2026-11-13 · 📡 今日 AI 播报
+
+# 📰 今日 AI Agent 播报
+
+## 🔬 研究前沿
+
+**1. CoReMem：让 coding agent 学会"权衡记忆成本"**
+为连续编码任务设计可内部化成本的记忆机制，使 agent 在未知下一任务时权衡记忆读写成本与未来价值，直接关系 agent 长期上下文工程。
+🔗 http://arxiv.org/abs/2611.17316v1
+
+**2. 上下文归因新方法：sketched LOO 定位 prompt 关键 token**
+用远少于 n 次模型评估定位 prompt 中的关键 token，对 RAG 与 context engineering 的 prompt 调试非常实用。
+🔗 http://arxiv.org/abs/2611.17313v1
+
+**3. AgentSSL：MLE agent 能否利用无标签数据**
+把 agent 自动化 pipeline 设计从纯监督扩展到半监督场景，拓展 agent 在数据稀缺域的应用边界。
+🔗 http://arxiv.org/abs/2611.17323v1
+
+**4. ArchSpace：LLM 架构研究的记录与评审平台**
+系统化沉淀架构创新知识，对关注模型架构与 agent 底层能力演进有参考价值。
+🔗 http://arxiv.org/abs/2611.17332v1
+
+## 🛠️ 工具与项目
+
+**5. SkillSpector：agent skills 安全扫描器（NVIDIA）**
+检测 Claude Code、Codex 和 MCP skills 中的漏洞、提示注入与供应链风险，安装前值得过一遍。
+
+**6. Statewright：用可视化状态机约束 agent 行为**
+提高可靠性，直接对应 agent 编排与可控性，是 context/流程工程的可落地参考。
+
+**7. Rowboat：开源多 agent 系统 IDE**
+可观察其如何组织 agent 上下文、工具与协作流程，适合做 agent 架构选型。
+
+**8. ha-mcp：MCP 落地智能家居控制**
+通过 MCP 让 Claude/ChatGPT 等助手配置和自动化 Home Assistant，是 MCP 的实用参考实现。
+
+## 💡 应用观察
+
+**9. last30days-skill：跨源话题研究 agent skill**
+跨 Reddit、X、YouTube、HN 等源研究话题并合成有据摘要，适合观察 agent 化检索与信息综合的模式。
+
+**10. daily_stock_analysis：LLM 驱动多市场股票分析**
+整合多源行情、实时新闻和自动推送，是 LLM agent 在金融分析流水线中的完整案例。
+
+**11. oh-my-hermes：主打"AI coworkers"协作的 agent**
+可作为多 agent 编排与协作形态的观察样本。
+
+**12. Onyx：开源聊天 UI**
+常被用作 RAG/agent 前端，可参考其接入检索与工具调用的工程实践。
+
+---
+*今日主线：agent 记忆/上下文工程（CoReMem、sketched LOO）、agent 可控性与安全（Statewright、SkillSpector）、以及 MCP 生态落地（ha-mcp）。*
