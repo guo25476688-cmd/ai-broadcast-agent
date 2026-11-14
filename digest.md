@@ -2581,3 +2581,48 @@ MCP 协议落地的真实场景案例，可参考工具暴露与授权设计。
 
 ---
 *今日主线：agent 记忆/上下文工程（CoReMem、sketched LOO）、agent 可控性与安全（Statewright、SkillSpector）、以及 MCP 生态落地（ha-mcp）。*
+
+
+## 2026-11-14 · 📡 今日 AI 播报
+
+# 📰 今日 Agent / Context Engineering 播报
+
+**1. headroom：LLM 输入前的上下文压缩层（github_trending）**
+在工具输出、日志、文件和 RAG 分块进入 LLM 前压缩（编码 agent 省 20% token，JSON 省 60–95%），直接关系 context engineering，提供库/代理/MCP server 三种形态。
+
+**2. Rowboat：面向多 agent 系统的开源 IDE（hackernews）**
+直接对标 agent 开发工具链，可重点看其多 agent 协作与调试体验。
+
+**3. Statewright：可视化状态机约束 AI agent 行为（hackernews）**
+用状态机提升 agent 可靠性，agent 编排与可验证性方向值得关注。
+
+**4. system_prompts_leaks：主流 agent 系统提示词合集（github_trending）**
+汇集 ChatGPT、Claude、Gemini 等及各类 agent 工具的完整系统提示词，是研究 agent 提示与 context 设计的实战素材。
+https://github.com/asgeirtj/system_prompts_leaks
+
+**5. claude-code-templates：Claude Code 组件注册表与 CLI（github_trending）**
+涵盖 agents、commands、skills、hooks、MCPs 等可复用组件，是搭 LLM agent 工具链的组件来源。
+
+**6. CoReMem：为连续编码任务内化成本记忆（arxiv）**
+为 coding agent 设计写入/读取成本内化、面向未知后续任务的记忆选择机制，直接关系 agent context/memory 工程。
+
+**7. Sketching Language Models for Context Attribution（arxiv）**
+用 sketching 近似 leave-one-out 归因，低成本定位 prompt 中影响输出的 token，对 context engineering 与 prompt 调试有直接价值。
+
+**8. AgentSSL：MLE agent 能否利用无标注数据（arxiv）**
+研究 agent 在非全监督场景下自动化 ML 流水线，填补 agent 利用无标注数据的空白。
+
+**9. claude-plugins-official：Anthropic 官方插件目录（github_trending）**
+高质量 Claude Code 插件目录，可作 agent/插件生态的权威参考。
+
+**10. mcp-for-blender：通过 MCP 控制 Blender（github_trending）**
+用任意 LLM 经 MCP 控制 Blender 3D 的社区插件，是 MCP 作为 agent 外部工具接入标准的典型示例。
+
+**11. AIConsole：开源桌面 AI 编辑器（hackernews）**
+支持自定义 workflow，可看其 agent 工作流编排与工具调用设计。
+
+**12. Onyx：开源 chat UI（hackernews）**
+可作 RAG/agent 应用的前端与对话层参考实现。
+
+---
+*排序原则：context/memory 工程与 agent 工具链（1–5）优先，其次为学术方法（6–8），生态/示例类（9–12）收尾。*
