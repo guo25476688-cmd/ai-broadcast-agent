@@ -2626,3 +2626,24 @@ https://github.com/asgeirtj/system_prompts_leaks
 
 ---
 *排序原则：context/memory 工程与 agent 工具链（1–5）优先，其次为学术方法（6–8），生态/示例类（9–12）收尾。*
+
+
+## 2026-11-15 · 📡 今日 AI 播报
+
+# 📰 今日 AI Agent 播报（按重要性排序）
+
+## 🔧 Agent 工程与工具生态
+4. **Claude-BugHunter** — 含 82 skills、15 slash commands、681 披露报告模式的漏洞挖掘 skill bundle，研究大规模 skill 组织与实战编排的样本。[链接](https://github.com/elementalsouls/Claude-BugHunter)
+
+## 🧠 Context / Memory Engineering
+
+## 🧪 评测与安全
+8. **NVIDIA/SkillEvaluator** — 评估 agent skills 的多层框架，可测技能对 agent 行为的实际影响，少见的现成评测工具。[链接](https://github.com/NVIDIA/SkillEvaluator)
+9. **microsoft/PyRIT** — 微软开源 AI 红队工具包，支持自动化扫描与多轮自适应攻击，关联 agent 安全测试。[链接](https://github.com/microsoft/PyRIT)
+
+## 📚 研究前沿
+
+## 💬 基础设施
+
+---
+*说明：已将"HN 开源工具"与"GitHub trending"中同属 agent 工程生态的条目合并归类，共 11 条，去重后按工程落地→上下文→评测安全→研究→基础设施排序。*
