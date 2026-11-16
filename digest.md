@@ -2647,3 +2647,46 @@ https://github.com/asgeirtj/system_prompts_leaks
 
 ---
 *说明：已将"HN 开源工具"与"GitHub trending"中同属 agent 工程生态的条目合并归类，共 11 条，去重后按工程落地→上下文→评测安全→研究→基础设施排序。*
+
+
+## 2026-11-16 · 📡 今日 AI 播报
+
+# 📰 今日 AI Agent 播报
+
+## 🔧 工程与编排
+
+1. **Statewright** — 用可视化状态机约束 AI agent 行为，让 agent 可靠性可设计、可验证，直击 agent 编排痛点。
+
+2. **AutoSwarm** — HKUDS 推出的多 agent 协作框架，主打突破上下文障碍，切中 context engineering 与 agent 编排核心。
+   https://github.com/HKUDS/AutoSwarm
+
+3. **fastmcp** — 构建 MCP 服务器与客户端的 Python 框架，搭建 MCP 服务时最直接的工程选型。
+   https://github.com/PrefectHQ/fastmcp
+
+4. **claude-code-templates** — 涵盖 agents、commands、MCP、hooks 的 Claude Code 组件注册表与 CLI，便于快速装配 agent 工具链。
+
+## 📊 评估与技能
+
+5. **SkillEvaluator** — NVIDIA 的 agent 技能评估框架，含质量门禁与实时行为评估，补足 agent 效果度量这一环。
+
+6. **WeightBench** — 把 LLM 当作"权重空间程序员"的基准测试，评估其读取、修复、生成网络权重的能力，是 LLM 操作模型参数的新方向。
+   http://arxiv.org/abs/2611.18553v1
+
+7. **Claude-BugHunter** — 82 个 Claude Code 技能的实战包，可作为 agent 技能工程与红队场景的参考样本。
+
+## 🤖 训练与学习
+
+8. **Training Reasoning Models in Simulation to Natively Use Real Robots** — 开放权重模型在仿真中训练推理以原生驱动机器人 agent，缩小与闭源前沿差距，对 agent 训练范式有直接参考价值。
+   http://arxiv.org/abs/2611.18562v1
+
+9. **Imitation Bootstrapped Multi-Agent RL** — 用轮流行为演示引导多智能体 RL，解决单人难以同时遥操作多 agent 的示范瓶颈。
+   http://arxiv.org/abs/2611.18543v1
+
+## 🧩 应用脚手架
+
+10. **Rowboat** — 面向多 agent 系统的开源 IDE，构建 agent 工作流时的工程化参考。
+
+11. **Onyx** — 开源 chat UI，可作 RAG 与 agent 应用的对话前端脚手架。
+
+---
+*共 11 条 · 按重要性降序 · 已去重*
