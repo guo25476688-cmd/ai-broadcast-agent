@@ -2690,3 +2690,40 @@ https://github.com/asgeirtj/system_prompts_leaks
 
 ---
 *共 11 条 · 按重要性降序 · 已去重*
+
+
+## 2026-11-17 · 📡 今日 AI 播报
+
+# 今日 AI Agent 播报
+
+**1. NVIDIA 开源 SkillEvaluator：为 agent skill 建立可测性框架**
+
+**2. ViRA：用交叉输入相对策略优化训练超高分辨率视觉 agent**
+针对视觉 agent“凭常识作答而非读证据”的通病，以 cross-input 相对策略优化强化证据阅读，是视觉 agent 训练信号设计值得关注的一篇。http://arxiv.org/abs/2611.21605v1
+
+**3. VLM 如何规划“下一步看哪里”的内部机制被揭示**
+研究拆解了 VLM 描述图像前的规划机制（含 binding head 等四部分），对理解多模态 agent 的注意力与决策规划有直接参考价值。http://arxiv.org/abs/2611.21600v1
+
+**4. Statewright：用可视化状态机提升 agent 可靠性**
+
+**5. Rowboat：面向多 agent 系统的开源 IDE**
+
+**6. 物理索引专家记忆：缓解持续 RL 中的灾难性遗忘**
+用进化搜索生成 specialist 作为可复用记忆，配合环境检测缓解灾难性遗忘，与 agent 长期记忆/持续学习相关。http://arxiv.org/abs/2611.21598v1
+
+**7. ffmpeg-skill：MCP 与实际工具链结合的实用范例**
+面向编码 agent 的本地视频编辑 skill，含 42 个 FFmpeg 工具 + MCP server。https://github.com/kajisho5/ffmpeg-skill
+
+**8. Claude Code Templates：agent 生态组件的注册表与分发**
+
+**9. Paper Orchestra：多 agent 自动撰写 AI 研究论文**
+Google Research 的多 agent 框架，可观察多 agent 分工与长上下文协作设计。https://github.com/google-research/paper-orchestra
+
+**10. Claude-BugHunter：大规模 skill 编排的安全测试包**
+
+**11. last30days-skill：多源检索 + grounded 总结的 agent skill**
+
+**12. Onyx：开源 chat UI，可作 RAG/agent 应用前端底座**
+
+**13. 从 CoT 示范学习自回归生成器的 bagging 算法**
+研究如何从 CoT 示范中学习 next-token 生成器，给出基于 bagging 的简单算法，对 CoT 训练方法有理论参考意义。http://arxiv.org/abs/2611.21597v1
