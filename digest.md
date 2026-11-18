@@ -2727,3 +2727,35 @@ Google Research 的多 agent 框架，可观察多 agent 分工与长上下文�
 
 **13. 从 CoT 示范学习自回归生成器的 bagging 算法**
 研究如何从 CoT 示范中学习 next-token 生成器，给出基于 bagging 的简单算法，对 CoT 训练方法有理论参考意义。http://arxiv.org/abs/2611.21597v1
+
+
+## 2026-11-18 · 📡 今日 AI 播报
+
+# 📰 今日 AI Agent 播报
+
+**1. 高分开源潮：Agent 工具化与评测框架集中爆发**
+NVIDIA 开源多层级 Agent Skill 评估框架 **SkillEvaluator**，含质量门禁、语义重叠检测与实时行为评测，直击"技能到底有没有用"的度量痛点；同期 Google 开源多 Agent 论文写作框架 **paper-orchestra**，展示 agent 编排在长程任务上的工程化路径。两者共同标志 agent 从"能跑"走向"可衡量、可生产"。
+
+**2. 评测警示：Coding Benchmark 高分 ≠ 实际完成更多工作**
+最新研究用真实事件对比编码模型 benchmark 分数与实际工作量，揭示评估指标与实用效能的脱节，对做 agent 评测与基准选型的人有直接警示价值——与上面 SkillEvaluator 的"度量"主题形成呼应。
+🔗 http://arxiv.org/abs/2611.23216v1
+
+**3. 可视化与 IDE 化：Agent 可靠性从"约束"与"体验"两端破局**
+**Statewright** 用可视化状态机约束 agent 行为，把不确定性收敛成可调试的状态转移图；**Rowboat** 提供开源多 agent 系统 IDE，带来类 Cursor 的编排开发体验。一个管"可靠"，一个管"好用"。
+
+**4. MCP 工具化落地范例：ffmpeg-skill 直供主流编码助手**
+带机器可读契约与 MCP server 的本地视频编辑技能，42 个 FFmpeg 工具直供 Claude Code/Cursor/Codex，是 MCP 工具化落地的清晰样板，可与下方 dograh 的 MCP 原生平台对照看生态走向。
+
+**5. Agent 实时多模态与语音链路：工程瓶颈受关注**
+Spool 提出面向视觉无障碍 agent 与机器人场景的低延迟流式 VLM 推理方法；开源自托管语音 AI 平台 **dograh** 以 MCP 原生 + 可视化工作流 + 自带密钥的方式，展示 agent 与实时语音/电话链路的集成。具身与实时交互的工程化正在提速。
+🔗 http://arxiv.org/abs/2611.23228v1 ｜ https://github.com/dograh-hq/dograh
+
+**6. Agent 联网检索与前端入口：参考实现补齐**
+**last30days-skill** 跨 Reddit/X/YouTube/HN/Polymarket 检索并合成带依据摘要，可作为 agent 联网检索 + 上下文聚合的参考实现；开源聊天 UI **Onyx** 可作为 RAG/LLM agent 的前端入口并接入自有模型与知识源。
+
+**7. 前沿追问：能力增强后的 Agent 还需被"教"如何自我改进吗？**
+研究探讨能力增强后的 LLM agent 是否仍需人工规定自我改进方式，直接触及 agent 自主优化范式的边界，值得关注 agent 自我进化方向的研究者阅读。
+🔗 http://arxiv.org/abs/2611.23219v1
+
+---
+*说明：已按重要性排序并合并同主题条目（评测度量、编排工具、MCP/语音链路、检索与前端）。*
