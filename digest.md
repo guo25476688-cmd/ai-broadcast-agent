@@ -2759,3 +2759,54 @@ Spool 提出面向视觉无障碍 agent 与机器人场景的低延迟流式 VLM
 
 ---
 *说明：已按重要性排序并合并同主题条目（评测度量、编排工具、MCP/语音链路、检索与前端）。*
+
+
+## 2026-11-19 · 📡 今日 AI 播报
+
+# 📰 今日 Agent 与 LLM 工程播报
+
+**1. Agentic Harness Engineering：以需求为中心的 harness 自动演进**
+提出自动演进 agent harness 的方法，弥补现有方案忽略隐式需求、仅用单一 agent 改 harness 的缺陷，直接关系 LLM agent 工程化落地。
+http://arxiv.org/abs/2611.24924v1
+
+**2. NVIDIA/SkillEvaluator：多层级 agent skill 评估框架**
+涵盖质量门禁、安全扫描、语义重叠检测与行为影响评估，做 agent 能力评测与 CI 集成时的高价值参考。
+
+**3. CLI-Anything：让所有软件 "agent-native" 的 CLI-Hub**
+关乎 agent 与外部工具的接口与上下文设计，是 agent 生态互操作的趋势方向。
+
+**4. On Evaluating User Simulators for Interactive Agents**
+系统审视交互式 agent 评测中用户模拟器的质量问题，指出既有框架未必能发现真实失败，对 agent 评测与上下文设计有直接参考价值。
+http://arxiv.org/abs/2611.24892v1
+
+**5. ffmpeg-skill：42 个 FFmpeg 工具封装为 MCP server**
+把工具封装成机器可读契约供编码 agent 调用，是 MCP + 本地工具的清晰落地样例。
+
+**6. paper-orchestra：自动化 AI 论文写作的多 agent 框架**
+展示多 agent 编排与上下文协作的实际落地方式。
+
+**7. last30days-skill：多源抓取 + 有据摘要的 agent skill**
+跨 Reddit/X/YouTube/HN/Polymarket 综合成有依据摘要，是 "agent + 检索增强" 多源 RAG 的实用样例。
+
+**8. Jailbreak Detection via Contrastive Prototype Structures**
+用对比学习表征 + 原型推断做越狱/有害提示检测，无需额外下游分类器，属 LLM 部署安全与表征复用方向。
+http://arxiv.org/abs/2611.24936v1
+
+**9. Statewright：用可视化状态机约束 AI agent 行为**
+把 agent 流程显式建模以提升可靠性、减少失控，值得看其设计思路。
+
+**10. Rowboat：面向 multi-agent 的开源 IDE**
+值得关注其编排与调试多 agent 的开发体验设计。
+
+**11. Trait Theory of Reviewer Value in Human-AI Cognitive Systems**
+从元认知校准角度解释人在人机协作决策中的增量价值，对设计人机协同 agent 与评审环节有启发。
+http://arxiv.org/abs/2611.24932v1
+
+**12. Onyx：开源聊天 UI**
+适合作为接 LLM/RAG 后端的前端壳，开箱即用的对话界面与部署方式值得看。
+
+**13. AIConsole：可自定义工作流的开源桌面 AI 编辑器**
+值得看它如何把 agent/工作流配置落到本地桌面工具。
+
+---
+*共 13 条，按重要性降序排列；已合并重复主题（agent 评测、MCP 工具、多 agent 编排等）。*
