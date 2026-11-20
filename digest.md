@@ -2810,3 +2810,53 @@ http://arxiv.org/abs/2611.24932v1
 
 ---
 *共 13 条，按重要性降序排列；已合并重复主题（agent 评测、MCP 工具、多 agent 编排等）。*
+
+
+## 2026-11-20 · 📡 今日 AI 播报
+
+# 今日 AI Agent 播报
+
+## 研究前沿
+
+**1. 前沿 Agent 直接控制机器人的能力边界被系统评测**
+AgentRoboCritic 脱离「看成功率」的粗粒度指标，系统评测多模态 agent 用底层数值动作直接控制机器人的能力，是了解 agent 在真实机器人控制上极限的重要参考。
+http://arxiv.org/abs/2611.26613v1
+
+**2. LLM 在软件漏洞研究中的能力演进全景梳理**
+SoK 论文系统化评估 LLM agent 在漏洞发现、验证、修复上的能力演进与证据可靠性，做安全 agent 或评测 benchmark 时可直接当全景参考。
+http://arxiv.org/abs/2611.26601v1
+
+**3. 混合架构 LLM 服务的高效缓存方案**
+TideCache 用透明缓存管理 + 分层流式传输，应对异构 KV cache 随上下文与并发变化的需求，与长上下文/agent 推理的服务效率直接相关。
+http://arxiv.org/abs/2611.26619v1
+
+**4. 用 Agent 试玩驱动游戏自动设计**
+PlayCraft 让视觉 agent 试玩游戏来驱动自动化设计与调优，把「agent 作为设计反馈回路」真正落地，对 agent 驱动内容生成/迭代有参考价值。
+http://arxiv.org/abs/2611.26624v1
+
+## 开源项目
+
+**5. 用可视化状态机让 AI Agent 更可靠**
+Statewright 以可视化状态机约束 LLM agent 行为，是 agent 控制流/上下文工程的可借鉴实现。
+
+**6. 多 Agent 系统的开源 IDE**
+Rowboat 面向多 agent 系统，值得看其 agent 编排与上下文管理设计。
+
+**7. Agent 定义的工具无关化实践**
+wshobson/agents 用 Markdown 编写 agents/skills/commands，可跨 Claude Code/Cursor/Copilot 自动适配——重点看它如何做工具无关化与评测。
+
+**8. 把软件改造成 Agent 原生 CLI 层**
+HKUDS/CLI-Anything 提供 CLI-Hub，把软件封装为 agent 可直接调用的 CLI，对工具接口与工具调用设计有直接参考价值。
+
+**9. 大规模安全 skill 库的组织范式**
+Claude-BugHunter 打包 82 个 skill 与 681 条漏洞模式，是看大规模 skill/context 组织与领域知识注入的实践样本。
+
+**10. 多阶段 agent 编排与长流程 context 管理实例**
+academic-research-skills 覆盖研究→写作→评审→修订全流程，是长流程 agent 编排的现成参考。
+https://github.com/Imbad0202/academic-research-skills
+
+**11. 多源检索聚合的 RAG 式 agent 工作流样例**
+last30days-skill 跨 Reddit/X/YouTube/HN 做主题检索再合成摘要，是典型的检索+多源聚合 agent 工作流。
+
+**12. 开源聊天界面作为 RAG/Agent 前端参考**
+Onyx 可作为 RAG/agent 应用的前端与接入层参考。
