@@ -2860,3 +2860,42 @@ last30days-skill 跨 Reddit/X/YouTube/HN 做主题检索再合成摘要，是典
 
 **12. 开源聊天界面作为 RAG/Agent 前端参考**
 Onyx 可作为 RAG/agent 应用的前端与接入层参考。
+
+
+## 2026-11-21 · 📡 今日 AI 播报
+
+# 📰 今日 Agent 播报
+
+**1. 前沿 Agent 直接控制机器人的能力基准发布**
+AgentRoboCritic 评估多模态 LLM agent 直接输出底层动作控制机器人的能力，超越 episode 级成功率，细粒度揭示成功/失败模式，是衡量 agent 真实控制能力的关键基准。
+
+**2. LLM 在软件漏洞研究中的能力演进全景梳理（SoK）**
+系统化汇总 LLM-based agent 在漏洞发现、验证、修补上的能力演进，整合论文与厂商报告证据，快速建立 agent 在安全领域的能力边界认知。
+
+**3. 开源跨工具 Agent 插件集：wshobson/agents**
+一次用 Markdown 编写，通过生成器适配 Claude Code、Codex CLI、Cursor 等多工具的 agent/skill/command 插件，附验证与 evals，是跨工具 agent 配置的高质量参考。
+
+**4. Claude Code 安全测试 skill 包：Claude-BugHunter**
+含 82 个 skill、15 个 slash command 与漏洞模式库，是 skill/command 组织方式与安全 agent 工作流的高密度样本。
+
+**5. 多 agent 系统开源 IDE：Rowboat**
+把 agent 编排、调试整合进统一工作台，直接对应 agent 开发流程。
+
+**6. 让软件"agent-native"的 CLI-Hub：CLI-Anything**
+主打所有软件接入 agent 的接口设计方向，值得关注其工具化思路。
+
+**7. 混合架构 LLM 高效 serving：TideCache**
+用透明缓存管理与分层流式处理应对异构 KV cache 随上下文/并发的波动，与 context engineering 的推理成本直接相关。
+
+**8. 联网检索合成调研 skill：last30days-skill**
+跨 Reddit、X、YouTube、HN、Polymarket 与网页做主题调研并产出有据摘要，是 agent 联网检索+合成的现成范例。
+
+**9. 用可视化状态机约束 Agent：Statewright**
+把 agent 可靠性问题转成可检查的状态图，而非依赖 prompt。
+
+**10. 运维场景落地参考：opensre**
+面向 CI/CD 可靠性的开源 agent，可作为 agent 落地运维/排障的参考实现。
+🔗 https://github.com/Tracer-Cloud/opensre
+
+---
+*其他略：PlayCraft（agent 试玩驱动关卡设计）、Onyx（开源 chat UI，可作 RAG/agent 前端壳）——如需可展开。*
