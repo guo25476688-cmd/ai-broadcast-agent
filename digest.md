@@ -2899,3 +2899,47 @@ AgentRoboCritic 评估多模态 LLM agent 直接输出底层动作控制机器�
 
 ---
 *其他略：PlayCraft（agent 试玩驱动关卡设计）、Onyx（开源 chat UI，可作 RAG/agent 前端壳）——如需可展开。*
+
+
+## 2026-11-22 · 📡 今日 AI 播报
+
+# 📰 今日 Agent 播报
+
+**1. 前沿 Agent 直接控制机器人的细粒度诊断**
+AgentRoboCritic 不只统计 episode 成功率，而是用细粒度诊断揭示前沿多模态 agent 以低层数值动作控制机器人时"怎么成功/怎么失败"，对理解 agent 真实控制能力很有参考价值。
+
+**2. 让 Agent 试玩并调优生成游戏**
+PlayCraft 让视觉 agent 实际试玩生成的游戏、据体验自动调优，把 agent 从"生成者"变为"评估+迭代"环节，是 agent-in-the-loop 设计的可借鉴范式。
+
+**3. LLM Agent 软件漏洞研究能力演进系统综述（SoK）**
+聚合散落于论文与厂商报告中关于漏洞发现、验证、修复的结论，适合快速建立该 agent 应用方向的整体认知。
+
+**4. 混合架构 LLM 的高效推理服务**
+TideCache 针对异构 KV cache 做透明管理与分层流式，直接关系长上下文/高并发下的推理成本与吞吐，是 context engineering 落到服务层的工程参考。
+
+**5. Statewright：用可视化状态机约束 Agent 行为**
+提升 agent 可靠性，想让流程可预测、控制 agent 失控的值得一看。
+
+**6. Rowboat：面向多 Agent 系统的开源 IDE**
+做 agent 编排/开发工具链的直接相关。
+
+**7. wshobson/agents：跨平台可复用 Agent 打包样本**
+带生成器与 eval 的 Markdown agent/plugin/skill 集合，适配 Claude Code、Codex CLI、Cursor 等多家客户端，适合研究跨平台 agent 打包与验证。
+
+**8. CLI-Anything：把软件变成 agent-native CLI-Hub**
+为 LLM agent 提供统一工具调用入口，对 context/tool 接口设计有直接参考价值。
+
+**9. Claude-BugHunter：大型 context/skill bundle 工程化案例**
+含 82 个 skill、15 个 slash command 和 681 条披露报告模式的 Claude Code 技能包。
+
+**10. last30days-skill：检索增强型 Agent Skill 落地形态**
+跨 Reddit/X/YouTube/HN/Polymarket 检索并汇总。
+
+**11. opensre：面向 CI/CD 可靠性的运维 Agent**
+适合观察 agent 在运维/流水线场景中的 context 获取与决策闭环。
+
+**12. Onyx：开源 Chat UI**
+常被用作 RAG/agent 应用前端层，搭 LLM 应用界面可参考。
+
+---
+*已去重合并（arxiv 4 条、HN 3 条、GitHub Trending 5 条），按"研究洞察 → 工具链/工程范式 → 应用前端"重要性排序。*
