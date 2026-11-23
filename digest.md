@@ -2943,3 +2943,50 @@ TideCache 针对异构 KV cache 做透明管理与分层流式，直接关系长
 
 ---
 *已去重合并（arxiv 4 条、HN 3 条、GitHub Trending 5 条），按"研究洞察 → 工具链/工程范式 → 应用前端"重要性排序。*
+
+
+## 2026-11-23 · 📡 今日 AI 播报
+
+# 📅 今日 AI 播报
+
+## 🔬 研究前沿
+
+**MemOnce：面向 LLM 的可扩展记忆架构**
+针对长程/持续交互场景，解决 KV cache 线性显存增长问题，与 agent 长期记忆和 context engineering 高度相关。
+http://arxiv.org/abs/2611.27973v1
+
+**Topology Hub Optimal Transport：以 Flash 速度消除长上下文稀释**
+用稀疏注意力/最优传输方案解决长上下文检索中的"稀释"问题，直击 RAG 与长上下文 context engineering。
+http://arxiv.org/abs/2611.27951v1
+
+**Model Carving：训练能自优化拓扑的 Transformer**
+让 Transformer 在训练中自优化子层拓扑，属模型结构层面的自动化优化思路，可关注其与 LLM agent 架构搜索的潜在关联。
+http://arxiv.org/abs/2611.27962v1
+
+## 🛠 Agent 工具与工程
+
+**Statewright：用可视化状态机约束 AI agent**
+让 agent 流程更可控可调试，直接切中 agent 可靠性这一核心痛点。
+
+**Rowboat：面向多 agent 系统的开源 IDE**
+可搭建、调试多 agent 编排，是少见的 multi-agent 开发工具链。
+
+**CLI-Anything：让所有软件"agent-native"的 CLI-Hub**
+关注 CLI 作为 agent 工具接口的设计，与 agent 工具生态/context engineering 直接相关。
+
+**wshobson/agents：跨工具 agent/skill 工程化集合**
+用 Markdown 写一次、经生成器适配 Claude Code/Codex CLI/Cursor 等多工具的 plugins、agents、skills，含校验与 eval，适合参考 agent/skill 的跨工具工程化。
+
+**Claude-BugHunter：Claude Code 的 bug 猎取/红队 skill 合集**
+82 skills、681 条披露报告模式，是"agent 技能包 + 漏洞知识"增强 agent 能力的典型范例。
+
+**last30days-skill：跨平台检索综合的 agent skill**
+跨 Reddit/X/YouTube/HN 等检索并综合成有据摘要，是"检索 + 综合"型 agent 工作流的实操样例（近 RAG 思路）。
+
+## ⚙️ 落地场景
+
+**Onyx：开源 chat UI**
+可接自己的 LLM/RAG 后端搭建对话应用，适合作为 RAG/agent 前端起点。
+
+**opensre：开源 CI/CD 可靠性 agent**
+展示 agent 在运维/可靠性场景的落地方式。
