@@ -2990,3 +2990,50 @@ http://arxiv.org/abs/2611.27962v1
 
 **opensre：开源 CI/CD 可靠性 agent**
 展示 agent 在运维/可靠性场景的落地方式。
+
+
+## 2026-11-24 · 📡 今日 AI 播报
+
+# 📰 今日 Agent 播报
+
+**1. LLM 置信度“说一套、想一套”，agent 自校正设计需警惕**
+arXiv 论文揭示：LLM 在 agentic reasoning 中被注入不确定性 token 时会跟着走，但口头置信度无法真实反映内部不确定性——直接影响 agent 的错误回退与自校正机制设计。
+🔗 http://arxiv.org/abs/2611.31228v1
+
+**2. 跨工具 agent 抽象的高信噪参考：wshobson/agents**
+用 Markdown 编写、覆盖 Claude Code / Codex CLI / Cursor 等多工具的 plugins/agents/skills/commands 集合，附生成器与评测，适合研究 agent 抽象与复用。
+
+**3. 让所有软件 agent-native：HKUDS/CLI-Anything**
+主张通过 CLI-Hub 把软件变成 agent 可调用接口，直接对应 LLM agent 与工具/MCP 式接口打通的核心命题。
+
+**4. 可视化状态机约束 agent：Statewright**
+用状态机让 AI agent 行为更可靠、可控，是 agent 编排与可靠性方向的实操参考。
+
+**5. 多 agent 系统 IDE：Rowboat（开源）**
+适合观察多 agent 工作流如何被工程化落地。
+
+**6. 多源检索→接地总结的实战样例：last30days-skill**
+跨 Reddit、X、YouTube、HN、Polymarket 和网页做主题调研并合成有据摘要，是 context engineering 的典型案例。
+
+**7. VLA 结构化剪枝：如何保住 CoT 推理与动作能力**
+研究自动驾驶 VLA 剪枝时保留推理与动作能力的方法，对压缩推理型 agent 的上下文/算力预算有直接借鉴。
+🔗 http://arxiv.org/abs/2611.31240v1
+
+**8. 大规模 agent skill 库的组织范式：Claude-BugHunter**
+84 个 skills、15 个 slash commands、681 条披露报告模式的红队技能包，展示领域知识如何大规模注入 agent。
+
+**9. 多阶段 agent 工作流与上下文交接：academic-research-skills**
+面向 Claude Code 的“研究→写作→评审→修订→定稿”学术流程技能集。
+
+**10. Agent 落地运维：opensre（开源 CI/CD 可靠性 agent）**
+适合对照 RAG/上下文在可观测性数据上的应用实例。
+
+**11. Agentic AI 落地真实网络：意图→控制动作链路**
+将高层意图翻译成网络控制动作，是 agent 在真实系统中“意图→行动”的参考案例。
+🔗 http://arxiv.org/abs/2611.31223v1
+
+**12. 开源 chat UI：Onyx**
+可作为 RAG/LLM agent 应用的前端与对话接入层参考。
+
+---
+*共 12 条，按「认知/方法论 → 工程基础设施 → 领域落地」重要性排序。*
