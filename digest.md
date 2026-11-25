@@ -3037,3 +3037,51 @@ arXiv 论文揭示：LLM 在 agentic reasoning 中被注入不确定性 token �
 
 ---
 *共 12 条，按「认知/方法论 → 工程基础设施 → 领域落地」重要性排序。*
+
+
+## 2026-11-25 · 📡 今日 AI 播报
+
+# 📰 今日 AI Agent 播报
+
+**1. CoT-Proxy：跨格式迁移蒸馏长程策略**
+用跨格式迁移把强教师模型的思维链蒸馏进长程 agent 策略，直接关乎 LLM agent 的训练信号来源与效率。
+http://arxiv.org/abs/2611.33148v1
+
+**2. iWAM：无需显式未来预测的高效世界模型动作预测**
+世界动作模型跳过显式未来预测、直接高效预测动作，是世界模型 agent 路线的实时化尝试，关注其如何替代昂贵的"想象"。
+http://arxiv.org/abs/2611.33141v1
+
+**3. Statewright：用可视化状态机约束 AI agent**
+让 agent 更可靠、可调试，是 agent 编排与可靠性方向的实用方案。
+
+**4. wshobson/agents：多平台复用的 agent 配置集**
+一套跨 Claude Code、Cursor、Copilot 复用的 Markdown 插件/agent/skill 定义，含生成器与 evals，示范如何用单一源维护多平台 agent 配置。
+
+**5. CLI-Anything：让所有软件成为 agent 原生**
+CLI-Hub 项目，为 LLM agent 提供统一命令行工具接入层，与 MCP/工具集成思路直接相关。
+
+**6. Rowboat：开源 multi-agent 系统 IDE**
+图形化搭建、调试多 agent 工作流，直接对应 agent 开发工具链。
+
+**7. Exploratory Midtraining：面向机器人策略的探索式中训练**
+用 midtraining 覆盖多样底层行为以支撑自主改进，与 agent 探索/自提升阶段的行为覆盖问题同构。
+http://arxiv.org/abs/2611.33130v1
+
+**8. BriConstrain：几何约束解码生成积木装配**
+给 LLM 生成加几何约束解码，保证输出合法有效，是 constrained decoding 用于结构化 agent 输出的可借鉴案例。
+http://arxiv.org/abs/2611.33135v1
+
+**9. opensre：面向 CI/CD 可靠性的开源 agent**
+展示 agent 在运维/可观测性场景的落地形态。
+
+**10. last30days-skill：多源检索合成摘要 agent 技能**
+跨 Reddit/X/YouTube/HN/Polymarket 抓取并合成摘要，是 RAG + 多源检索的实用技能范例。
+
+**11. Onyx：开源 chat UI**
+可作为 LLM agent/RAG 应用的前端与对话层，接自建模型或检索后端时省去从零做界面。
+
+**12. Claude-BugHunter：大规模 Claude Code 安全技能包**
+含 84 个 skill、15 个 slash command，是较大规模的 agent skill 编排实例（偏红队场景）。
+
+---
+*共 12 条，按重要性排序：训练/世界模型前沿 → agent 编排与工具链 → 具体落地场景*
