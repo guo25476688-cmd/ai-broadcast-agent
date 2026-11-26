@@ -3085,3 +3085,52 @@ http://arxiv.org/abs/2611.33135v1
 
 ---
 *共 12 条，按重要性排序：训练/世界模型前沿 → agent 编排与工具链 → 具体落地场景*
+
+
+## 2026-11-26 · 📡 今日 AI 播报
+
+# 📰 今日 AI 播报
+
+## 🔬 研究前沿
+
+**1. Tokenisation 复杂度边界被证：目标函数不存在多项式时间常数近似**
+论文证明 LLM 分词目标函数不存在多项式时间常数近似算法（除非 P=NP），直接划定了分词器设计的理论复杂度边界。
+→ http://arxiv.org/abs/2611.34938v1
+
+**2. Agent 监控评估方法存在系统性偏差**
+研究指出用攻击策略生成对话来评估 AI agent 监控器会低估漏报率，做 agent 安全/监控评估时需警惕此陷阱。
+→ http://arxiv.org/abs/2611.34934v1
+
+**3. Mixture-of-Loops Transformer 改进循环架构效率前沿**
+重新设计循环 Transformer 相邻循环间的传递机制，提升表达能力-效率前沿。
+→ http://arxiv.org/abs/2611.34923v1
+
+**4. μ-Bench：多用户语音 Agent 联合任务基准**
+提出共享空间中多用户语音 agent 联合任务完成的评测基准，覆盖权限/隐私/任务约束。
+→ http://arxiv.org/abs/2611.34920v1
+
+**5. 难数学题的多样化替代推理轨迹生成**
+针对轨迹稀疏问题生成多样化替代推理轨迹，属于 LLM 推理 post-training 数据构造方法。
+→ http://arxiv.org/abs/2611.34928v1
+
+## 🛠️ 工具与开源
+
+**6. Statewright — 用可视化状态机约束 Agent 行为**
+把 agent 编排从自由文本 prompt 变成可调试的结构化状态图，提升可靠性与可控性。
+
+**7. Rowboat — 多 Agent 系统开源 IDE**
+为多 agent 编排提供可视化开发与调试入口，贴近 agent 工程化落地。
+
+**8. Onyx — 开源 Chat UI**
+可作为 RAG/agent 应用的前端对话层基座，方便快速搭建带检索的对话界面。
+
+**9. wshobson/agents — 跨工具复用的 Agent 定义**
+用 Markdown 编写、经生成器适配 Claude Code、Codex CLI、Cursor 等工具，带验证与 evals。
+
+**10. HKUDS/CLI-Anything — 让软件原生支持 Agent**
+目标让所有软件具备 Agent-Native 能力并提供 CLI-Hub，关乎 agent 如何接管现有软件。
+
+**11. 安全与研究场景的 Agent Skill 实战样本**
+
+---
+*共 11 条 · 研究 5 条 / 工具 6 条*
