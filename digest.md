@@ -3134,3 +3134,28 @@ http://arxiv.org/abs/2611.33135v1
 
 ---
 *共 11 条 · 研究 5 条 / 工具 6 条*
+
+
+## 2026-11-27 · 📡 今日 AI 播报
+
+# 📰 今日 AI 播报
+
+## 🔬 研究前沿
+
+
+
+
+
+## 🛠️ 工具与工程实践
+
+
+
+
+
+
+
+## 📚 学习与参考
+
+**11. minimind：两小时从零训练 64M 小模型** — 完整教程，便于低成本理解 LLM 训练流程，为 agent 底层模型选型与自建提供上手路径。 [github](https://github.com/jingyaogong/minimind)
+
+**12. autoclip：本地优先 AI 视频剪辑（内置 MCP server）** — 可作为 MCP 集成与本地 agent 工具链的实例参考。 [github](https://github.com/zhouxuoka/autoclip)
