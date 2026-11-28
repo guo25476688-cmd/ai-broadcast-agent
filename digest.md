@@ -3159,3 +3159,55 @@ http://arxiv.org/abs/2611.33135v1
 **11. minimind：两小时从零训练 64M 小模型** — 完整教程，便于低成本理解 LLM 训练流程，为 agent 底层模型选型与自建提供上手路径。 [github](https://github.com/jingyaogong/minimind)
 
 **12. autoclip：本地优先 AI 视频剪辑（内置 MCP server）** — 可作为 MCP 集成与本地 agent 工具链的实例参考。 [github](https://github.com/zhouxuoka/autoclip)
+
+
+## 2026-11-28 · 📡 今日 AI 播报
+
+# 📰 今日 AI 播报（2026-XX-XX）
+
+## 🔬 研究前沿
+
+**1. Agent 监控评估存在系统性偏差** ⭐️ 重点
+《Attack Policy Selection can Mislead Monitor Evaluators》揭示：用于评估 AI agent 监控器的攻击策略选择会系统性地影响假阴性率，做 agent 安全/监控评估的必读。
+
+**2. 循环 Transformer 架构改进**
+《Mixture-of-Loops Transformer》重新设计循环 Transformer 的层间传递机制，提升表达力-效率前沿，与 LLM 架构及推理效率直接相关。
+
+**3. 多用户语音 Agent 基准**
+《μ-Bench》面向共享空间多用户语音 agent 的联合任务完成评测，覆盖权限/隐私约束。
+
+**4. 难数学题的多样化推理轨迹**
+《Diverse Alternative Reasoning Traces for Hard Math Problems》提出后训练方法，与 LLM 推理/agent 规划数据构造相关。
+
+**5. 分词的理论难度**
+《Tokenisation is not in APX》：证明除非 P=NP，否则 tokenisation 无常数近似多项式算法，揭示 LLM 分词与上下文压缩的固有难度。
+
+## 🛠 工具与项目
+
+**6. Statewright — 用状态机约束 Agent 行为**
+将 agent 编排从自由文本 prompt 转向可验证的状态图，提升可靠性。
+
+**7. wshobson/agents — 跨工具 Agent 插件集**
+用 Markdown 编写、经生成器适配 Claude Code、Codex CLI、Cursor、Copilot 等多工具的 agent/skill/command 插件集，带校验与 evals，跨工具复用的直接参考。
+
+**8. Rowboat — 多 Agent 系统开源 IDE**
+直接回应多 agent 编排与调试的工程化需求。
+
+**9. Claude-BugHunter — 大规模技能组织范本**
+85 个 skill、16 个 slash command、覆盖 24 类漏洞的 681 条披露报告模式，安全红队场景实战参考。
+
+**10. CLI-Anything — 让软件 agent-native**
+HKUDS 的 CLI-Hub 项目，关注 agent 与工具/CLI 集成的接口层思路。
+
+## 💡 应用与生态
+
+**11. last30days-skill — 多源检索摘要 Agent**
+在 Reddit、X、YouTube、HN、Polymarket 与网页检索任意主题并综合有依据摘要，展示多源检索 + 摘要合成的 agent 设计。
+
+**12. autoclip — MCP 落地案例**
+本地优先的 AI 长视频自动剪辑工具，内置 MCP server。
+
+**13. 其他值得一看**
+
+---
+**今日主线**：Agent 可靠性与编排工程化（状态机约束、跨工具复用、监控评估偏差）+ LLM 架构/推理效率的理论与实践推进。
